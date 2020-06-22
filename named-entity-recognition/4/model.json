@@ -1,0 +1,40 @@
+{
+  "has" : {
+    "Model" : {
+      "is" : ["an alternative neural network structure", {"from sentence" : "We investigate an alternative recurrent neural network structure for addressing these issues."}],
+      "to model" : {
+        "hidden states of all words simultaneously" : {
+          "at" : "each recurrent step"
+        },
+        "from sentence" : "As shown in Figure 1, the main idea is to model the hidden states of all words simultaneously at each recurrent step, rather than one word at a time."
+      },
+      "view" : {
+        "whole sentence as single state" : {
+          "consists of" : "sub-states for individual words and an overall sentence-level state"
+        },
+        "from sentence" : "In particular, we view the whole sentence as a single state, which consists of sub-states for individual words and an overall sentence-level state."
+      },
+      "to capture" : {
+        "local and non-local contexts" : {
+          "updated recurrently" : {
+            "states" : {
+              "by" : "exchanging information"
+            }
+          }
+        },
+        "from sentence" : "To capture local and non-local contexts, states are updated recurrently by exchanging information between each other."
+      },
+      "at each recurrent step" : {
+        "information exchange" : {
+          "conducted between" : "consecutive words in the sentence, and between the sentence-level state and each word",
+          "receives" : {
+            "each word" : {
+              "from" : "predecessor and successor simultaneously"
+            }
+          }
+        },
+        "from sentence" : "At each recurrent step, information exchange is conducted between consecutive words in the sentence, and between the sentence-level state and each word. In particular, each word receives information from its predecessor and successor simultaneously."
+      }
+    } 
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "has research problem" : [
+    ["news translation", {"from sentence" : "The paper describes the development process of the Tilde’s NMT systems that were submitted for the WMT 2018 shared task on news translation."}],
+    ["Neural machine translation", {"from sentence" : "Neural machine translation (NMT) is a rapidly changing research area."}],
+    ["NMT", {"from sentence" : "Neural machine translation (NMT) is a rapidly changing research area."}]
+  ]
+}

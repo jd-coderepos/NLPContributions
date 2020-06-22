@@ -1,0 +1,9 @@
+{
+  "has research problem" : [
+    ["capacity of a neural network to absorb information is limited by its number of parameters", {"from sentence" : "The capacity of a neural network to absorb information is limited by its number of parameters."}],
+    ["increasing model capacity without a proportional increase in computation", {"from sentence" : "Conditional computation, where parts of the network are active on a per-example basis, has been proposed in theory as a way of dramatically increasing model capacity without a proportional increase in computation."}],
+    ["Conditional computation, where parts of the network are active on a per-example basis", {"from sentence" : "Conditional computation, where parts of the network are active on a per-example basis, has been proposed in theory as a way of dramatically increasing model capacity without a proportional increase in computation."}],
+    ["Exploiting scale in both training data and model size", {"from sentence" : "Exploiting scale in both training data and model size has been central to the success of deep learning."}],
+    ["conditional computation", {"from sentence" : "Various forms of conditional computation have been proposed as a way to increase model capacity without a proportional increase in computational costs (Davis & Arel, 2013; Bengio et al., 2013; Eigen et al., 2013; Ludovic Denoyer, 2014; Cho & Bengio, 2014; Bengio et al., 2015; Almahairi et al., 2015)."}]
+    ]
+}

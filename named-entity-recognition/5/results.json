@@ -1,0 +1,38 @@
+{
+  "has" : {
+    "Results" : {
+      "for" : {
+        "Classification": {
+          "on" : {
+            "movie review dataset" : {
+              "outperforms" : "S-LSTM outperforms BiLSTM significantly"},
+          "from sentence" : "As shown in Table 4, the final results on the movie review dataset are consistent with the development results, where S-LSTM outperforms BiLSTM significantly, with a faster speed."
+          },
+          "among" : {
+            "16 datatsets of Liu et al. (2017)" : {
+              "best results" : "S-LSTM gives the best results on 12",
+              "average accuracy" : "85.6%"
+            },
+            "from sentence" : "As shown in Table 5, among the 16 datasets of Liu et al. (2017), S-LSTM gives the best results on 12, compared with BiLSTM and 2 layered BiLSTM models. The average accuracy of S-LSTM is 85.6%, significantly higher compared with 84.9% by 2-layer stacked BiLSTM."
+          }
+        },
+        "Sequence Labelling" : {
+          "on" : {
+            "WSJ dataset" : {
+              "better results" : "S-LSTM gives significantly better results compared with BiLSTM",
+              "from sentence" : "As can be seen in Table 6, S-LSTM gives significantly better results compared with BiLSTM on the WSJ dataset."
+            },
+            "CoNLL test set" : {
+              "for" : {
+                "NER" : {
+                  "F1-score" : "91.57%"
+                }
+              },
+              "from sentence" : "For NER (Table 7), S-LSTM gives an F1-score of 91.57% on the CoNLL test set, which is significantly better compared with BiLSTMs."
+            }
+          }
+        }
+      }
+    }
+  }
+}

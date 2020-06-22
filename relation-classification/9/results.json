@@ -1,0 +1,86 @@
+{
+  "has" : {
+    "Results" : {
+      "on" : {
+        "scientific tasks" : {
+          "outperforms" : {
+            "SciBERT outperforms BERT-Base" : {
+              "with finetuning" : "+2.11 F1",
+              "without" : "+2.43 F1"
+            }
+          }
+        },
+        "from sentence" : "We observe that SCIBERT outperforms BERT-Base on scientific tasks (+2.11 F1 with finetuning and +2.43 F1 without)."
+      },
+      "in" : [{
+        "Biomedical Domain" : {
+          "on" : {
+            "biomedical tasks" : {
+              "outperforms" : {
+                "SciBERT outperforms BERT-Base" : {
+                  "with finetuning" : "+1.92 F1",
+                  "without" : "+3.59 F1"
+                }
+              }
+            },
+            "from sentence" : "We observe that SCIBERT outperforms BERT-Base on biomedical tasks (+1.92 F1 with finetuning and +3.59 F1 without)."
+          },
+          "achieves" : {
+            "new SOTA results" : {
+              "on" : ["BC5CDR and ChemProt (Lee et al., 2019)", "EBMNLP (Nye et al., 2018)"]
+            },
+            "from sentence" : "In addition, SCIBERT achieves new SOTA results on BC5CDR and ChemProt (Lee et al., 2019), and EBMNLP (Nye et al., 2018)."
+          },
+          "outperforms" : {
+            "BioBERT results" : {
+              "on" : ["BC5CDR and ChemProt", "JNLPBA"]
+            },
+            "from sentence" : "Interesting, SCIBERT outperforms BIOBERT results on BC5CDR and ChemProt, and performs similarly on JNLPBA despite being trained on a substantially smaller biomedical corpus."
+          }
+        }
+      },
+      {
+        "Computer Science Domain" : {
+          "on" : {
+            "computer science tasks" : {
+              "outperforms" : {
+                "Bert-Base" : {
+                  "with finetuning" : "+3.55 F1",
+                  "without" : "+1.13 F1"
+                }
+              }
+            }
+          },
+          "achieves" : {
+            "new SOTA results" : {
+              "on" : ["ACL-ARC (Cohan et al., 2019)", "NER part of SciERC (Luan et al., 2018)"]
+            },
+            "from sentence" : "In addition, SCIBERT achieves new SOTA results on ACL-ARC (Cohan et al., 2019), and the NER part of SciERC (Luan et al., 2018)."
+          }
+        }
+      },
+      {
+        "Multiple Domains" : {
+          "on" : {
+            "multidomain tasks" : {
+              "outperforms" : {
+                "BERT-Base" : {
+                  "with finetuning" : "+0.49 F1",
+                  "without" : "+0.93 F1"
+                }
+              }
+            },
+            "from sentence" : "We observe that SCIBERT outperforms BERT-Base on the multidomain tasks (+0.49 F1 with finetuning and +0.93 F1 without)"
+          },
+          "outperforms" : {
+            "SOTA" : {
+              "on" : "SciCite (Cohan et al., 2019)"
+            },
+            "from sentence" : "In addition, SCIBERT outperforms the SOTA on SciCite (Cohan et al., 2019)."
+          }
+        }
+      }
+      ]
+    }
+  }
+}

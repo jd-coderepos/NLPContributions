@@ -1,0 +1,7 @@
+{
+  "has research problem" : [
+    ["a pre-trained biomedical language representation model", {"from sentence" : "TITLE"}],
+    ["biomedical text mining", {"from sentence" : "TITLE"}],
+    ["how the recently introduced pre-trained language model BERT can be adapted for biomedical corpora", {"from sentence" : "In this article, we investigate how the recently introduced pre-trained language model BERT can be adapted for biomedical corpora."}]
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "has" : {
+    "tasks" : {
+      "has" : {
+        "MACHINE TRANSLATION (SINGLE LANGUAGE PAIR)" : {
+          "Model Architecture" : {
+            "GNMT model" : {
+              "modified version" : {
+                "from sentence" : "Our model was a modified version of the GNMT model described in (Wu et al., 2016).",
+                "decreased" : {
+                  "LSTM layers in the encoder and decoder" : {
+                    "from" : {
+                      "9 and 8" : {
+                        "to" : "3 and 2"
+                      }
+                    }
+                  },
+                  "from sentence" : "To reduce computation, we decreased the number of LSTM layers in the encoder and decoder from 9 and 8 to 3 and 2 respectively."
+                },
+                "inserted" : {
+                  "MoE layers" : {
+                    "in both" : ["encoder (between layers 2 and 3)", "decoder (between layers 1 and 2)"],
+                    "each layer contained up to" : {
+                      "2048 experts" : {
+                        "with" : "two million parameters"
+                      }
+                    } 
+                  },
+                  "from sentence" : "We inserted MoE layers in both the encoder (between layers 2 and 3) and the decoder (between layers 1 and 2). Each MoE layer contained up to 2048 experts each with about two million parameters, adding a total of about 8 billion parameters to the models."
+                }
+              }
+            }
+          },
+          "Results" : {
+            "BLEU scores of 40.56 and 26.03" : {
+              "on" : "WMT'14 En->Fr and En->De benchmarks",
+              "from sentence" : "Our approach achieved BLEU scores of 40.56 and 26.03 on the WMT'14 En->Fr and En->De benchmarks."                
+            },
+            "1.01 higher test BLEU score" : {
+              "on" : "Google Production dataset",
+              "from sentence" : "On the Google Production dataset, our model achieved 1.01 higher test BLEU score even after training for only one sixth of the time."
+            }
+          }
+        }
+      },
+      "MULTILINGUAL MACHINE TRANSLATION" : {
+        "repeat this experiment" : ["single MoE-augmented model", {"from sentence" : "We repeat this experiment with a single MoE-augmented model."}],
+        "Results" : {
+          "19% lower perplexity on the dev set" : {
+            "by" : {
+              "The MoE model" : {
+                "than" : "multilingual GNMT model"
+              }
+            },
+            "from sentence" : "The MoE model achieves 19% lower perplexity on the dev set than the multilingual GNMT model."
+          },
+          "significantly beats" : {
+            "by" : {
+              "the MoE model" : {
+                "on" : [
+                  "BLEU score",
+                  "11 of the 12 language pairs (by as much as 5.84 points)",
+                  "8 of 12 language pairs"
+                ]
+              }
+            },
+            "from sentence" : "On BLEU score, the MoE model significantly beats the multilingual GNMT model on 11 of the 12 language pairs (by as much as 5.84 points), and even beats the monolingual GNMT models on 8 of 12 language pairs."
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "has research problem" : [
+    ["Deep contextualized word representations", {"from sentence" : "TITLE"}],
+    ["new type of deep contextualized word representation", {"from sentence" : "We introduce a new type of deep contextualized word representation that models both (1) complex characteristics of word use (e.g., syntax and semantics), and (2) how these uses vary across linguistic contexts (i.e., to model polysemy)."}],
+    ["ELMo (Embeddings from Language Models) representations", {"from sentence" : "For this reason, we call them ELMo (Embeddings from Language Models) representations."}]
+    ]
+}

@@ -1,0 +1,30 @@
+{
+  "has" : {
+    "Ablation Studies" : {
+      "Effect of Model Size" : {
+        "mixed results" : {
+          "on" : "downstream task impact of increasing the pre-trained bi-LM size from two to four layers",
+          "from sentence" : "Peters et al. (2018b) presented mixed results on the downstream task impact of increasing the pre-trained bi-LM size from two to four layers and Melamud et al. (2016) mentioned in passing that increasing hidden dimension size from 200 to 600 helped, but increasing further to 1,000 did not bring further improvements."
+        },
+        "helped" : {
+          "increasing" : {
+            "hidden dimension size" : { 
+              "from" : "200 to 600"
+            }
+          },
+          "from sentence" : "Peters et al. (2018b) presented mixed results on the downstream task impact of increasing the pre-trained bi-LM size from two to four layers and Melamud et al. (2016) mentioned in passing that increasing hidden dimension size from 200 to 600 helped, but increasing further to 1,000 did not bring further improvements."
+        },
+        "did not bring further improvements" : {
+          "increasing further" : "to 1,000",
+          "from sentence" : "Peters et al. (2018b) presented mixed results on the downstream task impact of increasing the pre-trained bi-LM size from two to four layers and Melamud et al. (2016) mentioned in passing that increasing hidden dimension size from 200 to 600 helped, but increasing further to 1,000 did not bring further improvements."          
+        }
+      },
+      "Feature-based Approach with BERT" : {
+        "BERT is effective" : {
+          "for" : "both fine-tuning and feature-based approaches",
+          "from sentence" : "This demonstrates that BERT is effective for both fine-tuning and feature-based approaches."
+        }
+      }
+    }
+  }
+}

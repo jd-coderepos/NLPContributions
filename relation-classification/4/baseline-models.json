@@ -1,0 +1,26 @@
+{
+  "has" : {
+    "Baseline Models" : {
+      "has" : {
+        "Dependency-based models" : {
+          "compare with" : {
+            "logistic regression (LR) classifier" : {
+              "has description" : "combines dependency-based features with other lexical features."
+            },
+            "Shortest Dependency Path LSTM (SDP-LSTM) (Xu et al., 2015b)" : {
+              "has description" : "applies a neural sequence model on the shortest path between the subject and object entities in the dependency tree"
+            },
+            "Tree-LSTM (Tai et al., 2015)" : {
+              "has description" : "a recursive model that generalizes the LSTM to arbitrary tree structures."
+            }
+          },
+          "from sentence" : "In our main experiments we compare with three types of dependency-based models. (1) A logistic regression (LR) classifier which combines dependency-based features with other lexical features. (2) Shortest Dependency Path LSTM (SDP-LSTM) (Xu et al., 2015b), which applies a neural sequence model on the shortest path between the subject and object entities in the dependency tree. (3) Tree-LSTM (Tai et al., 2015), which is a recursive model that generalizes the LSTM to arbitrary tree structures."
+        },
+        "Neural sequence model" : {
+          "competitive sequence model" : "position-aware attention mechanism over LSTM outputs (PA-LSTM)",
+          "from sentence" : "Our group presented a competitive sequence model that employs a position-aware attention mechanism over LSTM outputs (PA-LSTM), and showed that it outperforms several CNN and dependency-based models by a substantial margin (Zhang et al., 2017)."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "has research problem" : [
+    ["Question Answering", {"from sentence" : "TITLE"}],
+    ["learns to answer questions on a broad range of topics", {"from sentence" : "This paper presents a system which learns to answer questions on a broad range of topics from a knowledge base using few handcrafted features."}],
+    ["Teaching machines how to automatically answer questions asked in natural language on any topic or in any domain", {"from sentence" : "Teaching machines how to automatically answer questions asked in natural language on any topic or in any domain has always been a long standing goal in Artificial Intelligence."}],
+    ["open-domain question answering", {"from sentence" : "With the rise of large scale structured knowledge bases (KBs), this problem, known as open-domain question answering (or open QA), boils down to being able to query efficiently such databases with natural language."}],
+    ["open QA", {"from sentence" : "With the rise of large scale structured knowledge bases (KBs), this problem, known as open-domain question answering (or open QA), boils down to being able to query efficiently such databases with natural language."}]
+  ]
+}

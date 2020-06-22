@@ -1,0 +1,7 @@
+{
+  "has research problem" : [
+    ["simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely", {"from sentence" : "We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely."}],
+    ["boundaries of recurrent language models and encoder-decoder architectures", {"from sentence" : "Numerous efforts have since continued to push the boundaries of recurrent language models and encoder-decoder architectures [38, 24, 15]."}],
+    ["model architecture eschewing recurrence and instead relying entirely on an attention mechanism to draw global dependencies between input and output", {"from sentence" : "In this work we propose the Transformer, a model architecture eschewing recurrence and instead relying entirely on an attention mechanism to draw global dependencies between input and output."}]
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "has" : {
+    "Model" : {
+      "encodes" : {
+        "dependency structure over the input sentence" : {
+          "with" : "efficient graph convolution operations"
+        },
+        "from sentence" : "Our model encodes the dependency structure over the input sentence with efficient graph convolution operations, then extracts entity-centric representations to make robust relation predictions."
+      },
+      "extracts" : {
+        "entity-centric representations" : {
+          "to make" : "relation predictions"
+        },
+        "from sentence" : "Our model encodes the dependency structure over the input sentence with efficient graph convolution operations, then extracts entity-centric representations to make robust relation predictions."
+      },
+      "apply" : {
+        "novel path-centric pruning technique" : {
+          "to remove" : "irrelevant information from the tree while maximally keeping relevant content"
+        },
+        "from sentence" : "We also apply a novel path-centric pruning technique to remove irrelevant information from the tree while maximally keeping relevant content, which further improves the performance of several dependency-based models including ours."
+      }
+    }
+  }
+}

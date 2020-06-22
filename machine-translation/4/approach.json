@@ -1,0 +1,59 @@
+{
+  "has" : {
+    "Approach" : {
+      "extend" : {
+        "encoder-shared model" : {
+          "by" : {
+            "two independent encoders": {
+              "with" : "each for one language"
+            }
+          }
+        },
+        "from sentence" : "In order to address this issue, we extend the encoder-shared model, i.e., the model with one shared encoder, by leveraging two independent encoders with each for one language."
+      },
+      "utilized" : ["two independent decoders", {"from sentence" : "Similarly, two independent decoders are utilized."}],
+      "for" : {
+        "each language" : {
+          "perform" : {
+            "AE" : {
+              "where" : {
+                "encoder generates the latent representations" : {
+                  "from" : "perturbed input sentences"
+                },
+                "decoder reconstructs the sentences" : {
+                  "from" : "latent representations"
+                }
+              },
+              "propose" : {
+                "weight-sharing constraint" : {
+                  "to" : {
+                    "two AE" : {
+                      "map" : {
+                        "latent representations" : {
+                          "from" : {
+                            "different languages" : {
+                              "to" : "shared-latent space"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              } 
+            }
+          },
+          "from sentence" : "For each language, the encoder and its corresponding decoder perform an AE, where the encoder generates the latent representations from the perturbed input sentences and the decoder reconstructs the sentences from the latent representations. To map the latent representations from different languages to a shared-latent space, we propose the weight-sharing constraint to the two AEs."          
+        },
+        "cross-language translation" : {
+          "utilize" : {
+            "back-translation" : {
+              "following" : "Lample et al., 2017"   
+            }  
+          },
+          "from sentence" : "For cross-language translation, we utilize the back-translation following (Lample et al., 2017)."
+        }        
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "has" : {
+    "Training" : {
+      "has" : {
+        "Hardware and Schedule" : {
+          "machine" : "8 NVIDIA P100 GPUs",
+          "training step" : "about 0.4 seconds",
+          "trained base models for" : "100,000 steps or 12 hours",
+          "from sentence" : "We trained our models on one machine with 8 NVIDIA P100 GPUs. For our base models using the hyperparameters described throughout the paper, each training step took about 0.4 seconds. We trained the base models for a total of 100,000 steps or 12 hours."
+        },
+        "Optimizer" : {
+          "Adam optimizer" : "beta1 = 0.9, beta2 = 0.98 and epsilon = 10-9",
+          "warmup_steps" : "4000",
+          "from sentence" : "We used the Adam optimizer [20] with beta1 = 0.9, beta2 = 0.98 and epsilon = 10-9. We used warmup_steps = 4000."
+        },
+        "Regularization" : {
+          "employ" : ["Residual Dropout", "Label Smoothing"]
+        }
+      }
+    }
+  }
+}

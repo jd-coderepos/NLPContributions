@@ -1,0 +1,22 @@
+{
+  "has" : {
+    "Ablation analysis" : {
+      "provide" : {
+        "results of a pipeline approach" : {
+          "treat" : {
+            "NER and RC components as independent networks" : {
+              "train" : "separately"
+            }
+          }
+        },
+        "from sentence" : "We provide in Table 2 the results of a pipeline approach where we treat our two NER and RC components as independent networks, and train them separately."
+      },
+      "find" : {
+        "in relation classification" : {
+          "slightly better" : "joint approach does slightly better than the pipeline approach"
+        },
+        "from sentence" : "We find that the joint approach does slightly better than the pipeline approach in relation classification, although the differences are not significant."
+      }
+    }
+  }
+}

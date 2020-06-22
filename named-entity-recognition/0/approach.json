@@ -1,0 +1,25 @@
+{
+  "has" : {
+    "method" : {
+      "called" : ["accelerated robust subset selection", {"from sentence" : "In this paper, we propose an accelerated robust subset selection method to highly raise the speed on the one hand, and to boost the robustness on the other."}],
+      "use" : {
+        "lp(0<p<=1)-norm based measure" : {
+          "for" : "representation loss"
+        },
+        "from sentence" : "To this end, we use the lp(0<p<=1)-norm based robust measure for the representation loss, preventing large errors from dominating our objective."
+      },
+      "propose" : {
+        "speedup solver" : {
+          "based on" : "data size is generally much larger than feature length",
+          "has" : {
+            "acceleration" : {
+              "owing to" : ["Augmented Lagrange Multiplier (ALM)", "equivalent derivation"]
+            }
+          }
+
+        },
+        "from sentence" : "Then, based on the observation that data size is generally much larger than feature length, i.e. N >> L, we propose a speedup solver. The main acceleration is owing to the Augmented Lagrange Multiplier (ALM) and an equivalent derivation."
+      }
+    }
+  }
+}

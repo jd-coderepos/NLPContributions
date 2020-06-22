@@ -1,0 +1,29 @@
+{
+  "has" : {
+    "neural network architecture" : {
+      "called" : "RNN Encoder-Decoder",
+      "consists of" : {
+        "two recurrent neural networks (RNN)" : {
+          "act as" : [
+            {"encoder" : 
+              {"maps" : "a variable-length source sequence to a fixed-length vector"}}, 
+            {"decoder" :
+              {"maps" : "the vector representation back to a variable-length target sequence"}}
+            ],
+          "trained" : {
+            "jointly" : {
+              "to maximize" : "conditional probability of the target sequence given a source sequence"
+            }
+          }
+        },
+        "from sentence" : "The proposed neural network architecture, which we will refer to as an RNN Encoder–Decoder, consists of two recurrent neural networks (RNN) that act as an encoder and a decoder pair. The encoder maps a variable-length source sequence to a fixed-length vector, and the decoder maps the vector representation back to a variable-length target sequence. The two networks are trained jointly to maximize the conditional probability of the target sequence given a source sequence."
+      },
+      "propose" : {
+        "sophisticated hidden unit" : {
+          "to improve" : "both the memory capacity and the ease of training"
+        },
+        "from sentence" : "Additionally, we propose to use a rather sophisticated hidden unit in order to improve both the memory capacity and the ease of training."
+      }
+    }
+  }
+}

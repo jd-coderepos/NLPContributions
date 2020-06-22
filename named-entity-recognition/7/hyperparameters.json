@@ -1,0 +1,19 @@
+{
+  "has" : {
+    "Hyperparameters" : {
+      "Pre-trained embeddings" : {
+        "of dimension 100" : {
+          "GloVe (Pennington et al., 2014)" : "used to initialize word vectors for all three datasets"
+          },
+        "from sentence" : "Pre-trained embeddings GloVe (Pennington et al., 2014) of dimension 100 are used to initialize the word vectors for all three datasets."        
+      },
+      "embeddings of POS tags" : {
+        "initialized randomly" : {
+          "with" : "dimension 32"
+        },
+        "from sentence" : "The embeddings of POS tags are initialized randomly with dimension 32."
+      },
+      "trained using" : ["Adam (Kingma and Ba, 2014)", "gradient clipping of 3.0", {"from sentence" : "The model is trained using Adam (Kingma and Ba, 2014) and a gradient clipping of 3.0."}]
+    }
+  }
+}

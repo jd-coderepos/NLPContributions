@@ -1,0 +1,17 @@
+{
+  "has research problem" : [
+    [
+      "Classifying semantic relations between entity pairs in sentences",
+      {"from sentence" : "Classifying semantic relations between entity pairs in sentences is an important task in Natural Language Processing (NLP)."}
+    ],
+    [
+      "state-of-the-art neural models based on attention mechanisms do not fully utilize information of entity that may be the most crucial features for relation classification",
+      {"from sentence" : "In addition, state-of-the-art neural models based on attention mechanisms do not fully utilize information of entity that may be the most crucial features for relation classification."}
+    ],
+    [
+      "a novel end-to-end recurrent neural model which incorporates an entity-aware attention mechanism with a latent entity typing (LET)",
+      {"from sentence" : "To address these issues, We propose a novel endtoend recurrent neural model which incorporates an entity-aware attention mechanism with a latent entity typing (LET)."
+      }
+    ]
+  ]
+}

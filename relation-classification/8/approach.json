@@ -1,0 +1,27 @@
+{
+  "has" : {
+    "Approach" : {
+      "proposed" : ["one-pass encoding MRE solution", 
+        {"from sentence": "This section describes the proposed one-pass encoding MRE solution."}
+      ],
+      "built upon" : {
+        "BERT" : {
+          "with" : [{
+            "structured prediction layer" : {
+              "to predict" : "multiple relations with one-pass encoding"
+            }
+          },
+          {
+            "entity-aware self-attention mechanism" : {
+              "to infuse" : {
+                "relational information with regard to multiple entities" : {
+                  "at" : "each layer of hidden states"
+                }
+              }
+            }
+          }]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "has" : {
+    "Approach" : {
+      "proposing" : ["BERT: Bidirectional Encoder Representations from Transformers", {"from sentence" : "In this paper, we improve the fine-tuning based approaches by proposing BERT: Bidirectional Encoder Representations from Transformers."}],
+      "called" : {
+        "BERT" : {
+          "alleviates" : {
+            "previously mentioned unidirectionality constraint" : {
+              "using" : {
+                "\"masked language model\" (MLM) pre-training objective" : {
+                  "inspired by" : "Cloze task (Taylore, 1953)",
+                  "randomly masks" : {
+                    "some of the tokens from the input" : {
+                      "objective" : "predict the original vocabulary id of the masked word based only on its context"
+                    }
+                  },
+                  "enables" : {
+                    "representation to fuse the left and the right context" : {
+                      "to pretrain" : "deep bidirectional Transformer"
+                    }
+                  }
+                }
+              }
+            },
+            "from sentence" : "BERT alleviates the previously mentioned unidirectionality constraint by using a “masked language model” (MLM) pre-training objective, inspired by the Cloze task (Taylor, 1953). The masked language model randomly masks some of the tokens from the input, and the objective is to predict the original vocabulary id of the masked word based only on its context. Unlike left-to-right language model pre-training, the MLM objective enables the representation to fuse the left and the right context, which allows us to pretrain a deep bidirectional Transformer."     
+          },
+          "use" : {
+            "\"next sentence prediction\" task" : {
+              "jointly pretrains" : "text-pair representations"
+            },
+            "from sentence" : "In addition to the masked language model, we also use a “next sentence prediction” task that jointly pretrains text-pair representations."
+          }
+        }
+      }
+    }
+  }
+}

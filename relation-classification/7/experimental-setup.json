@@ -1,0 +1,31 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "used" : [
+        {
+        "BERTBase model" : {
+          "pre-trained for" : "1M steps",
+          "pre-trained on" : ["English Wikipedia", "BooksCorpus"]
+        },
+        "from sentence" : "We used the BERTBASE model pre-trained on English Wikipedia and BooksCorpus for 1M steps."
+        },
+        {
+          "NVIDIA V100 (32GB) GPUs" : {
+            "for" : {
+              "pre-training" : {
+                "has value" : "eight"   
+              }
+            }
+          },
+          "from sentence" : "We used eight NVIDIA V100 (32GB) GPUs for the pre-training"
+        },
+        {
+          "NVIDIA Titan Xp (12GB) GPU" : {
+            "to" : "fine-tune BioBERT"
+            },
+            "from sentence" : "We used a single NVIDIA Titan Xp (12GB) GPU to fine-tune BioBERT on each task."
+        }
+      ]
+    }
+  }
+}

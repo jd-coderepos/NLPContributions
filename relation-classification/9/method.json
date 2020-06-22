@@ -1,0 +1,42 @@
+{
+  "has" : {
+    "Methods" : {
+      "called" : {
+        "SCIBERT" : {
+          "follows" : {
+            "same architecture as BERT" : {
+              "pretrained on" : "scientific text"
+            }
+          }
+        },
+        "from sentence" : "SCIBERT follows the same architecture as BERT but is instead pretrained on scientific text."
+      },
+      "has" : {
+        "Vocabulary" : {
+          "construct" : {
+            "SCIVOCAB" : {
+              "has description" : "a new WordPiece vocabulary on our scientific corpus using the SentencePiece library"
+            }
+          },
+          "from sentence" : "We construct SCIVOCAB, a new WordPiece vocabulary on our scientific corpus using the SentencePiece library."
+        },
+        "Corpus" : {
+          "train" : {
+            "a random sample of 1.14M papers" : {
+              "from" : "Semantic Scholar (Ammar et al., 2018)",
+              "consists" : {
+                "18% papers" : {
+                  "from" : "Computer Science"
+                },
+                "82%" : {
+                  "from" : "broad biomedical domain"
+                }
+              }
+            }
+          },
+          "from sentence" : "We train SCIBERT on a random sample of 1.14M papers from Semantic Scholar (Ammar et al., 2018). This corpus consists of 18% papers from the computer science domain and 82% from the broad biomedical domain."
+        }
+      }
+    }
+  }
+}

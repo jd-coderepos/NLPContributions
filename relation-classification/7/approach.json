@@ -1,0 +1,34 @@
+{
+  "has" : {
+    "Approach" : {
+		"introduce" : {
+		  "BioBERT" : {
+			"isa" : {
+			  "pre-trained language representation model" : {
+				"for" : "biomedical domain"
+				}
+			  }
+		  },
+		"from sentence": "In this article, we introduce BioBERT, which is a pre-trained language representation model for the biomedical domain."		  
+	  },
+      "pre-training and fine-tuning" : {
+		"BioBERT" : {
+			"initialize" : "weights from BERT",
+			"pre-trained" : "biomedical domain corpora (PubMed abstracts and PMC full-text articles)"
+		},
+        "from sentence" : "The overall process of pre-training and fine-tuning BioBERT is illustrated in Figure 1. First, we initialize BioBERT with weights from BERT, which was pretrained on general domain corpora (English Wikipedia and BooksCorpus)."		
+      },
+	  "test" : {
+		  "pre-training strategies" : {
+			"on" : {
+			  "general domain corpora and biomedical corpora" : {
+				"with" : "different combinations and sizes"
+			  }
+			},
+			"analyze" : "effect of each corpus on pre-training"
+		  },
+		"from sentence" : "We test various pre-training strategies with different combinations and sizes of general domain corpora and biomedical corpora, and analyze the effect of each corpus on pre-training."		  
+	  }
+    }
+  }
+}

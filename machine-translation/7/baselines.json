@@ -1,0 +1,8 @@
+{
+  "has" : {
+    "Baselines" : {
+      "consisting" : "one or more stacked Long Short-Term Memory (LSTM) layers",
+      "from sentence" : "The best previously published results (Jozefowicz et al., 2016) use models consisting of one or more stacked Long Short-Term Memory (LSTM) layers (Hochreiter & Schmidhuber, 1997; Gers et al., 2000)."
+    }
+  }
+}

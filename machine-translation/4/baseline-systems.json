@@ -1,0 +1,7 @@
+{
+  "has" : {
+    "Baseline Systems" : {
+      "has" : ["Word-by-word translation (WBW)", "Lample et al. (2017)", "Supervised training"]
+    }
+  }
+}

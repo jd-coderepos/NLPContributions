@@ -1,0 +1,8 @@
+{
+  "has research problem" : [
+    ["maximize the conditional probability of a target sequence given a source sequence", {"from sentence": "The encoder and decoder of the proposed model are jointly trained to maximize the conditional probability of a target sequence given a source sequence."}],
+    ["statistical machine translation", {"from sentence" : "The performance of a statistical machine translation system is empirically found to improve by using the conditional probabilities of phrase pairs computed by the RNN Encoder–Decoder as an additional feature in the existing log-linear model."}],
+    ["SMT", {"from sentence" : "In the field of statistical machine translation (SMT), deep neural networks have begun to show promising results."}],
+    ["phrase-based SMT", {"from sentence" : "(Schwenk, 2012) summarizes a successful usage of feedforward neural networks in the framework of phrase-based SMT system."}]
+  ]
+}

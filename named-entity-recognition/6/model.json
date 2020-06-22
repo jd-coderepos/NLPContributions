@@ -1,0 +1,23 @@
+{
+  "has" : {
+    "Model" : {
+      "propose" : {
+        "alternative lexical representation" : {
+          "trained" : "offline",
+          "added to" : "any neural NER system"
+        },
+        "from sentence" : "In this work, we discuss some of the limitations of gazetteer features and propose an alternative lexical representation which is trained offline and that can be added to any neural NER system."
+      },
+      "embed" : {
+        "words and entity types" : {
+          "into" : {
+            "joint vector space" : {
+              "by leveraging" : "WiFiNE (Ghaddar and Langlais, 2018)"
+            }
+          }
+        },
+        "from sentence" : "In a nutshell, we embed words and entity types into a joint vector space by leveraging WiFiNE (Ghaddar and Langlais, 2018), a ressource which automatically annotates mentions inWikipedia with 120 entity types."
+      }
+    }
+  }
+}

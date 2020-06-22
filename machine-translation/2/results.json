@@ -1,0 +1,31 @@
+{
+  "has" : {
+    "Results" : {
+      "on" : {
+        "WMT 2014 English-to-German translation task" : {
+          "outperforms" : {
+            "the best previously reported models (including ensembles)" : {
+              "by" : "more than 2.0 BLEU",
+              "state-of-the-art" : "BLEU score of 28.4"
+            }
+          },
+          "from sentence" : "On the WMT 2014 English-to-German translation task, the big transformer model (Transformer (big) in Table 2) outperforms the best previously reported models (including ensembles) by more than 2.0 BLEU, establishing a new state-of-the-art BLEU score of 28.4."          
+        },
+        "English Constituency Parsing" : {
+          "evaluate" : ["Transformer can generalize to other tasks", {"from sentence" : "To evaluate if the Transformer can generalize to other tasks we performed experiments on English constituency parsing."}],
+          "performs" : {
+            "surprisingly well" : {
+              "yielding" : {
+                "better results than all previously reported models" : {
+                  "exception" : "Recurrent Neural Network Grammar"
+                }
+              },
+              "despite" : "lack of task-specific tuning"
+            },
+            "from sentence" : "Our results in Table 4 show that despite the lack of task-specific tuning our model performs surprisingly well, yielding better results than all previously reported models with the exception of the Recurrent Neural Network Grammar [8]."
+          }
+        }
+      }
+    }
+  }
+}

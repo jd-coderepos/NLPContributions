@@ -1,0 +1,57 @@
+{
+  "has" : {
+    "Application" : {
+      "of" : {
+        "dilated convolutions" : {
+          "for" : ["sequence labeling", {"from sentence" : "In response, this paper presents an application of dilated convolutions (Yu and Koltun, 2016) for sequence labeling (Figure 1)."}],
+          "operate on" : {
+            "sliding window of context" : {
+              "over" : "sequence"
+            },
+            "from sentence" : "Like typical CNN layers, dilated convolutions operate on a sliding window of context over the sequence, but unlike conventional convolutions, the context need not be consecutive; the dilated window skips over every dilation width d inputs."
+          },
+          "skips over" : ["every dilation width d inputs", {"from sentence": "Like typical CNN layers, dilated convolutions operate on a sliding window of context over the sequence, but unlike conventional convolutions, the context need not be consecutive; the dilated window skips over every dilation width d inputs."}],
+          "stacking layers" : {
+            "of" : {
+              "exponentially increasing dilation width" : {
+                "expand this size" : {
+                  "effective input width" : {
+                    "to cover" : "entire length of most sequences"
+                  }
+                }
+              }
+            },
+          "from sentence" : "  By stacking layers of dilated convolutions of exponentially increasing dilation width, we can expand the size of the effective input width to cover the entire length of most sequences using only a few layers:"            
+          } 
+        }
+      },
+      "called" : {
+        "iterated dilated CNN architecture (ID-CNN)" : {
+          "applies" : {
+            "same block of dilated convolutions" : {
+              "to" : "token-wise representation",
+              "prevents" : "overfitting",
+              "provides opportunities" : "to inject supervision on intermediate activations of the network"
+            }
+          }
+        },
+        "from sentence" : "Our overall iterated dilated CNN architecture (ID-CNN) repeatedly applies the same block of dilated convolutions to token-wise representations. This parameter sharing prevents overfitting and also provides opportunities to inject supervision on intermediate activations of the network."
+      },
+      "has" : {
+        "two methods" : {
+          "for" : {
+            "performing prediction" : {
+              "predict" : "each token's label independently",
+              "by running" : {
+                "Viterbi inference" : {
+                  "in" : "chain structured graphical model"
+                }
+              }
+            }
+          }
+        },
+        "from sentence" : "Similar to models that use logits produced by an RNN, the ID-CNN provides two methods for performing prediction: we can predict each token’s label independently, or by running Viterbi inference in a chain structured graphical model."
+      }
+    }
+  }
+}

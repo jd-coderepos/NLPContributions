@@ -1,0 +1,32 @@
+{
+  "has" : {
+    "Results" : {
+      "on" : {
+      "CoNLL-2003 English NER" : {
+        "Sentence-level prediction" : {
+          "highest average scores" : {
+            "obtain" : "Viterbi-decoding Bi-LSTM-CRF and ID-CNN-CRF and greedy ID-CNN",
+            "from sentence" : "The Viterbi-decoding Bi-LSTM-CRF and ID-CNN-CRF and greedy ID-CNN obtain the highest average scores, with the ID-CNN-CRF outperforming the Bi-LSTM-CRF by 0.11 points of F1 on average, and the Bi-LSTM-CRF out-performing the greedy ID-CNN by 0.11 as well."          
+            },
+            "outperforms" : ["greedy ID-CNN outperforms the Bi-LSTM and the 4-layer CNN",
+            {"from sentence" : "Our greedy ID-CNN outperforms the Bi-LSTM and the 4-layer CNN, which uses the same number of parameters as the ID-CNN, and performs similarly to the 5-layer CNN which uses more parameters but covers the same effective input width."}],
+            "outperform" : ["All CNN models out-perform the Bi-LSTM when paired with greedy decoding", {"from sentence" : "All CNN models out-perform the Bi-LSTM when paired with greedy decoding, suggesting that CNNs are better token encoders than Bi-LSTMs for independent logistic regression."}],
+            "on par" : ["When paired with Viterbi decoding, our ID-CNN performs on par with the Bi-LSTM", {"from sentence" : "When paired with Viterbi decoding, our ID-CNN performs on par with the Bi-LSTM, showing that the ID-CNN is also an effective token encoder for structured inference."}
+              ]
+        },
+        "Document-level prediction" : {
+          "improves every model" : {
+            "on" : "CoNLL-2003",
+            "adding" : "document-level context"
+          },
+          "from sentence" : " Document-level prediction In Table 4 we show that adding document-level context improves every model on CoNLL-2003."
+        }
+      },
+      "OntoNotes 5.0 English NER" : {
+        "outperforms" : ["ID-CNN out-performs the Bi-LSTM", {"from sentence" : "The greedy Bi-LSTM out-performs the lexicalized greedy model of Ratinov and Roth (2009), and our ID-CNN out-performs the Bi-LSTM as well as the more complex model of Durrett and Klein (2014) which leverages the parallel coreference annotation available in the OntoNotes corpus to predict named entities jointly with entity linking and co-reference."}],
+        "outperformed" : ["Our greedy model is out-performed by the Bi-LSTM-CRF", {"from sentence" : "Our greedy model is out-performed by the Bi-LSTM-CRF reported in Chiu and Nichols (2016) as well as our own re-implementation, which appears to be the new state-of-the-art on this dataset."}]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "has research problem" : [
+    ["Unsupervised neural machine translation", {"from sentence" : "Unsupervised neural machine translation (NMT) is a recently proposed approach for machine translation which aims to train the model without using any labeled data."}],
+    ["unsupervised NMT", {"from sentence" : "The models proposed for unsupervised NMT often use only one shared encoder to map the pairs of sentences from different languages to a shared-latent space, which is weak in keeping the unique and internal characteristics of each language, such as the style, terminology, and sentence structure."}]
+  ]
+}

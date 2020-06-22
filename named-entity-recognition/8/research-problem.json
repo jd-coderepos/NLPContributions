@@ -1,0 +1,9 @@
+{
+  "has research problem" : [
+    ["language understanding", {"from sentence" : "TITLE"}],
+    ["language representation model", {"from sentence" : "We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers."}],
+    ["Bidirectional Encoder Representations from Transformers", {"from sentence" : "We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers."}],
+    ["Language model pre-training", {"from sentence" : "Language model pre-training has been shown to be effective for improving many natural language processing tasks (Dai and Le, 2015; Peters et al., 2018a; Radford et al., 2018; Howard and Ruder, 2018)."}],
+    ["bidirectional pre-training for language representations", {"from sentence" : "We demonstrate the importance of bidirectional pre-training for language representations."}]
+  ]
+}

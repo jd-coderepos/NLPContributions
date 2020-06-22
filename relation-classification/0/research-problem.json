@@ -1,0 +1,10 @@
+{
+  "has research problem" : [
+    ["end-to-end neural model to extract entities and relations", {"from sentence" : "We present a novel end-to-end neural model to extract entities and relations between them."}],
+    ["jointly represent both entities and relations with shared parameters in a single model", {"from sentence" : "This allows our model to jointly represent both entities and relations with shared parameters in a single model."}],
+    ["Extracting semantic relations between entities in text",
+    {"from sentence" : "Extracting semantic relations between entities in text is an important and well-studied task in information extraction and natural language processing (NLP)."}],
+    ["end-to-end (joint) modeling of entity and relation",
+    {"from sentence" : "Traditional systems treat this task as a pipeline of two separated tasks, i.e., named entity recognition (NER) (Nadeau and Sekine, 2007; Ratinov and Roth, 2009) and relation extraction (Zelenko et al., 2003; Zhou et al., 2005), but recent studies show that end-to-end (joint) modeling of entity and relation is important for high performance (Li and Ji, 2014; Miwa and Sasaki, 2014) since relations interact closely with entity information."}]
+    ]
+}

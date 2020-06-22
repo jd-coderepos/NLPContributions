@@ -1,0 +1,152 @@
+{
+  "has" : {
+    "Experiments" : {
+      "has" : {
+        "Code Learning" : {
+          "has" : {
+            "Hyperparameters" : {
+              "small batch of embeddings" : {
+                "sampled uniformly" : {
+                  "from" : "baseline embedding matrix"
+                }
+              },
+              "batch size" : "128",
+              "optimizer" : {
+                "Adam" : {
+                  "learning rate" : "0.0001"
+                }
+              },
+              "training" : "200K iterations",
+              "GPUs" : "4",
+              "from sentence" : "In each iteration, a small batch of the embeddings is sampled uniformly from the baseline embedding matrix. In our experiments, the batch size is set to 128. We use Adam optimizer (Kingma & Ba, 2014) with a fixed learning rate of 0.0001. The training is run for 200K iterations. We evenly distribute the model training to 4 GPUs using the nccl package, so that one round of code learning takes around 15 minutes to complete."
+            }
+          }
+        },
+        "Sentiment Analysis" : {
+          "has" : {
+            "Model architecture" : {
+              "composed of" : {
+                "single LSTM layer" : {
+                  "with" : "150 hidden units"
+                },
+                "softmax layer" : {
+                  "for" : "predicting the binary label"
+                },
+                "from sentence" : "The model is composed of a single LSTM layer with 150 hidden units and a softmax layer for predicting the binary label."
+              },
+              "for" : {
+                "baseline model" : {
+                  "has" : {
+                    "embedding layer" : {
+                      "initialized by" : "GloVe embeddings"
+                    }
+                  }
+                },
+                "compressed model" : {
+                  "has" : {
+                    "embedding layer" : {
+                      "maintains" : "matrix of basis vectors"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "For the baseline model, the embedding layer contains a large 75K x 300 embedding matrix initialized by GloVe embeddings. For the compressed models based on the compositional coding, the embedding layer maintains a matrix of basis vectors."
+            },
+            "Hyperparameters" : {
+              "optimizer" : "Adam",
+              "learning rate" : "0.0001",
+              "trained" : "15 epochs",
+              "from sentence" : "The models are trained with Adam optimizer for 15 epochs with a fixed learning rate of 0.0001."
+            },
+            "Results" : {
+              "achieved by" : {
+                "16 x 32 coding scheme" : {
+                  "is" : "maximum loss-free compression rate"
+                },
+                "from sentence" : "For our proposed methods, the maximum loss-free compression rate is achieved by a 16 x 32 coding scheme."
+              },
+              "substantially improved" : {
+                "classification accuracy" : {
+                  "with" : "slightly lower compression rate"
+                },
+                "from sentence" : "We also found the classification accuracy can be substantially improved with a slightly lower compression rate."
+              }
+            }
+          }
+        },
+        "Machine Translation" : {
+          "has" : {
+            "Model architecture" : {
+              "has" : {
+                "standard bi-directional encoder" : {
+                  "composed of" : "two LSTM layers"
+                },
+                "decoder" : {
+                  "contains" : "two LSTM"
+                },
+                "from sentence" : "The model has a standard bi-directional encoder composed of two LSTM layers similar to Bahdanau et al. (2015). The decoder contains two LSTM layers."
+              },
+              "applied" : {
+                "Residual connection" : {
+                  "with" : {
+                    "scaling factor" : {
+                      "of" : "sqrt(1/2)"
+                    }
+                  },
+                  "to" : "two decoder states"
+                },
+                "from sentence" : "Residual connection (He et al., 2016) with a scaling factor of sqrt(1/2) is applied to the two decoder states to compute the outputs."
+              }
+            },
+            "Hyperparameters" : {
+              "trained by" : {
+                "Nesterov's accelerated growth" : {
+                  "with" : {
+                    "initial learning rate" : {
+                      "of" : "0.25"
+                    }
+                  }
+                },
+                "from sentence" : "All models are trained by Nesterov’s accelerated gradient (Nesterov, 1983) with an initial learning rate of 0.25."
+              },
+              "GPUs" : "4",
+              "from sentence" : "Similar to the code learning, the training is distributed to 4 GPUs, each GPU computes a mini-batch of 16 samples."
+            },
+            "Results" : {
+              "by pruning" : {
+                "90% of the connections" : {
+                  "on" : {
+                    "ASPEC dataset" : {
+                      "reaches" : {
+                        "92%" : {
+                          "at" : "loss-free compression rate"
+                        }
+                      }                  
+                    },
+                    "IWSLT14 dataset" : {
+                      "observed" : "modest performance loss"
+                    }
+                  }                  
+                },
+                "from sentence" : "The performance of iterative pruning varies between tasks. The loss-free compression rate reaches 92% on ASPEC dataset by pruning 90% of the connections. However, with the same pruning ratio, a modest performance loss is observed in IWSLT14 dataset."
+              },
+              "using" : {
+                "compositional coding" : {
+                  "for" : {
+                    "IWSLT14 dataset" : {
+                      "loss-free compression rate" : "94%"
+                    },
+                    "ASPEC dataset" : {
+                      "loss-free compression rate" : "99%"
+                    }
+                  }
+                },
+                "from sentence" : "For the models using compositional coding, the loss-free compression rate is 94% for the IWSLT14 dataset and 99% for the ASPEC dataset."
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

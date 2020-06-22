@@ -1,0 +1,29 @@
+{
+  "has research problem" : [
+    ["joint extraction of named entities and relations between them, without any hand-crafted features",
+    {
+      "from sentence" : "We propose a neural network model for joint extraction of named entities and relations between them, without any hand-crafted features."
+    }],
+    ["relation and entity recognition",
+    {
+      "from sentence" : "On the benchmark \"relation and entity recognition\" dataset CoNLL04, experimental results show that our model outperforms previous models, producing new state-of-the-art performances."
+    }],
+    ["Extracting entities and their semantic relations from raw text",
+    {
+      "from sentence" : "Extracting entities and their semantic relations from raw text is a key information extraction task."
+    }],
+    ["named entity recognition and relation classification",
+    {
+      "from sentence" : "A common relation extraction approach is to construct pipeline systems with separate sub-systems for the two tasks of named entity recognition and relation classification [2]."
+    }],
+    ["jointly learn to extract entities and relations",
+    {
+      "from sentence" : "More recently, end-to-end systems which jointly learn to extract entities and relations have been proposed with strong potential to obtain high performance [26]."
+    }],
+    ["joint entity and relation extraction",
+    {
+      "from sentence" : "Recently, Wang et al. (2018) [30] formulated the joint entity and relation extraction problem as a directed graph and proposed a BiLSTM- and transition-based approach to generate the graph incrementally."
+    }
+      ]
+    ]
+}

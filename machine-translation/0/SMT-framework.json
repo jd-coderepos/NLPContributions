@@ -1,0 +1,25 @@
+{
+  "has" : {
+    "phrase-based SMT framework" : {
+      "train" : {
+        "RNN Encoder-Decoder" : {
+          "on" : "table of phrase pairs",
+          "use" : {
+            "scores" : {
+              "as" : {
+                "additional features" : {
+                  "in" : {
+                    "log-linear model" : {
+                      "tuning" : "SMT decoder"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "from sentence" : "Here we propose to train the RNN Encoder–Decoder (see Sec. 2.2) on a table of phrase pairs and use its scores as additional features in the loglinear model in Eq. (9) when tuning the SMT decoder."
+    }
+  }
+}

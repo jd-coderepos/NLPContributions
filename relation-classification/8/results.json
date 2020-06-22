@@ -1,0 +1,39 @@
+{
+  "has" : {
+    "Results" : {
+      "on" : [
+        {"ACE 2005" : [{
+          "achieves" : "our model architecture achieves much better results compared to the previous state-of-the-art methods",
+          "from sentence" : "Table 1 gives the overall results on ACE 2005. The first observation is that our model architecture achieves much better results compared to the previous state-of-the-art methods."},
+          {"improvement" : {
+            "Our full model, with the structured fine-tuning of attention layers, brings further improvement" : {
+              "of about" : "5.5%",
+              "in" : "MRE one-pass setting"
+              }
+            },
+            "from sentence" : "Our full model, with the structured fine-tuning of attention layers, brings further improvement of about 5.5%, in the MRE one-pass setting, and achieves a new state-of-the-art performance when compared to the methods with domain adaptation."
+          }
+        ]
+      },
+      {"SemEval 2018 Task 7" : 
+      [{
+        "comparable" : "Our Entity-Aware BERTSP gives comparable results to the top-ranked system (Rotsztejn et al., 2018)",
+        "from sentence" : "The results on SemEval 2018 Task 7 are shown in Table 3. Our Entity-Aware BERTSP gives comparable results to the top-ranked system (Rotsztejn et al., 2018) in the shared task,"
+      },
+      {
+        "drop" : "When predicting multiple relations in one-pass, we have 0.9% drop on Macro-F1",
+        "from sentence" : "When predicting multiple relations in one-pass, we have 0.9% drop on Macro-F1, but a further 0.8% improvement on Micro-F1."
+      },
+      {"advantage" : {
+        "our methods demonstrate clear advantage as a single model" : {
+          "compared to" : "top single-model result (Luan et al., 2018),"
+          }
+        },
+        "from sentence" : "On the other hand, compared to the top single-model result (Luan et al., 2018), which makes use of additional word and entity embeddings pretrained on in-domain data, our methods demonstrate clear advantage as a single model."
+      }
+      ]
+      }
+    ]
+  }
+  }
+}

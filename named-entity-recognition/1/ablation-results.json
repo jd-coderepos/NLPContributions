@@ -1,0 +1,24 @@
+{
+  "has" : {
+    "Ablation results" : {
+      "on" : {
+        "LSTM-CRF model" : {
+          "pretraining our word embeddings" : {
+            "biggest improvement" : {
+              "in" : {
+                "overall performance" : {
+                  "of" : "+7.31 in F1"
+                }
+              }
+            },
+            "from sentence" : "We explored the impact that the CRF, the character-level representations, pretraining of our word embeddings and dropout had on our LSTM-CRF  model. We observed that pretraining our word embeddings gave us the biggest improvement in overall performance of +7:31 in F1."
+            },
+            "CRF layer" : "increase of +1.79",
+            "dropout" : "different of +1.17",
+            "learning character-level word embeddings" : "increase of about +0.74",
+            "from sentence" : "The CRF layer gave us an increase of +1.79, while using dropout resulted in a difference of +1.17 and finally learning character-level word embeddings resulted in an increase of about +0.74."
+        }
+      }
+    }
+  }
+}

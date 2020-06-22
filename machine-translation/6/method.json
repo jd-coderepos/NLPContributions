@@ -1,0 +1,65 @@
+{
+  "has" : {
+    "Method" : {
+      "called" : ["FRequency-AGnostic word Embedding (FRAGE)",{"from sentence" : "To address this problem, in this paper, we propose an adversarial training method to learn FRequency-AGnostic word Embedding (FRAGE)."}],
+      "minimize" : {
+        "task-specific loss" : {
+          "by optimizing" : "task-specific parameters with word embeddings"
+        },
+        "from sentence" : "For a given NLP task, in addition to minimize the task-specific loss by optimizing the task-specific parameters together with word embeddings, we introduce another discriminator, which takes a word embedding as input and classifies whether it is a popular/rare word."
+      },
+      "introduce" : {
+        "another discriminator" : {
+          "input" : {
+            "a word embedding" : {
+              "classifies" : "popular/rare word"
+            }
+          }
+        },
+        "from sentence" : "For a given NLP task, in addition to minimize the task-specific loss by optimizing the task-specific parameters together with word embeddings, we introduce another discriminator, which takes a word embedding as input and classifies whether it is a popular/rare word."
+      },
+      "optimizes" : {
+        "parameters" : {
+          "of" : {
+            "discriminator" : {
+              "to maximize" : "classification accuracy"
+            }
+          }
+        },
+        "from sentence" : "The discriminator optimizes its parameters to maximize its classification accuracy, while word embeddings are optimized towards a low task-dependent loss as well as fooling the discriminator to mis-classify the popular and rare words."
+      },
+      "optimized" : {
+        "word embeddings" : {
+          "towards" : "low task-dependent loss",
+          "mis-classify" : {
+            "words" : {
+              "as" : "popular and rare",
+              "by" : "discriminator"
+            }
+          }
+        },
+        "from sentence" : "The discriminator optimizes its parameters to maximize its classification accuracy, while word embeddings are optimized towards a low task-dependent loss as well as fooling the discriminator to mis-classify the popular and rare words."
+      },
+      "achieves" : {
+        "equilibrium" : {
+          "by" : {
+            "system" : {
+              "when" : "whole training process converges",
+              "cannot well differentiate" : {
+                "popular words from rare words" : {
+                  "by" : "discriminator",
+                  "consequently" : {
+                    "rare words lie in the same region as and are mixed with popular words" : {
+                      "in" : "embedding space"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "from sentence" : "When the whole training process converges and the system achieves an equilibrium, the discriminator cannot well differentiate popular words from rare words. Consequently, rare words lie in the same region as and are mixed with popular words in the embedding space."
+      }
+    }
+  }
+}

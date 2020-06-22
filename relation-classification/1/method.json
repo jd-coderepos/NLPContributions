@@ -1,0 +1,60 @@
+{
+  "has" : {
+    "Method" : [
+      {"propose" : [
+        "novel tagging scheme", 
+        {
+          "end-to-end model" : {
+            "with" : {
+              "biased objective function" : {
+                "to" : "jointly extract entities and their relations"
+              }
+            }
+          }
+      }],
+      "from sentence" : "We propose a novel tagging scheme and an end-to-end model with biased objective function to jointly extract entities and their relations."
+      },
+      {"has" : [
+          {"Tagging Scheme" : [
+            {
+              "Tag \"O\"" : {
+                "\"Other\" tag" : {
+                  "means" : "corresponding word is independent of the extracted results"
+                }
+              },
+              "from sentence" : "Tag \"O\" represents the “Other” tag, which means that the corresponding word is independent of the extracted results."
+            },
+            {
+              "BIES" : {
+                "Begin, Inside, End, Single" : {
+                  "represent" : "position information of a word in the entity"
+                }
+              },
+              "from sentence" : "We use the \"BIES\" (Begin, Inside, End, Single) signs to represent the position information of a word in the entity."
+            }
+          ]},
+        {"End-to-end Model" : [
+            {"produce" : "tags sequence",
+              "from sentence" : "In this paper, we investigate an end-to-end model to produce the tags sequence as Figure 3 shows."
+            },
+            {"contains" : {
+              "bi-directional Long Short Term Memory (Bi-LSTM) layer" : {
+                  "encode" : "input sentence"
+                },
+                "LSTM-based decoding layer" : {
+                  "with" : {
+                    "biased loss" : {
+                      "enhance" : "relevance of entity tags"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "It contains a bi-directional Long Short Term Memory (Bi-LSTM) layer to encode the input sentence and a LSTM-based decoding layer with biased loss. The biased loss can enhance the relevance of entity tags."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

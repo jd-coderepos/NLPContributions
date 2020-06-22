@@ -1,0 +1,6 @@
+{
+  "has research problem" : [
+    ["State-of-the-art named entity recognition systems rely heavily on hand-crafted features and domain-specific knowledge", {"from sentence" : "State-of-the-art named entity recognition systems rely heavily on hand-crafted features and domain-specific knowledge in order to learn effectively from the small, supervised training corpora that are available"}],
+    ["neural architectures for NER", {"from sentence" : "In this paper, we present neural architectures for NER that use no language-specific resources or features beyond a small amount of supervised training data and unlabeled corpora."}]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "has" : {
+    "Model" : [
+    {"is" : {
+        "novel end-to-end model" : {
+          "to extract" : {
+            "relations between entities" : {
+              "on" : ["word sequence", "dependency tree structures"]
+            }
+          }
+        }
+      },
+      "from sentence" : "We present a novel end-to-end model to extract relations between entities on both word sequence and dependency tree structures."
+    },
+    {
+      "allows" : {
+        "joint modeling of entities and relations" : {
+          "using" : ["bidirectional sequential (left-to-right and right-to-left) LSTM-RNNs", "bidirectional tree-structured (bottom-up and top-down) LSTM-RNNs"]
+        }
+      },
+      "from sentence" : "Our model allows joint modeling of entities and relations in a single model by using both bidirectional sequential (left-to-right and right-to-left) and bidirectional tree-structured (bottom-up and top-down) LSTMRNNs."
+    },
+    {
+      "detects" : "entities",
+      "extracts" : {
+        "relations" : {
+          "between" : "detected entities"
+        }
+      }, 
+      "using" : {
+        "single incrementally-decoded NN structure" : {
+          "jointly updated" : {
+            "NN parameters" : {
+              "using" : "both entity and relation labels"
+            }
+          }
+        }
+      },    
+      "from sentence" : "Our model first detects entities and then extracts relations between the detected entities using a single incrementally-decoded NN structure, and the NN parameters are jointly updated using both entity and relation labels."
+    },
+    {
+      "two enhancements" : [
+        ["entity pretraining", "scheduled sampling"],
+        {"alleviate" : "low-performance entity detection in early stages of training"},
+        {"allow" : "entity information to further help downstream relation classification"}],
+      "from sentence" : "Unlike traditional incremental end-to-end relation extraction models, our model further incorporates two enhancements into training: entity pretraining, which pretrains the entity model, and scheduled sampling (Bengio et al., 2015), which replaces (unreliable) predicted labels with gold labels in a certain probability. These enhancements alleviate the problem of low-performance entity detection in early stages of training, as well as allow entity information to further help downstream relation classification."
+    }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "has" : {
+    "Results" : {
+      "higher NER and RC scores" : {
+        "2+% absolute higher NER and RC scores" : {
+          "than" : "BiLSTM-CRF-based multihead selection model"
+        },
+        "from sentence" : "In particular, our model obtains 2+% absolute higher NER and RC scores (Setup 1) than the BiLSTM-CRF-based multihead selection model [5]."
+      },
+      "higher EC and RC scores" : {
+        "7+% higher NER and RC scores" : {
+          "than" : "Adel and Schutze (2017)"
+        },
+        "from sentence" : "We also obtain 7+% higher EC and RC scores (Setup 2) than Adel and Schutze (2017) [1]."
+      },
+      "on" : [
+        "CoNLL04", 
+        {
+          "from sentence" : "In Table 1, the last two rows present results reported in [20] and [31] on the dataset CoNLL04."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "has" : {
+    "Results" : {
+      "Hyperparamaters" : {
+        "BioBERT v1.0 (+ PubMed + PMC)" : {
+          "trained for" : "470K steps",
+          "from sentence" : "BioBERT v1.0 (+ PubMed + PMC) is the version of BioBERT (+ PubMed + PMC) trained for 470K steps."
+        },
+        "PubMed" : {
+          "found" : {
+            "200K" : {
+              "optimal" : "pre-training steps"
+            }
+          },
+          "from sentence" : "When using both the PubMed and PMC corpora, we found that 200K and 270K pre-training steps were optimal for PubMed and PMC, respectively."
+        },
+        "PMC" : {
+          "found" : {
+            "270K" : {
+              "optimal" : "pre-training steps"
+            }
+          },
+          "from sentence" : "When using both the PubMed and PMC corpora, we found that 200K and 270K pre-training steps were optimal for PubMed and PMC, respectively."
+        },
+        "batch size and learning rate scheduling" : {
+          "same as those" : "pre-training BERT",
+          "from sentence" : "Other hyper-parameters such as batch size and learning rate scheduling for pre-training BioBERT are the same as those for pre-training BERT unless stated otherwise."
+        },
+        "Naver Smart Machine Learning (NSML) (Sung et al., 2017" : {
+          "using" : "pre-trained BioBERT",
+          "from sentence" : "We pre-trained BioBERT using Naver Smart Machine Learning (NSML) (Sung et al., 2017), which is utilized for large-scale experiments that need to be run on several GPUs."
+        },
+        "NVIDIA V100 (32GB) GPUs" : {
+          "used" : {
+            "eight" : {
+              "for" : "pre-training"
+            }
+          },
+          "from sentence" : "We used eight NVIDIA V100 (32GB) GPUs for the pre-training."
+        },
+        "maximum sequence length" : {
+          "fixed" : "512",
+          "from sentence" : "The maximum sequence length was fixed to 512 and the mini-batch size was set to 192, resulting in 98 304 words per iteration."
+        },
+        "mini-batch size" : {
+          "set to" : "192",
+          "from sentence" : "The maximum sequence length was fixed to 512 and the mini-batch size was set to 192, resulting in 98 304 words per iteration."
+        },
+        "NVIDIA Titan Xp (12GB) GPU" : {
+          "used" : {
+            "single" : {
+              "to" : "fine-tune BioBERT"
+            }
+          },
+          "from sentence" : "We used a single NVIDIA Titan Xp (12GB) GPU to fine-tune BioBERT on each task."
+        },
+        "fine-tuning" : {
+          "batch size" : "10, 16, 32, or 64",
+          "learning rate" : "5e-5, 3e-5 or 1e-5",
+          "from sentence" : "For finetuning, a batch size of 10, 16, 32 or 64 was selected, and a learning rate of 5e-5, 3e-5 or 1e-5 was selected."
+        }
+      },
+      "Experimental results" : {
+        "all datasets" : {
+          "achieves" : "higher scores than BERT",
+          "from sentence" : "On the other hand, BioBERT achieves higher scores than BERT on all the datasets."
+        },
+        "six out of nine datasets" : {
+          "outperformed" : "state-of-the-art models",
+          "from sentence" : "BioBERT outperformed the state-of-the-art models on six out of nine datasets, and BioBERT v1.1 (+ PubMed) outperformed the state-of-the-art models by 0.62 in terms of micro averaged F1 score."
+        },
+        "RE results" : {
+          "on" : {
+            "CHEMPROT dataset" : {
+              "achieved better performance" : "than the state-of-the-art model",
+            "from sentence" : "The RE results of each model are shown in Table 7. BERT achieved better performance than the state-of-the-art model on the CHEMPROT dataset, which demonstrates its effectiveness in RE."              
+            },
+            "2 out of 3 biomedical datasets" : {
+              "achieved" : "highest F1 scores",
+              "from sentence" : "The RE results of each model are shown in Table 7. Also, BioBERT achieved the highest F1 scores on 2 out of 3 biomedical datasets."
+            }
+          }
+        },
+        "QA results" : {
+          "significantly outperformed" : ["BERT and the state-of-the-art models", {"from sentence" : "All versions of BioBERT significantly outperformed BERT and the state-of-the-art models, and in particular, BioBERT v1.1 (+ PubMed) obtained a strict accuracy of 38.77, a lenient accuracy of 53.81 and a mean reciprocal rank score of 44.77, all of which were micro averaged."}],
+          "on" : {
+            "all the biomedical QA datasets" : {
+              "achieved" : "new state-of-the-art performance in terms of MRR",
+              "from sentence" : "On all the biomedical QA datasets, BioBERT achieved new state-of-the-art performance in terms of MRR."
+            }
+          }
+        }
+      }
+    }
+  }
+}

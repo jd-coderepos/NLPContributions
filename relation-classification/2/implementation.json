@@ -1,0 +1,48 @@
+{
+  "has" : {
+    "Implementation" : [
+      {"using" : "Python with the TensorFlow machine learning library (Abadi et al., 2016)",
+      "from sentence" : "We have developed our joint model by using Python with the TensorFlow machine learning library (Abadi et al., 2016)."
+      },
+      {"Training" : {
+        "Adam optimizer (Kingma & Ba, 2015)" : {
+          "with" : {
+            "learning rate" : {
+              "of" : "10-3"
+            }
+          }
+        }
+      },
+      "from sentence" : "Training is performed using the Adam optimizer (Kingma & Ba, 2015) with a learning rate of 10-3."
+      },
+      {"size of the LSTM" : "d=64",
+        "from sentence" : "We fix the size of the LSTM to d = 64 and the layer width of the neural network to l = 64 (both for the entity and the relation scoring layers)."
+      },
+      {"layer width of the neural network" : "l=64",
+        "from sentence" : "We fix the size of the LSTM to d = 64 and the layer width of the neural network to l = 64 (both for the entity and the relation scoring layers)."
+      },
+      {"use" : {
+        "dropout" : {
+          "to" : "regularize our network"
+        }
+      },
+      "from sentence" : "We use dropout (Srivastava et al., 2014) to regularize our network."
+      },
+      {"character-based LSTMs" : {
+        "hidden dimension" : "25"  
+      },
+      "from sentence" : "The hidden dimension for the character-based LSTMs is 25 (for each direction)."
+      },
+      {"employ" : "early stopping",
+        "from sentence" : "We employ the technique of early stopping based on the validation set."
+      },
+      {"obtain" : {
+        "best hyperparameters" : {
+          "after" : "60 to 200 epochs"
+          }
+        },
+        "from sentence" : "In all the datasets examined in this study, we obtain the best hyperparameters after 60 to 200 epochs depending on the size of the dataset."
+      }
+    ]
+  }
+}

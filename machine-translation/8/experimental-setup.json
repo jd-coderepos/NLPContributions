@@ -1,0 +1,51 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "train" : {
+        "two types of models" : {
+          "first one" : "RNN Encoder–Decoder (RNNencdec, Cho et al., 2014a)",
+          "other" : "RNNsearch",
+          "from sentence" : "We train two types of models. The first one is an RNN Encoder–Decoder (RNNencdec, Cho et al., 2014a), and the other is the proposed model, to which we refer as RNNsearch."          
+        },
+        "each model twice" : {
+          "with" : [
+            "sentences of length up to 30 words",
+            "sentences of length up to 50 word"
+          ],
+          "from sentence" : "We train each model twice: first with the sentences of length up to 30 words (RNNencdec-30, RNNsearch-30) and then with the sentences of length up to 50 word (RNNencdec-50, RNNsearch-50)."
+        },
+        "minibatch stochastic gradient descent (SGD) algorithm" : {
+          "with" : "Adadelta",
+          "update direction" : "minibatch of 80 sentences",
+          "from sentence" : "We use a minibatch stochastic gradient descent (SGD) algorithm together with Adadelta (Zeiler, 2012) to train each model."
+        }
+      },
+      "RNNencdec" : {
+        "encoder and decoder" : {
+          "hidden units" : "1000"
+        },
+        "from sentence" : "The encoder and decoder of the RNNencdec have 1000 hidden units each."
+      },
+      "RNNsearch" : {
+        "encoder" : {
+          "consists of" : {
+            "forward and backward recurrent neural networks (RNN)" : {
+              "hidden units" : "1000"
+            }
+          }
+        },
+        "decoder" : {
+          "hidden units" : "1000"
+        },
+        "multilayer network" : {
+          "with" : {
+            "single maxout (Goodfellow et al., 2013) hidden layer" : {
+              "to compute" : "conditional probability of each target word"
+            }
+          }
+        },
+        "from sentence" : "The encoder of the RNNsearch consists of forward and backward recurrent neural networks (RNN) each having 1000 hidden units. Its decoder has 1000 hidden units. In both cases, we use a multilayer network with a single maxout (Goodfellow et al., 2013) hidden layer to compute the conditional probability of each target word (Pascanu et al., 2014)."
+      }
+    }
+  }
+}

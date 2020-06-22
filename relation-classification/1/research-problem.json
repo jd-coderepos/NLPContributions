@@ -1,0 +1,11 @@
+{
+  "has research problem" : [
+    ["Joint extraction of entities and relations",
+      {"from sentence" : "Joint extraction of entities and relations is an important task in information extraction."}
+      ],
+      ["detect entity mentions and recognize their semantic relations simultaneously from unstructured text",
+      {"from sentence" : "Joint extraction of entities and relations is to detect entity mentions and recognize their semantic relations simultaneously from unstructured text, as Figure 1 shows."}],
+      ["extract entities together with relations using a single model",
+      {"from sentence" : "Different from the pipelined methods, joint learning framework is to extract entities together with relations using a single model."}]
+  ]
+}

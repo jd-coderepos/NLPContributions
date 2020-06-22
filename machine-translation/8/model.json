@@ -1,0 +1,31 @@
+{
+  "has" : {
+    "Model" : {
+      "introduce" : {
+        "extension to the encoder-decoder model" : {
+          "learns" : "align and translate jointly"
+        },
+        "from sentence" : "In order to address this issue, we introduce an extension to the encoder–decoder model which learns to align and translate jointly."
+      },
+      "(soft-)searches" : {
+        "a set of positions" : {
+          "in" : "source sentence",
+          "where" : "most relevant information is concentrated",
+          "associated with" : {
+            "context vectors" : {
+              "predicts" : {
+                "target word" : {
+                  "by" : "model"
+                }
+              }
+            }
+          }
+        },
+        "each time" : {
+          "generates" : "word in a translation"
+        },
+        "from sentence" : "Each time the proposed model generates a word in a translation, it (soft-)searches for a set of positions in a source sentence where the most relevant information is concentrated. The model then predicts a target word based on the context vectors associated with these source positions and all the previous generated target words."
+      }
+    }
+  }
+}

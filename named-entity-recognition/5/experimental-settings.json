@@ -1,0 +1,45 @@
+{
+  "has" : {
+    "Experimental Settings" : {
+      "conducted using" : {
+        "GeForce GTX 1080 GPU" : {
+          "with" : "8GB memory"
+        },
+        "from sentence" : "All experiments are conducted using a GeForce GTX 1080 GPU with 8GB memory."
+      },
+      "hyperparameters" : {
+        "word embeddings" : {
+          "GloVe (Pennington et al., 2014)" : {
+            "embeddings" : "300 dimensional"
+          },
+          "from sentence" : "We initialise word embeddings using GloVe (Pennington et al., 2014) 300 dimensional embeddings."
+        },
+        "dropout" : {
+          "applied to" : {
+            "embedding hidden states" : {
+              "with" : "rate of 0.5"
+            }
+          },
+          "from sentence" : "Dropout (Srivastava et al., 2014) is applied to embedding hidden states, with a rate of 0.5."
+        },
+        "Adam optimizer (Kingma and Ba, 2014)" : {
+          "with" : {
+            "initial learning rate" : {
+              "of" : "0.001"
+            },
+            "decay rate" : {
+              "of" : "0.97"
+            }
+          },
+          "from sentence" : "All models are optimised using the Adam optimizer (Kingma and Ba, 2014), with an initial learning rate of 0.001 and a decay rate of 0.97."
+        },
+        "gradients" : {
+          "clipped at" : "3",
+          "from sentence" : "Gradients are clipped at 3 and a batch size of 10 is adopted"
+        },
+        "batch size" : ["10", {"from sentence" : "Gradients are clipped at 3 and a batch size of 10 is adopted."}],
+        "L2 regularization parameter" : ["0.001", {"from sentence" : "The L2 regularization parameter is set to 0.001."}]
+      }
+    }
+  }
+}

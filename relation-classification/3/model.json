@@ -1,0 +1,46 @@
+{
+  "has" : {
+    "Model" : {
+      "has" : {
+        "baseline model" : [
+          {"aims to detect" : ["type and boundaries of the entities", "relations between them"],
+          "from sentence" : "The baseline model, described in detail in Bekoulis et al. (2018b), is illustrated in Fig. 1. It aims to detect (i) the type and the boundaries of the entities and (ii) the relations between them."},
+          {"input" : "sequence of tokens",
+            "from sentence" : "The input is a sequence of tokens (i.e., sentence) w = w1, ....,wn."
+          },
+          {"use" : 
+            [{"character level embeddings" : {"to implicitly capture" : "morphological features"},
+            "from sentence" : "We use character level embeddings to implicitly capture morphological features (e.g., prefixes and suffixes), representing each character by a vector (embedding)."},
+              ["pre-trained word embeddings",
+              {"from sentence" : "We also use pre-trained word embeddings."}]
+            ]
+          },
+          {
+            "adopt" : {
+              "BIO (Beginning, Inside, Outside) encoding scheme" : {
+                "for" : "NER task"
+              }
+            },
+            "from sentence" : "For the NER task, we adopt the BIO (Beginning, Inside, Outside) encoding scheme."
+          },
+          {
+            "model" : {
+              "relation extraction task" : {
+                "as" : "multi-label head selection problem"
+              }
+            },
+            "from sentence" : "We model the relation extraction task as a multi-label head selection problem (Bekoulis et al., 2018b; Zhang et al., 2017)."
+          }
+        ],
+        "Adversarial training (AT)" : {
+          "as" : {
+            "regularization method" : {
+              "to make" : "model robust to input perturbations"
+            }
+          },
+          "from sentence" : "We exploit the idea of AT (Goodfellow et al., 2015) as a regularization method to make our model robust to input perturbations."
+        }
+      }
+    }
+  }
+}

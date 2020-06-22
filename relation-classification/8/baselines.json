@@ -1,0 +1,22 @@
+{
+  "has" : {
+    "Baselines" : {
+      "single relation per pass" : ["(Gormley et al., 2015; Nguyen and Grishman, 2015; Fu et al., 2017; Shi et al., 2018)", {"from sentence" : "We compare our solution with previous works that predict a single relation per pass (Gormley et al., 2015; Nguyen and Grishman, 2015; Fu et al., 2017; Shi et al., 2018), our model that predicts single relation per pass for MRE, and with the following naive modifications of BERT that could achieve MRE in one-pass."}],
+      "MRE in one-pass" : {
+        "BERTSP" : {
+          "has description" : "BERT with structured prediction only"
+        },
+        "Entity-Aware BERTSP" : {
+          "has description" : "our full model"
+        },
+        "BERTSP with position embedding on the final attention layer" : {
+          "has description" : "for each entity pair, it takes the hidden states, adds the relative position embeddings corresponding to the target entities, and finally makes the relation prediction for this pair"
+        },
+        "BERTSP with entity indicators on input layer" : {
+          "has description" : "replaces our structured attention layer, and adds indicators of entities (transformed to embeddings) directly to each token's word embedding."
+        },
+      "from sentence" : "with the following naive modifications of BERT that could achieve MRE in one-pass. BERTSP: BERT with structured prediction only, which includes proposed improvement in 3.1. Entity-Aware BERTSP: our full model, which includes both improvements in x3.1 and x3.2. BERTSP with position embedding on the final attention layer. Then, for each entity pair, it takes the hidden states, adds the relative position embeddings corresponding to the target entities, and finally makes the relation prediction for this pair. BERTSP with entity indicators on input layer: it replaces our structured attention layer, and adds indicators of entities (transformed to embeddings) directly to each token’s word embedding."        
+      }
+    }
+  }
+}

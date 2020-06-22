@@ -1,0 +1,40 @@
+{
+  "has" : {
+    "Results" : {
+      "on" : {
+        "Word Similarity" : {
+          "outperforms" : "outperforms the baseline on all datasets",
+          "from sentence" : "From the table, we can see that our method consistently outperforms the baseline on all datasets."
+        },
+        "Language Modeling" : {
+          "outperforms" : "our method outperforms the two baselines",
+          "from sentence" : "In all these settings, our method outperforms the two baselines."
+        },
+        "Machine Translation" : {
+          "outperform" : {
+            "outperform the baselines for 1.06/0.71" : {
+              "in terms of" : "BLEU"
+            },
+            "from sentence" : "We outperform the baselines for 1.06/0.71 in the term of BLEU in transformer_base and transformer_big settings in WMT14 English-German task, respectively."
+          },
+          "outperforms" : {
+            "model learned from adversarial training also outperforms original one" : {
+              "by" : "0.85",
+              "in" : "IWSLT14 German-English task"
+            },
+            "from sentence" : "The model learned from adversarial training also outperforms original one in IWSLT14 German-English task by 0.85."
+          }
+        },
+        "Test Classification" : {
+          "outperforms" : {
+          "Our method outperforms the baseline method" : {
+            "for" : "1.26%/0.66%/0.44%",
+            "on" : "three different datasets"
+            }
+          },
+          "from sentence" : "Text Classification Our method outperforms the baseline method for 1.26%/0.66%/0.44% on three different datasets."
+        }
+      }
+    }
+  }
+}

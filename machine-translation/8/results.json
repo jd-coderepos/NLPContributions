@@ -1,0 +1,8 @@
+{
+  "has" : {
+    "Results" : {
+      "outperforms" : "proposed RNNsearch outperforms the conventional RNNencdec",
+      "from sentence" : "It is clear from the table that in all the cases, the proposed RNNsearch outperforms the conventional RNNencdec."
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "has research problem" : [
+    ["alternative LSTM structure for encoding text", {"from sentence" : "We investigate an alternative LSTM structure for encoding text, which consists of a parallel state for each word."}],
+    ["Sentence-State LSTM for Text Representation", {"from sentence" : "TITLE"}],
+    ["BiLSTMs have been shown to suffer several limitations", {"from sentence" : "Despite their success, BiLSTMs have been shown to suffer several limitations."}],
+    ["alternative recurrent neural network structure", {"from sentence" : "We investigate an alternative recurrent neural network structure for addressing these issues."}]
+    ]
+}

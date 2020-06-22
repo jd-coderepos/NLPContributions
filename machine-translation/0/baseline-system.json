@@ -1,0 +1,8 @@
+{
+  "has" : {
+    "Baseline System" : {
+      "built using" : "Moses with default settings"
+    },
+	"from sentence" : "The baseline phrase-based SMT system was built using Moses with default settings."
+  }
+}

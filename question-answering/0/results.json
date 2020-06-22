@@ -1,0 +1,41 @@
+{
+  "has" : {
+    "Results" : {
+      "on" : {
+        "Reranking" : {
+          "essential" : {
+            "multitasking with paraphrase data" :{
+              "improves F1" : "from 0.60 to 0.68"
+            },
+            "from sentence" : "First, we can see that multitasking with paraphrase data is essential since it improves F1 from 0.60 to 0.68."
+          },
+          "beneficial" : {
+            "optimize the top of the list" : {
+              "grants a bump" : "5 points of F1"
+            },
+            "from sentence" : "Fine-tuning the embedding model is very beneficial to optimize the top of the list and grants a bump of 5 points of F1: carefully tuning the similarity makes a clear difference."
+          },
+          "greatly outperform" : {
+            "PARALEX" :{
+              "improves the F1-score" : "by almost 20 points"
+            },
+            "from sentence" : "All versions of our system greatly outperform paralex: the fine-tuned model improves the F1-score by almost 20 points and, according to Figure 1, is better in precision for all levels of recall."
+          }
+        },
+        "Full Ranking" : {
+          "greatly improves" : {
+            "results, both in precision and recall" : {
+              "by" : "string matching"
+            }
+          },
+          "even better" : {
+            "fine-tuned model" : {
+              "than" : "PARALEX"
+            },
+            "from sentence" : "The final F1 obtained by our fine-tuned model is even better then the result of paralex in reranking, which is pretty remarkable, because this time, this setting advantages it quite a lot."
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "has" : {
+    "sequence tagging tasks" : {
+      "called" : {
+        "CoNLL 2003 NER" : {
+          "hyperparameters" : {
+            "two bidirectional GRUs" : {
+              "for" : {
+                "token character encoder" : {
+                  "hidden units" : "80",
+                  "character embeddings" : "25 dimensional",
+                  "from sentence" : "We use two bidirectional GRUs with 80 hidden units and 25 dimensional character embeddings for the token character encoder."      
+                },
+                "sequence layer" : {
+                  "hidden units" : "300",
+                  "from sentence" : "The sequence layer uses two bidirectional GRUs with 300 hidden units each."
+                }
+            },
+            "regularization" : {
+              "dropout" : {
+                "add 25%" : {
+                  "to" : "input of each GRU"
+                }
+              },
+              "from sentence" : "For regularization, we add 25% dropout to the input of each GRU, but not to the recurrent connections."
+              }
+            }
+          }
+        },
+        "CoNLL 2000 chunking" : {
+          "hyperparameters" : {
+            "baseline sequence tagger" : {
+              "uses" : {
+                "character embeddings" : "30 dimensional",
+                "CNN" : {
+                  "30 filters of width 3 characters" : {
+                    "followed by" : "tanh non-linearity for the token character encoder"
+                  }
+                }
+              },
+              "from sentence" : "The baseline sequence tagger uses 30 dimensional character embeddings and a CNN with 30 filters of width 3 characters followed by a tanh non-linearity for the token character encoder."
+            },
+            "sequence layer" : {
+              "uses" : {
+                "two bidirectional layers" : {
+                  "hidden units" : "200",
+                  "from sentence" : "The sequence layer uses two bidirectional LSTMs with 200 hidden units."
+                }
+              }
+            },
+            "50% dropout" : {
+              "added" : ["character embeddings", "input to each LSTM layer", "output of the final LSTM layer"],
+              "from sentence" : "Following Ma and Hovy (2016) we added 50% dropout to the character embeddings, the input to each LSTM layer (but not recurrent connections) and to the output of the final LSTM layer."
+            }
+          }
+        }
+      }
+    }
+  }
+}

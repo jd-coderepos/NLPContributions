@@ -1,0 +1,7 @@
+{
+  "has research problem" : [
+    ["Nested Mention Recognition", {"from sentence" : "TITLE"}],
+    ["model the nested structure of mentions", {"from sentence" : "This paper introduces a scalable transition-based method to model the nested structure of mentions."}],
+    ["nested hierarchical structure of entity mentions should be taken into account", {"from sentence" : "There has been an increasing interest in named entity recognition or more generally recognizing entity mentions (Alex et al., 2007; Finkel and Manning, 2009; Lu and Roth, 2015; Muis and Lu, 2017) that the nested hierarchical structure of entity mentions should be taken into account to better facilitate downstream tasks"}]
+    ]
+}

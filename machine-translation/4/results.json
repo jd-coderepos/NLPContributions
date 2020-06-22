@@ -1,0 +1,42 @@
+{
+  "has" : {
+    "Results" : {
+      "based on" : {
+        "Number of weight-sharing layers" : {
+          "when" : {
+            "all of the four layers are shared" : {
+              "get" : {
+                "poor translation performance" : {
+                  "in" : "all of the three translation tasks"
+                }
+              },
+              "from sentence" : "When all of the four layers are shared, i.e., only one shared encoder is utilized, we get poor translation performance in all of the three translation tasks."              
+            },
+            "only one layer is shared in our system" : {
+              "achieved" : "best translation performance",
+              "from sentence" : "And the best translation performance is achieved when only one layer is shared in our system."
+            }
+          }
+        },
+        "Translation results" : {
+          "significant improvements" : {
+            "than the word-by-word baseline system" : {
+              "with" : [
+                {
+                  "at least +5.01 BLEU points" : {
+                    "in" : "English-to-German translation"
+                }},
+                {
+                  "up to +13.37 BLEU points" : {
+                    "in" : "English-to-French translation"
+                  }
+                }
+                ]
+            }
+          },
+          "from sentence" : "As it can be seen, the proposed approach obtains significant improvements than the word-by-word baseline system, with at least +5.01 BLEU points in English-to-German translation and up to +13.37 BLEU points in English-to-French translation."
+        }
+      }
+    }
+  }
+}

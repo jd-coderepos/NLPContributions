@@ -1,0 +1,10 @@
+{
+  "has research problem" : [
+	["constructing word embeddings with drastically fewer parameters", {"from sentence" : "In this work, we utilize such codes for a different purpose, that is, constructing word embeddings with drastically fewer parameters."}]
+    ["compressing word embeddings", {"from sentence" : "COMPRESSING WORD EMBEDDINGS VIA DEEP COMPOSITIONAL CODE LEARNING"}],
+    ["a massive number of parameters for word embeddings, resulting in a large storage or memory footprint", {"from sentence" : "Natural language processing (NLP) models often require a massive number of parameters for word embeddings, resulting in a large storage or memory footprint."}],
+    ["Deploying neural NLP models to mobile devices requires compressing the word embeddings without any significant sacrifices in performance", {"from sentence" : "Deploying neural NLP models to mobile devices requires compressing the word embeddings without any significant sacrifices in performance."}],
+    ["the number of parameters in the embedding matrix can be huge", {"from sentence" : "However, as each word is assigned an independent embedding vector, the number of parameters in the embedding matrix can be huge."}],
+    ["reduce the number of parameters used in word embeddings without hurting the model performance", {"from sentence" : "In this study, we attempt to reduce the number of parameters used in word embeddings without hurting the model performance."}]
+    ]
+}

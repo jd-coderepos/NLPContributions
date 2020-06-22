@@ -1,0 +1,10 @@
+{
+  "has research problem" : [
+    ["joint entity recognition and relation extraction",
+    {"from sentence" : "State-of-the-art models for joint entity recognition and relation extraction strongly rely on external natural language processing (NLP) tools such as POS (part-of-speech) taggers and dependency parsers."}],
+    ["entity recognition and relation extraction simultaneously",
+    {"from sentence" : "In this paper, we propose a joint neural model which performs entity recognition and relation extraction simultaneously, without the need of any manually extracted features or the use of any external tool."}],
+    ["joint model that performs the two tasks of entity recognition and relation extraction simultaneously, and that can handle multiple relations together.",
+    {"from sentence" : "In this work, we focus on a new general purpose joint model that performs the two tasks of entity recognition and relation extraction simultaneously, and that can handle multiple relations together."}]
+    ]
+}

@@ -1,0 +1,17 @@
+{
+  "has" : {
+    "Hyperparameters" : [
+      {"word embeddings" : "d = 300"},
+      {"dropout ratio" : "0.5"},
+      {"lstm units" : [
+        {"encoding layer" : {
+          "is" : "300"
+        }},
+        {"decoding layer" : {
+          "is" : "600"  
+        }}]},
+      {"bias parameter" : "10"}
+    ],
+    "from sentence" : "The word embeddings used in the encoding part are initialed by running word2vec (Mikolov et al., 2013) on NYT training corpus. The dimension of the word embeddings is d = 300. We regularize our network using dropout on embedding layer and the dropout ratio is 0.5. The number of lstm units in encoding layer is 300 and the number in decoding layer is 600. The bias parameter alpha corresponding to the results in Table 1 is 10."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "has research problem" : [
+    ["Adversarial training (AT)", 
+    {"from sentence" : "Adversarial training (AT) is a regularization method that can be used to improve the robustness of neural network methods by adding small perturbations in the training data."}],
+    ["use AT for the tasks of entity recognition and relation extraction",
+    {"from sentence" : "We show how to use AT for the tasks of entity recognition and relation extraction."}],
+    ["investigating regularization effects of AT in a joint setting for two related tasks",
+    {"from sentence" : "Although AT has recently been applied in NLP tasks (e.g., text classification (Miyato et al., 2017)), this paper—to the best of our knowledge—is the first attempt investigating regularization effects of AT in a joint setting for two related tasks."}]
+    ]
+}

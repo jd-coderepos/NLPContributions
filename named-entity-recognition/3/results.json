@@ -1,0 +1,16 @@
+{
+  "has" : {
+    "Results" : {
+      "in" : {
+        "CoNLL 2003 NER task" : {
+          "scores" : "91.93 mean F1",
+          "from sentence" : "In the CoNLL 2003 NER task, our model scores 91.93 mean F1, which is a statistically significant increase"
+        },
+        "CoNLL 2000 Chunking task" : {
+          "achieves" : "96.37 mean F1",
+          "from sentence" : "In the CoNLL 2000 Chunking task, TagLM achieves 96.37 mean F1, exceeding all previously published results without additional"
+        }
+      }
+    }
+  }
+}

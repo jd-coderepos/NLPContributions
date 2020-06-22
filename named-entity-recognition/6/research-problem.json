@@ -1,0 +1,7 @@
+{
+  "has research problem" : [
+    ["Improved Neural Network Named-Entity Recognition", {"from sentence" : "Robust Lexical Features for Improved Neural Network Named-Entity Recognition"}],
+    ["Neural network approaches to Named-Entity Recognition", {"from sentence" : "Neural network approaches to Named-Entity Recognition reduce the need for carefully handcrafted features."}],
+    ["embeddings are used to extend, rather than replace, hand-crafted features in order to obtain state-of-the-art performance", {"from sentence" : "Due to the small amount of named-entity annotated data, embeddings are used to extend, rather than replace, hand-crafted features in order to obtain state-of-the-art performance (Lample et al., 2016)."}]
+    ]
+}

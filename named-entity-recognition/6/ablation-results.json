@@ -1,0 +1,15 @@
+{
+  "has" : {
+    "Ablation Results" : {
+      "outperforms" : {
+        "Sskip model outperforms our feature vector approach" : {
+          "by" : "0.65 F1 points on average"
+        },
+        "from sentence" : "We observe that on both CONLL and ONTONOTES, the SSKIP model outperforms our feature vector approach by 0.65 F1 points on average."
+      },
+      "significantly outperform" : [
+        "models that use both feature sets significantly outperform other configurations", {"from sentence" : "We also observe that models that use both feature sets significantly outperform other configurations."}  
+      ]
+    }
+  }
+}

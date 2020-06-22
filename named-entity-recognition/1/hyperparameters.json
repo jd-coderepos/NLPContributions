@@ -1,0 +1,47 @@
+{
+  "has" : {
+    "Hyperparameters" : {
+      "learning rate" : "0.01",
+      "train" : {
+        "networks" : {
+          "using" : "back-propagation algorithm",
+          "updating" : {
+            "parameters" : {
+              "using" : "stochastic gradient descent (SGD)"
+            }
+          }
+        }
+      },
+      "gradient clipping" : "5.0",
+      "from sentence" : "For both models presented, we train our networks using the back-propagation algorithm updating our parameters on every training example, one at a time, using stochastic gradient descent (SGD) with a learning rate of 0.01 and a gradient clipping of 5.0.",
+      "for" : {
+        "LSTM-CRF model" : {
+          "uses" : {
+            "single layer for the forward and backward LSTMs" : {
+              "dimensions" : "100"
+            }
+          },
+          "dropout rate" : "0.5",
+          "from sentence" : "Our LSTM-CRF model uses a single layer for the forward and backward LSTMs whose dimensions are set to 100. We set the dropout rate to 0.5."
+        },
+        "stack-LSTM model" : {
+          "uses" : {
+            "two layers" : {
+              "dimension" : "100",
+              "for" : "each stack"
+            },
+            "from sentence" : "The stack-LSTM model uses two layers each of dimension 100 for each stack."
+          },
+          "embeddings of actions" : {
+            "used in" : "composition functions",
+            "dimensions each" : "16",
+            "output embedding" : {
+              "dimension" : "20"
+            },
+            "from sentence" : "The embeddings of the actions used in the composition functions have 16 dimensions each, and the output embedding is of dimension 20."
+          }
+        }
+      }
+    }
+  }
+}

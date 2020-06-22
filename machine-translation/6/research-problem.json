@@ -1,0 +1,9 @@
+{
+  "has research problem" : [
+    ["word embeddings learned in several tasks are biased towards word frequency", {"from sentence" : "Although it is widely accepted that words with similar semantics should be close to each other in the embedding space, we find that word embeddings learned in several tasks are biased towards word frequency"}],
+    ["learned embeddings of rare words and popular words behave differently", {"from sentence": "Interestingly, the learned embeddings of rare words and popular words behave differently."}],
+    ["embeddings of rare words and popular words actually lie in different subregions of the space", {"from sentence" : "As shown in Figure 1(a) and 1(b), the embeddings of rare words and popular words actually lie in different subregions of the space."}],
+    ["different behaviors of the embeddings of popular words and rare words are problematic", {"from sentence" : "We argue that the different behaviors of the embeddings of popular words and rare words are problematic."}],
+    ["adversarial training method to learn frequency agnostic word embedding", {"from sentence" : "To address this problem, in this paper, we propose an adversarial training method to learn FRequency-AGnostic word Embedding (FRAGE)."}]
+  ]
+}

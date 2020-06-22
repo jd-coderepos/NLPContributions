@@ -1,0 +1,19 @@
+{
+  "has approach" : {
+    "semi-supervised approach" : {
+      "not require" : "additional labeled data",
+      "use" : {
+        "neural language model (LM)" : {
+          "pre-trained" : {
+            "large, unlabeled corpus" : {
+              "to compute" : "encoding of the context at each position in the sequence",
+              "also known as" : "LM embedding",
+              "use it in" : "supervised sequence tagging model"
+            }
+          }
+        }
+      }
+    },
+    "from sentence" : "In this paper, we explore an alternate semi-supervised approach which does not require additional labeled data. We use a neural language model (LM), pre-trained on a large, unlabeled corpus to compute an encoding of the context at each position in the sequence (hereafter an LM embedding) and use it in the supervised sequence tagging model."
+  }
+}

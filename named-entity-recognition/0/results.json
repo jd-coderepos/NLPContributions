@@ -1,0 +1,39 @@
+{
+  "has" : {
+    "Experiments" : {
+      "has" : {
+        "Experimental Settings" : {
+          "server" : "64-core Intel Xeon E7-4820 @ 2.00 GHz",
+          "Cache" : "18 Mb",
+          "RAM" : "0.986 TB",
+          "using" : "Matlab 2012",
+          "has" : "ten benchmark datasets",
+          "from sentence" : "All experiments are conducted on a server with 64-core Intel Xeon E7-4820 @ 2.00 GHz, 18 Mb Cache and 0.986 TB RAM, using Matlab 2012. Brief descriptions of ten benchmark datasets are summarized in Table 2, where 'Total(N*)' denotes the total set of samples in each data."
+        },
+        "Results" : {
+          "Speed Comparisons" : {
+            "Speed vs. increasing N" : {
+              "curve" : "surprisingly lower and highly stable",
+              "over growing N" : "almost no rise of selection time",
+              "from selection" : "Compared with TED and RRSSNie, the curve of ARSS is surprisingly lower and highly stable against increasing N; there is almost no rise of selection time over growing N. This is owing to the speedup techniques of ALM and equivalent derivations."
+            },
+            "Speed with fixed N" : {
+              "is" : "fastest algorithm",
+              "from sentence" : "First, ARSS is the fastest algorithm, and RRSSour is the second fastest algorithm."
+            }
+          },
+          "Prediction Accuracy" : {
+            "Accuracy comparison" : {
+              "achieve" : "appreciable advantage",
+              "from sentence" : "Third, compared with TED, both RRSS and ARSS achieve an appreciable advantage."
+            },
+            "Prediction accuracies vs. increasing K" : {
+              "K increases" : ["prediction accuracies generally increase", {"from sentence" : "As we shall see, the prediction accuracies generally increase as K increases."}],
+              "among the best" : ["ARSS", {"from sentence" : "For each sub-figure, ARSS is generally among the best."}]
+            }
+          }
+        }
+      }
+    }
+  }
+}

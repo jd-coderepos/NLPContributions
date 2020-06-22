@@ -1,0 +1,24 @@
+{
+  "has" : {
+    "Ablation study" : {
+      "most critical component" : {
+        "weight-sharing constraint" : {
+          "is vital to map" : "sentences of different languages to the shared-latent space"
+        },
+        "from sentence" : "The most critical component is the weight-sharing constraint, which is vital to map sentences of different languages to the shared-latent space. The embedding-reinforced encoder also brings some improvement on all of the translation tasks."
+      },
+      "remove" : {
+        "directional self-attention" : {
+          "get" : "-0.3 BLEU points decline"
+        },
+        "from sentence" : "When we remove the directional self-attention, we get up to -0.3 BLEU points decline."
+      },
+      "significantly improve" : {
+        "translation performance of our system" : {
+          "by" : "The GANs"
+        },
+        "from sentence" : "The GANs also significantly improve the translation performance of our system."
+      }
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "has" : {
+    "Experimental results" : {
+        "on" : [{
+          "all datasets" : {
+            "achieves" : "BioBERT achieves higher scores than BERT"
+          },
+          "from sentence" : "On the other hand, BioBERT achieves higher scores than BERT on all the datasets."
+        },
+        {
+          "six out of nine datasets" : {
+            "outperformed" : "BioBERT outperformed the state-of-the-art models"
+          },
+          "from sentence" : "BioBERT outperformed the state-of-the-art models on six out of nine datasets, and BioBERT v1.1 (+ PubMed) outperformed the state-of-the-art models by 0.62 in terms of micro averaged F1 score."
+      },
+      {
+        "CHEMPROT dataset" : {
+          "has" : {
+            "RE results" : {
+              "achieved" : "BERT achieved better performance than the state-of-the-art model"              
+            }
+          },
+          "from sentence" : "The RE results of each model are shown in Table 7. BERT achieved better performance than the state-of-the-art model on the CHEMPROT dataset, which demonstrates its effectiveness in RE."          
+        }
+      },
+      {
+        "2 out of 3 biomedical datasets" : {
+          "has" : {
+            "RE results" : {
+              "achieved" : "BioBERT achieved the highest F1 scores"
+            }
+          },
+          "from sentence" : "The RE results of each model are shown in Table 7. Also, BioBERT achieved the highest F1 scores on 2 out of 3 biomedical datasets."          
+        }
+      }],
+      "in terms of" : {
+        "micro averaged F1 score" : {
+          "outperformed" : "BioBERT v1.1 (+ PubMed) outperformed the state-of-the-art models by 0.62"
+        },
+        "from sentence" : "BioBERT outperformed the state-of-the-art models on six out of nine datasets, and BioBERT v1.1 (+ PubMed) outperformed the state-of-the-art models by 0.62 in terms of micro averaged F1 score."
+      },
+      "RE results" : {
+        "higher F1 score" : {
+          "obtained" : "BioBERT v1.0 (+ PubMed) obtained a higher F1 score (2.80 higher) than the state-of-the-art models"
+          },
+        "from sentence" : "The RE results of each model are shown in Table 7. On average (micro), BioBERT v1.0 (+ PubMed) obtained a higher F1 score (2.80 higher) than the state-of-the-art models."
+      },
+      "QA results" : {
+        "higher micro averaged MRR score" : {
+          "obtained" : "BERT obtained a higher micro averaged MRR score (7.0 higher) than the state-of-the-art models.",
+          "from sentence" : "The QA results are shown in Table 8. BERT obtained a higher micro averaged MRR score (7.0 higher) than the state-of-the-art models."
+        },
+        "all versions of BioBERT" : {
+          "significantly outperformed" : "BERT and the state-of-the-art models",
+          "from sentence" : "The QA results are shown in Table 8. All versions of BioBERT significantly outperformed BERT and the state-of-the-art models, and in particular, BioBERT v1.1 (+ PubMed) obtained a strict accuracy of 38.77, a lenient accuracy of 53.81 and a mean reciprocal rank score of 44.77, all of which were micro averaged"
+        },
+        "BioBERT v1.1 (+ PubMed)" : {
+          "obtained" : {
+            "strict accuracy" : {
+              "of" : "38.77"
+            },
+            "lenient accuracy" : {
+              "of" : "53.81"
+            },
+            "mean reciprocal rank score" : {
+              "of" : "44.77"
+            }
+          },
+          "from sentence" : "The QA results are shown in Table 8. All versions of BioBERT significantly outperformed BERT and the state-of-the-art models, and in particular, BioBERT v1.1 (+ PubMed) obtained a strict accuracy of 38.77, a lenient accuracy of 53.81 and a mean reciprocal rank score of 44.77, all of which were micro averaged"          
+        },
+        "new state-of-the-art performance" : {
+          "on" : {
+            "all the biomedical QA datasets" : {
+              "in terms of" : "MRR",
+              "achieved by" : "BioBERT"
+            }
+          },
+          "from sentence" : "On all the biomedical QA datasets, BioBERT achieved new state-of-the-art performance in terms of MRR."
+        }
+      }
+    }
+  }
+}

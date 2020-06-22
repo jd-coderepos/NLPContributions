@@ -1,0 +1,97 @@
+{
+  "has" : {
+    "Experiment" : {
+      "called" : {
+        "Character Prediction" : {
+          "has" : {
+            "Hyperparameters" : {
+              "residual blocks" : {
+                "30" : {
+                  "split into": "six sets of five blocks"
+                },
+                "dilation rates" : "1, 2, 4, 8, and 16",
+                "from sentence" : "The ByteNet Decoder that we use for the result has 30 residual blocks split into six sets of five blocks each; for the five blocks in each set the dilation rates are, respectively, 1; 2; 4; 8 and 16."
+              },
+              "masked kernel" : ["size 3", {"from sentence" : "The masked kernel has size 3."}],
+              "number of hidden units" : ["d is 512", {"from sentence" : "The number of hidden units d is 512."}],
+              "optimization" : {
+                "Adam" : {
+                  "learning rate" : "0.0003",
+                  "weight decay" : "0.0001"
+                },
+                "from sentence" : "For the optimization we use Adam (Kingma & Ba, 2014) with a learning rate of 0.0003 and a weight decay term of 0.0001."
+              },
+              "dropout" : ["probability of 0.1", {"from sentence" : "We apply dropout to the last ReLU layer before the softmax dropping units with a probability of 0.1."}],
+              "sample" : {
+                "batch of sequences" : {
+                  "of" : {
+                    "500 characters each" : {
+                      "use" : "first 100 characters as the minimum context",
+                      "predict" : "latter 400 characters"
+                    }
+                  }
+                },
+                "from sentence" : "We do not reduce the learning rate during training. At each step we sample a batch of sequences of 500 characters each, use the first 100 characters as the minimum context and predict the latter 400 characters."
+              }
+            }
+          },
+          "Results" : {
+            "achieves" : "1.31 bits/character on the test set",
+            "from sentence" : "The ByteNet decoder achieves 1.31 bits/character on the test set."
+          }
+        },
+        "Character-Level Machine Translation" : {
+          "has" : {
+            "Hyperparameters" : {
+              "has" : {
+                "30 residual blocks" : ["in the encoder", "in the decoder"],
+                "from sentence" : "The ByteNet used in the experiments has 30 residual blocks in the encoder and 30 residual blocks in the decoder."
+              },
+              "residual blocks" : {
+                "arranged in sets of five" : {
+                  "with" : {
+                    "dilation rates" : {
+                      "of" : "1, 2, 4, 8 and 16"
+                    }
+                  }
+                },
+                "from sentence" : "As in the ByteNet Decoder, the residual blocks are arranged in sets of five with corresponding dilation rates of 1, 2, 4, 8 and 16."
+              },
+              "hidden units" : ["d is 800", {"from sentence" : "The number of hidden units d is 800."}],
+              "size of the kernel" : ["source network is 3", {"from sentence": "The size of the kernel in the source network is 3, whereas the size of the masked kernel in the target network is 3."}],
+              "size of the masked kernel" : ["target network is 3", {"from sentence": "The size of the kernel in the source network is 3, whereas the size of the masked kernel in the target network is 3."}],
+              "optimization" : {
+                "Adam" : {
+                  "learning rate" : "0.0003"
+                },
+                "from sentence" : "For the optimization we use Adam with a learning rate of 0:0003."
+              }
+            },
+            "Results" : {
+              "on" : {
+                "NewsTest 2014" : {
+                  "achieves" : {
+                    "highest performance" : {
+                      "in" : "character-level and subword-level neural machine translation"
+                    }
+                  },
+                  "is" : {
+                    "second" : {
+                      "compared to" : "word-level systems",
+                      "to" : "version of GNMT that uses word-pieces"
+                    }
+                  },
+                  "from sentence" : "On NewsTest 2014 the ByteNet achieves the highest performance in character-level and subword-level neural machine translation, and compared to the word-level systems it is second only to the version of GNMT that uses word-pieces."
+                },
+                "NewsTest 2015" : {
+                  "achieves" : "best published results to date",
+                  "from sentence" : "On NewsTest 2015, to our knowledge, ByteNet achieves the best published results to date."
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

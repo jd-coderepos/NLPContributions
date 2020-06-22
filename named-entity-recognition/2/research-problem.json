@@ -1,0 +1,7 @@
+{
+  "has research problem" : [
+    ["democratize large-scale NLP and information extraction while minimizing our environmental footprint", {"from sentence" : "In order to democratize large-scale NLP and information extraction while minimizing our environmental footprint, we require fast, resource-efficient methods for sequence tagging tasks such as part-of-speech tagging and named entity recognition (NER)."}],
+    ["parallelized runtime independent of the length of the sequence", {"from sentence" : "Instead, parallelized runtime independent of the length of the sequence saves time and energy costs, maximizing GPU resource usage and minimizing the amount of time it takes to train and evaluate models."}],
+    ["Fast and Accurate Entity Recognition", {"from sentence" : "Fast and Accurate Entity Recognition with Iterated Dilated Convolutions"}]
+    ]
+}

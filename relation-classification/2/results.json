@@ -1,0 +1,68 @@
+{
+  "has" : {
+    "Results" : [
+      {
+      "use" : {
+        "Strict" : {
+          "has description" : "an entity is considered correct if the boundaries and the type of the entity are both correct; a relation is correct when the type of the relation and the argument entities are both correct"
+        },
+        "Boundaries" : {
+          "has description" : "an entity is considered correct if only the boundaries of the entity are correct (entity type is not considered); a relation is correct when the type of the relation and the argument entities are both correct"
+        },
+        "Relaxed" : {
+          "has description" : "we score a multi-token entity as correct if at least one of its comprising token types is correct assuming that the boundaries are given; a relation is correct when the type of the relation and the argument entities are both correct"
+        }
+      },
+      "from sentence" : "Specifically, we use three evaluation types, namely: (i) Strict: an entity is considered correct if the boundaries and the type of the entity are both correct; a relation is correct when the type of the relation and the argument entities are both correct, (ii) Boundaries: an entity is considered correct if only the boundaries of the entity are correct (entity type is not considered); a relation is correct when the type of the relation and the argument entities are both correct and (iii) Relaxed: we score a multi-token entity as correct if at least one of its comprising token types is correct assuming that the boundaries are given; a relation is correct when the type of the relation and the argument entities are both correct."
+      },
+      {"in" : {
+        "ACE04" : {
+          "observe" : {
+            "model outperforms the model of Katiyar & Cardie (2017)" : {
+              "by" : "~2% in both tasks"
+            }
+          }
+        }
+      },
+      "from sentence" : "Considering the results in the ACE04, we observe that our model outperforms the model of Katiyar & Cardie (2017) by ~2% in both tasks."  
+      },
+      {"for" : {
+        "CoNLL04 dataset" : {
+          "observe" : {
+            "model outperforms all previous models that do not rely on complex hand-crafted features" : {
+              "by" : "large margin (>4% for both tasks)"
+              }
+            }
+          }
+        },
+        "from sentence" : "For the CoNLL04 dataset, there are two different evaluation settings, namely relaxed and strict. We observe that our model outperforms all previous models that do not rely on complex hand-crafted features by a large margin (>4% for both tasks)."
+      },
+      {"for" : {
+        "DREC dataset" : {
+          "boundaries evaluation" : "~3% improvement for both tasks"
+          }
+        },
+        "from sentence" : "We also report results for the DREC dataset, with two different evaluation settings. In the boundaries evaluation, we achieve ~3% improvement for both tasks."
+      },
+      {"on" : {
+        "ADE dataset" : {
+          "outperform" : {
+            "our model is able to outperform both models" : {
+              "using" : "strict evaluation metric"  
+              }
+            },
+            "improvement" : {
+              "~2%" : {
+                "in" : "NER"
+              },
+              "~3%" : {
+                "in" : "RE"
+              }
+            }
+          }
+        },
+        "from sentence" : "Finally, we compare our model with previous work (Li et al., 2016, 2017) on the ADE dataset. However, our model is able to outperform both models using the strict evaluation metric. We report an improvement of ~2% in the NER and ~3% in the RE tasks, respectively."
+      }
+    ]
+  }
+}

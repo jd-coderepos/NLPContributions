@@ -1,0 +1,48 @@
+{
+  "has" : {
+    "Hyperparameters" : {
+      "for" : {
+        "RNN Encoder-Decoder" : {
+          "hidden units" : {
+            "1000" : {
+              "with" : "proposed gates at the encoder and at the decoder"
+            },
+            "from sentence" : "The RNN Encoder–Decoder used in the experiment had 1000 hidden units with the proposed gates at the encoder and at the decoder."
+          },
+          "used" : ["rank-100 matrices", {"from sentence" : "We used rank-100 matrices, equivalent to learning an embedding of dimension 100 for each word."}],
+          "activation function" : ["hyperbolic tangent function", {"from sentence" : "The activation function used for ~h in Eq. (8) is a hyperbolic tangent function."}],
+          "implemented" : {
+            "computation from the hidden state in the decoder to the output" : {
+              "as a" : {
+                "deep neural network (Pascanu et al., 2014)" : {
+                  "with" : {
+                    "single intermediate layer" : {
+                      "having" : {
+                        "500 maxout units" : {
+                          "pooling" : "2 inputs"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "from sentence" : "The computation from the hidden state in the decoder to the output is implemented as a deep neural network (Pascanu et al., 2014) with a single intermediate layer having 500 maxout units each pooling 2 inputs (Goodfellow et al., 2013)."
+          },
+          "initialized" : {
+            "weight parameters" : {
+              "by" : {
+                "sampling from an isotropic zero-mean (white) Gaussian distribution" : {
+                  "with" : "standard deviation fixed to 0.01"
+                }
+              }
+            },
+            "from sentence" : "All the weight parameters in the RNN Encoder–Decoder were initialized by sampling from an isotropic zero-mean (white) Gaussian distribution with its standard deviation fixed to 0.01, except for the recurrent weight parameters."
+          },
+          "Adadelta and stochastic gradient descent" : ["epsilon = 10-6 and rho = 0.95 (Zeiler, 2012)", {"from sentence" : "We used Adadelta and stochastic gradient descent to train the RNN Encoder–Decoder with hyperparameters epsilon = 10-6 and rho = 0.95 (Zeiler, 2012)."}],
+          "trained for" : ["approximately three days", {"from sentence" : "The model was trained for approximately three days."}]
+        }
+      }
+    }
+  }
+}

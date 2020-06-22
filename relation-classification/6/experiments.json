@@ -1,0 +1,43 @@
+{
+  "has" : {
+    "Experiments" : {
+      "tune" : {
+        "hyperparameters" : {
+          "Size of Word Embeddings" : "300",
+          "Number of Heads" : "4",
+          "Size of Hidden Layer" : "300",
+          "Size of Position Embeddings" : "50",
+          "Size of Attention Layer" : "50",
+          "Number of Latent Entity Types" : "3",
+          "Size of Mini-Batch" : "20",
+          "Initial Learning Rate" : "1.0",
+          "dropout rate" : {
+            "0.3" : {
+              "for" : ["Word Embedding layer", "BLSTM layer"]
+            },
+            "0.5" : {
+              "for" : "Entity-aware Attention layer"
+            }
+          },
+          "L2 Regularization Coefficient" : "10-5"
+        },
+        "from sentence" : "Table 1"
+      },
+      "has" : {
+        "Experimental Results" : {
+          "from" : {
+            "proposed model" : {
+              "F1-score" : "85.2%",
+              "outperforms" : {
+                "all competing state-of-the-art approaches" : { 
+                    "except" : ["depLCNN+NS", "DRNNs", "Attention-CNN"]
+                }
+              }
+            },
+            "from sentence" : "Our proposed model achieves an F1-score of 85.2% which outperforms all competing state-of-the-art approaches except depLCNN+NS, DRNNs, and Attention-CNN."
+          }
+        }
+      }
+    }
+  }
+}

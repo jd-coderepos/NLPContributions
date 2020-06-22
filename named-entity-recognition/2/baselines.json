@@ -1,0 +1,17 @@
+{
+  "has" : {
+    "Baselines" : {
+      "strong LSTM and CNN baselines" : {
+        "Bi-LSTM with local decoding and one with CRF decoding" : {
+          "also known as" : "Bi-LSTM-CRF"
+        },
+        "non-dilated CNN architecture with the same number of convolutional layers" : {
+          "also known as" : "4-layer CNN"
+        },
+        "one with enough layers to incorporate an effective input width of the same size as that of the dilated network" : {
+          "also known as" : "5-layer CNN"
+        }
+      }
+    }
+  }
+}

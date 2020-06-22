@@ -1,0 +1,19 @@
+{
+  "has research problem" : [
+    ["extension of graph convolutional networks that is tailored for relation extraction, which pools information over arbitrary dependency structures efficiently in parallel",
+    {
+      "from sentence" : "We propose an extension of graph convolutional networks that is tailored for relation extraction, which pools information over arbitrary dependency structures efficiently in parallel."
+    }
+    ],
+    ["Relation extraction",
+    {
+      "from sentence" : "Relation extraction involves discerning whether a relation exists between two entities in a sentence (often termed subject and object, respectively)."
+    }
+    ],
+    ["extension of the graph convolutional network (Kipf and Welling, 2017; Marcheggiani and Titov, 2017) that is tailored for relation extraction",
+      {
+        "from sentence" : "In this work, we propose a novel extension of the graph convolutional network (Kipf and Welling, 2017; Marcheggiani and Titov, 2017) that is tailored for relation extraction."
+      }
+      ]
+    ]
+}

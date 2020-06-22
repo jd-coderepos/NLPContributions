@@ -1,0 +1,34 @@
+{
+  "has" : {
+    "Results" : {
+      "on" : {
+        "CoNLL" : {
+          "significantly outperforms" : ["models that use extensive sets of hand-crafted features", "system of (Luo et al., 2015) that uses NE and Entity Linking annotations to jointly optimize the performance on both tasks", {"from sentence" : "First, we observe that our model significantly outperforms models that use extensive sets of handcrafted features (Ratinov and Roth, 2009; Lin and Wu, 2009) as well as the system of (Luo et al., 2015) that uses NE and Entity Linking annotations to jointly optimize the performance on both tasks."}],
+          "outperforms" : {
+            "other NN models that only use standard word embeddings" : {
+              "indicates" : "our lexical feature vector is complementary to standard word embeddings"
+            },
+            "from sentence" : "Second, our model outperforms as well other NN models that only use standard word embeddings, which indicates that our lexical feature vector is complementary to standard word embeddings."
+          },
+          "matches state-of-the-art performances" : ["complex architectures", "more elaborate features", {"from sentence" : "Third, our system matches state-of-the-art performances of models that use either more complex architectures or more elaborate features."}]
+        },
+        "OntoNotes" : {
+          "significantly outperforms" : {
+            "Bi-LSTM-CNN-CRF models of (Chiu and Nichols, 2016) and (Strubell et al., 2017)" : {
+              "by" : "an absolute gain of 1.68 and 0.96 points respectively"
+            },
+            "from sentence" : "In particular, our system significantly outperforms the Bi-LSTM-CNN-CRF models of (Chiu and Nichols, 2016) and (Strubell et al., 2017) by an absolute gain of 1.68 and 0.96 points respectively."
+          },
+          "surpasses" : [
+            "systems with hand-crafted features, including Ratinov and Roth (2009) that use gazetteers",
+            {"system of Durrett and Klein (2014)" : {
+              "uses" : {
+                "coreference annotation in ONTONOTES" : {
+                  "to jointly model" : "NER, entity linking, and coreference resolution tasks"}}}},
+            {"from sentence" : "Less surprisingly, it surpasses systems with hand-crafted features, including Ratinov and Roth (2009) that use gazetteers, and the system of Durrett and Klein (2014) which uses coreference annotation in ONTONOTES to jointly model NER, entity linking, and coreference resolution tasks."}
+          ]
+        }
+      }
+    }
+  }
+}

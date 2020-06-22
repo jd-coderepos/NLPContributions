@@ -1,0 +1,7 @@
+{
+  "has research problem" : [
+    ["allowing a model to automatically (soft-)search for parts of a source sentence that are relevant to predicting a target word, without having to form these parts as a hard segment explicitly", {"from sentence" : "In this paper, we conjecture that the use of a fixed-length vector is a bottleneck in improving the performance of this basic encoder–decoder architecture, and propose to extend this by allowing a model to automatically (soft-)search for parts of a source sentence that are relevant to predicting a target word, without having to form these parts as a hard segment explicitly."}],
+    ["the use of a fixed-length vector is a bottleneck in improving the performance of this basic encoder–decoder architecture", {"from sentence" : "In this paper, we conjecture that the use of a fixed-length vector is a bottleneck in improving the performance of this basic encoder–decoder architecture, and propose to extend this by allowing a model to automatically (soft-)search for parts of a source sentence that are relevant to predicting a target word, without having to form these parts as a hard segment explicitly."}],
+    ["Neural machine translation", {"from sentence" : "Neural machine translation is a recently proposed approach to machine translation."}]
+    ]
+}

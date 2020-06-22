@@ -1,0 +1,41 @@
+{
+  "has" : {
+    "Hyperparameters" : {
+      "has" : {
+        "mini-batch stochastic gradient descent (SGD)" : {
+          "momentum" : ["0.9", {"from sentence" : "Training is carried out by mini-batch stochastic gradient descent (SGD) with a momentum of 0.9 and a gradient clipping of 5.0."}],
+          "gradient clipping" : ["5.0", {"from sentence" : "Training is carried out by mini-batch stochastic gradient descent (SGD) with a momentum of 0.9 and a gradient clipping of 5.0."}],
+          "for" : {
+            "both datasets" : {
+              "mini-batch" : "10",
+              "from sentence" : "The mini-batch is 10 for both datasets, and learning rates are 0.009 and 0.013 for CONLL and ONTONOTES respectively."
+            },
+            "CoNLL" : {
+              "learning rates" : "0.009",
+              "from sentence" : "The mini-batch is 10 for both datasets, and learning rates are 0.009 and 0.013 for CONLL and ONTONOTES respectively."            
+            },
+            "OntoNotes" : {
+              "learning rates" : "0.013",
+              "from sentence" : "The mini-batch is 10 for both datasets, and learning rates are 0.009 and 0.013 for CONLL and ONTONOTES respectively."            
+            }
+          }
+        }
+      },
+      "varied" : ["dropout ([0:25; 0:5; 0:65])", "hidden unit ([50; 128; 256; 300])", "capitalization ([10; 20; 30])",
+        "char ([25; 50; 100]) embedding dimensions", "learning rate ([0:001; 0:015] by step 0:002)", {"from sentence" : "We varied dropout ([0:25; 0:5; 0:65]), hidden units ([50; 128; 256; 300]), capitalization ([10; 20; 30]) and char ([25; 50; 100]) embedding dimensions, learning rate ([0:001; 0:015] by step 0:002), and optimization algorithms and fixed the other hyper-parameters."}
+      ],
+      "implemented" : {
+        "system" : {
+          "using" : "Tensorflow (Abadi et al., 2016) library"
+        },
+        "from sentence" : "We implemented our system using the Tensorflow (Abadi et al., 2016) library, and ran our models on a GeForce GTX TITAN Xp GPU."
+      },
+      "ran" : {
+        "models" : {
+          "on" : "GeForce GTX TITAN Xp GPU"
+        },
+        "from sentence" : "We implemented our system using the Tensorflow (Abadi et al., 2016) library, and ran our models on a GeForce GTX TITAN Xp GPU."
+      }
+    }
+  }
+}

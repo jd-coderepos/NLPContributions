@@ -1,0 +1,27 @@
+{
+  "has" : {
+    "Hyperparameters" : {
+      "has" : {
+        "Model settings" : {
+          "word embeddings" : "256 dimensional",
+          "LSTM layers" : "512 memory cells",
+          "activation functions" : "sigmoid, tanh, and tanh",
+          "from sentence" : "We use 256 dimensional word embeddings for both the source and target languages. All LSTM layers, including the 2xnepsilon layers in the encoder and the nd layers in the decoder, have 512 memory cells. For each LSTM layer, the activation functions for gates, inputs and outputs are sigmoid, tanh, and tanh respectively."            
+        },
+        "Optimization" : {
+          "includes" : [
+            {"feed-forward computation" : {
+              "learning rate" : "4 x 10-5"
+            }}, 
+            {"recurrent computation" : {
+              "learning rate" : "5 x 10-4"
+            }},
+            {"from sentence" : "Note that each LSTM layer includes two parts as described in Eq. 3, feed-forward computation and recurrent computation. Since there are non-linear activations in the recurrent computation, a larger learning rate lr = 5 x 10-4 is used, while for the feed-forward computation a smaller learning rate lf = 4 x 10-5 is used."}
+          ],
+          "dropout ratio" : ["0.1", {"from sentence" : "The dropout ratio pd is 0:1."}],
+          "GPU machines" : ["4 ~ 8", {"from sentence" : "We use 4 ~ 8 GPU machines (each has 4 K40 GPU cards) running for 10 days to train the full model with parallelization at the data batch level."}]
+        }
+      }
+    }
+  }
+}

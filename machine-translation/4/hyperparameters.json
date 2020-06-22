@@ -1,0 +1,26 @@
+{
+  "has" : {
+    "Hyperparameters" : {
+      "dimension of word embedding" : "512",
+      "dropout rate" : "0.1",
+      "head number" : "8",
+      "beam search" : {
+        "with" : {
+          "beam size" : "4",
+          "length penalty" : "0.6"
+        }
+      }
+    }
+  },
+  "implemented in" : ["TensorFlow (Abadi et al., 2018)", {"from sentence" : "The model is implemented in TensorFlow (Abadi et al., 2015) and trained on up to four K80 GPUs synchronously in a multi-GPU setup on a single machine."}],
+  "trained on" : {
+    "up to four K80 GPUs" : {
+      "in" : {
+        "multi-GPU setup" : {
+          "on" : "single machine"
+        }
+      }
+    },
+    "from sentence" : "The model is implemented in TensorFlow (Abadi et al., 2015) and trained on up to four K80 GPUs synchronously in a multi-GPU setup on a single machine."
+  }
+}

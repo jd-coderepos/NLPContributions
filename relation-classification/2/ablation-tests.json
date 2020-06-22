@@ -1,0 +1,41 @@
+{
+  "has" : {
+    "ablation tests" : [
+      {"on" : {
+        "ACE04 dataset" : [{
+          "performance of" : {
+            "RE task" : {
+              "decreases" : {
+                "~1% in terms of F1 score" : {
+                  "when" : ["remove the label embeddings layer", "only use the LSTM hidden states as inputs"]
+                }
+              }
+            }
+          },
+          "from sentence" : "We conduct ablation tests on the ACE04 dataset reported in Table 2 to analyze the effectiveness of the various parts of our joint model. The performance of the RE task decreases (~1% in terms of F1 score) when we remove the label embeddings layer and only use the LSTM hidden states as inputs for the RE task."
+        },
+        {"degrades the performance" : {
+          "both NER (~1%) and RE (~2%) tasks" : {
+            "by" : "large margin"
+            }
+          },
+          "from sentence" : "Removing character embeddings also degrades the performance of both NER (~1%) and RE (~2%) tasks by a relatively large margin."
+          }
+        ]
+      }},
+      {
+        "for" : {
+          "NER task" : {
+            "removing" : {
+              "CRF loss layer" : {
+                "substituting" : "softmax"
+              }
+            },
+            "decrease" : ["slight decrease in the F1 performance of the NER module", "~2% decrease in the performance of the RE task"]
+          }
+        },
+        "from sentence" : "Finally, we conduct experiments for the NER task by removing the CRF loss layer and substituting it with a softmax. Assuming independent distribution of labels (i.e., softmax) leads to a slight decrease in the F1 performance of the NER module and a ~2% decrease in the performance of the RE task."
+      }
+    ]
+  }
+}

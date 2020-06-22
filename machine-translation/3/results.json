@@ -1,0 +1,62 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "Single models" : {
+          "on" : {
+            "English-to-French" : {
+              "on" : {
+                "full corpus" : {
+                  "from" : {
+                    "Deep-ED" : {
+                      "obtain" : {
+                        "BLEU score" : {
+                          "of" : {
+                            "36.3" : {
+                              "outperforms" : {
+                                "outperforms Enc-Dec model" : {
+                                  "by" : "4:8 BLEU points"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "from sentence" : "In the first block we show the results with the full corpus. From Deep-ED, we obtain the BLEU score of 36.3, which outperforms Enc-Dec model by 4.8 BLEU points."                    
+                  },
+                  "for" : {
+                    "Deep-Att" : {
+                      "improved" : {
+                        "performance is further improved" : {
+                          "to" : "37.7"
+                        }
+                      }
+                    },
+                    "from sentence" : "For Deep-Att, the performance is further improved to 37.7."
+                  }
+                },
+                "smaller data set" : {
+                  "obtain" : "BLEU=35.9",
+                  "outperforms" : {
+                    "RNNsearch" : {
+                      "by" : "7.4 BLEU points"
+                    }
+                  },
+                  "from sentence" : "We also show the results on the smaller data set with 12M sentence pairs and 30K vocabulary in the second block. We obtain BLEU=35:9 which outperforms its corresponding shallow model RNNsearch by 7.4 BLEU points."
+                }
+              }                  
+            },
+            "English-to-German" : {
+              "for" : {
+                "single model Deep-Att performance" : {
+                  "with" : "BLEU=20.6"
+                }
+              } 
+            }
+          }
+        }
+      }
+    }
+  }
+}

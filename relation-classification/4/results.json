@@ -1,0 +1,91 @@
+{
+  "has" : {
+    "Results" : {
+      "on" : {
+        "TACRED Dataset" : [
+        {
+          "observe" : {
+            "GCN model outperforms all dependency-based models" : {
+              "by" : "at least 1.6 F1"
+            }
+          },
+          "from sentence" : "We observe that our GCN model outperforms all dependency-based models by at least 1.6 F1."
+        },
+        {
+          "further outperforms" : {
+            "C-GCN model further outperforms the strong PA-LSTM model" : {
+              "using" : "contextualized word representations",
+              "by" : "1.3 F1"
+            },
+            "from sentence" : "By using contextualized word representations, the C-GCN model further outperforms the strong PA-LSTM model by 1.3 F1, and achieves a new state of the art."
+          }
+        },
+        {
+          "improves upon other dependency-based models" : 
+            "our model improves upon other dependency-based models in both precision and recall",
+            "from sentence" : "In addition, we find our model improves upon other dependency-based models in both precision and recall."
+        },
+        {
+          "comparing C-GCN model with the GCN model" : "gain mainly comes from improved recall",
+          "from sentence" : "Comparing the C-GCN model with the GCN model, we find that the gain mainly comes from improved recall."
+        },
+        {
+        "compared to the PA-LSTM" : "our GCN models have complementary strengths",
+        "from sentence" : "As we will show in Section 6.2, we find that our GCN models have complementary strengths when compared to the PA-LSTM."
+        }
+        ],
+        "SemEval Dataset" : [
+          {
+            "with-entity evaluation" : "C-GCN model outperforms all existing dependency-based neural models",
+            "from sentence" : "We find that under the conventional with-entity evaluation, our C-GCN model outperforms all existing dependency-based neural models on this separate dataset."
+          },
+          {
+            "incorporating off-path information" : "our model outperforms the previous shortest dependency path-based model (SDP-LSTM)",
+            "from sentence" : "Notably, by properly incorporating off-path information, our model outperforms the previous shortest dependency path-based model (SDP-LSTM)."
+          },
+          {
+            "mask-entity evaluation" : {
+              "C-GCN model also outperforms PA-LSTM" : {
+                "by" : "substantial margin"
+              },
+              "from sentence" : "Under the mask-entity evaluation, our C-GCN model also outperforms PA-LSTM by a substantial margin, suggesting its generalizability even when entities are not seen."
+            }
+          }
+        ]
+      },
+      "effect" : {
+        "Path-centric Pruning" : {
+          "compare" : {
+            "two GCN models and the Tree-LSTM" : {
+              "when" : "pruning distance K is varied"
+            },
+            "from sentence" : "To show the effectiveness of path-centric pruning, we compare the two GCN models and the Tree-LSTM when the pruning distance K is varied."
+          },
+          "when K = 1" : {
+            "performance of all three models peaks" : {
+              "outperforming" : "dependency path-based counterpart (K = 0)",
+              "confirms our hypothesis" : "incorporating off-path information is crucial to relation extraction"
+            },
+            "from sentence" : "As shown in Figure 3, the performance of all three models peaks when K = 1, outperforming their respective dependency path-based counterpart (K = 0). This confirms our hypothesis in Section 3 that incorporating off-path information is crucial to relation extraction."
+          },
+          "find" : {
+            "all three models are less effective" : {
+              "when" : {
+                "entire dependency tree is present" : {
+                  "indicating" : "including extra information hurts performance"
+                }
+              }
+            },
+            "from sentence" : "We find that all three models are less effective when the entire dependency tree is present, indicating that including extra information hurts performance."
+          },
+          "contextualizing" : {
+            "GCN" : {
+              "makes it" : "less sensitive to changes in the tree structures provided"
+            },
+            "from sentence" : "Finally, we note that contextualizing the GCN makes it less sensitive to changes in the tree structures provided, presumably because the model can use word sequence information in the LSTM layer to recover any off-path information that it needs for correct relation extraction."
+          }
+        }
+      }
+    }
+  }
+}

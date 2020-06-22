@@ -1,0 +1,6 @@
+{
+  "has research problem" : [
+    ["Subset selection from massive data", {"from sentence" : "Subset selection from massive data with noised information is increasingly popular for various applications."}],
+    ["subset selection", {"from sentence" : "Due to the explosive growth of data (Wang, Kumar, and Chang 2012), subset selection methods are increasingly popular for a wide range of machine learning and computer vision applications (Frey and Dueck 2007; Jenatton, Audibert, and Bach 2011)."}]
+  ]
+}

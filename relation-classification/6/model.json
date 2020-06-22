@@ -1,0 +1,31 @@
+{
+  "has" : {
+    "Model" : {
+      "is a" : {
+        "novel recurrent neural model" : {
+          "incorporate" : {
+            "entity-aware attention mechanism" : {
+              "with" : "LET method"
+            }
+          }
+        },
+        "from sentence" : "In this section, we introduce a novel recurrent neural model that incorporate an entity-aware attention mechanism with a LET method in detail."
+      },
+      "consists of" : {
+        "Word Representation" : {
+          "has description" : "maps each word in a sentence into vector representations" 
+        },
+        "Self Attention" : {
+          "has description" : "captures the meaning of the correlation between words based on multi-head attention"
+        },
+        "BLSTM" : {
+          "has description" : "sequentially encodes the representations of self attention layer"
+        },
+        "Entity-aware Attention" : {
+          "has description" : "calculates attention weights with respect to the entity pairs, word positions relative to these pairs, and their latent types obtained by LET"
+        },
+        "from sentence" : "As shown in Figure 2, our model consists of four main components: (1) Word Representation that maps each word in a sentence into vector representations; (2) Self Attention that captures the meaning of the correlation between words based on multi-head attention [20]; (3) BLSTM which sequentially encodes the representations of self attention layer; (4) Entity-aware Attention that calculates attention weights with respect to the entity pairs, word positions relative to these pairs, and their latent types obtained by LET."
+      }
+    }
+  }
+}

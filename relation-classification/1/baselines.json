@@ -1,0 +1,66 @@
+{
+  "has" : {
+    "Baselines" : [
+      {"divided into" :
+      ["pipelined methods", "jointly extracting methods", "end-to-end methods"],
+        "from sentence" : "We compare our method with several classical triplet extraction methods, which can be divided into the following categories: the pipelined methods, the jointly extracting methods and the end-to-end methods based our tagging scheme."
+      },
+      {"pipelined methods" : [
+        {"DS-logistic (Mintz et al., 2009)" : {
+          "is a" : "distant supervised and feature based method"
+        }}, 
+        {"LINE (Tang et al., 2015)" : {
+          "is a" : "network embedding method" 
+        }}, 
+        {"FCM (Gormley et al., 2015)" : {
+          "is a" : "compositional model"
+        }
+        }
+        ],
+        "from sentence" : "For the pipelined methods, we follow (Ren et al., 2017)’s settings: The NER results are obtained by CoType (Ren et al., 2017) then several classical relation classification methods are applied to detect the relations. These methods are: (1) DS-logistic (Mintz et al., 2009) is a distant supervised and feature based method, which combines the advantages of supervised IE and unsupervised IE features; (2) LINE (Tang et al., 2015) is a network embedding method, which is suitable for arbitrary types of information networks; (3) FCM (Gormley et al., 2015) is a compositional model that combines lexicalized linguistic context and word embeddings for relation extraction."
+      },
+      {"jointly extracting methods" : [
+        {"DS-Joint (Li and Ji, 2014)" : {
+          "is" : "jointly extracts entities and relations using structured perceptron on human-annotated dataset"
+        }},
+        {"MultiR (Hoffmann et al., 2011)" : { 
+          "based on" : "multi-instance learning algorithms to combat the noisy training data"
+        }},
+        {"CoType (Ren at al., 2017)" : {
+          "is a" : "domain independent framework by jointly embedding entity mentions, relation mentions, text features and type labels into meaningful representations"
+        }}
+        ],
+        "from sentence" : "The jointly extracting methods used in this paper are listed as follows: (4) DS-Joint (Li and Ji, 2014) is a supervised method, which jointly extracts entities and relations using structured perceptron on human-annotated dataset; (5) MultiR (Hoffmann et al., 2011) is a typical distant supervised method based on multi-instance learning algorithms to combat the noisy training data; (6) CoType (Ren et al., 2017) is a domain independent framework by jointly embedding entity mentions, relation mentions, text features and type labels into meaningful representations."
+      },
+      {"end-to-end tagging models" : [
+          {"LSTM-CRF (Lample et al., 2016)" : {
+            "proposed for" : {
+              "entity recognition" : {
+                "using" : {
+                  "bidirectional LSTM" : {
+                    "to encode" : "input sentence and a conditional random fields",
+                    "to predict" : "entity tag sequence"
+                  }
+                }
+              }
+            }
+          }},
+          {"LSTM-LSTM (Vaswani et al., 2016)" : {
+            "uses" : {
+              "LSTM layer" : {
+                "to decode" : "tag sequence",
+                "to jointly extract" : {
+                  "entities and relations" : {
+                    "based on" : "our tagging scheme"
+                  }
+                }
+              }
+            }  
+          }
+          }
+        ],
+        "from sentence" : "In addition, we also compare our method with two classical end-to-end tagging models: LSTM-CRF (Lample et al., 2016) and LSTM-LSTM (Vaswani et al., 2016). LSTM-CRF is proposed for entity recognition by using a bidirectional LSTM to encode input sentence and a conditional random fields to predict the entity tag sequence. Different from LSTM-CRF, LSTM-LSTM uses a LSTM layer to decode the tag sequence instead of CRF. They are used for the first time to jointly extract entities and relations based on our tagging scheme."
+      }
+    ]
+  }
+}

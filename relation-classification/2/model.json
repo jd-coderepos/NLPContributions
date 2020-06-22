@@ -1,0 +1,25 @@
+{
+  "has" : {
+    "Model" : [
+      {
+      "is" : [
+        "multi-head joint model",
+        {"from sentence" : "In this section, we present our multi-head joint model illustrated in Fig. 1."}
+      ]},
+      {"basic layers" : [
+        "embedding layer", "bidirectional sequential LSTM (BiLSTM) layer", "CRF layer", "sigmoid scoring layer"
+        ],
+        "from sentence" : "The basic layers of the model, shown in Fig. 1, are: (i) embedding layer, (ii) bidirectional sequential LSTM (BiLSTM) layer, (iii) CRF layer and the (iv) sigmoid scoring layer."
+      },
+      {
+        "input" : "word vectors (i.e., word embeddings)",
+        "from sentence" : "The input of our model is a sequence of tokens (i.e., words of the sentence) which are then represented as word vectors (i.e., word embeddings)."
+      },
+      {
+        "outputs" : ["entity recognition label", 
+        "set of tuples comprising the head tokens of the entity and the types of relations between them"],
+        "from sentence" : "The outputs for each token (e.g., Smith) are twofold: (i) an entity recognition label (e.g., I-PER, denoting the token is inside a named entity of type PER) and (ii) a set of tuples comprising the head tokens of the entity and the types of relations between them (e.g., {(Center, Works for), (Atlanta, Lives in)})."
+      }
+    ]
+  }
+}

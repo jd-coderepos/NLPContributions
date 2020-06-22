@@ -1,0 +1,24 @@
+{
+  "has" : {
+    "Results" : {
+      "training" : {
+        "full 100 billion words" : {
+          "test perplexity" : {
+            "improves" : {
+              "up to" : "65536 experts (68 billion parameters)",
+              "dropping" : {
+                "39% lower" : {
+                  "than" : "computationally matched baseline"
+                }
+              }
+            },
+            "degrades" : {
+              "at" : "131072 experts"
+            }
+          }
+        },
+        "from sentence" : "When training over the full 100 billion words, test perplexity improves significantly up to 65536 experts (68 billion parameters), dropping 39% lower than the computationally matched baseline, but degrades at 131072 experts, possibly a result of too much sparsity."
+      }
+    }
+  }
+}

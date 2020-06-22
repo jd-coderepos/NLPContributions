@@ -1,0 +1,23 @@
+{
+  "has" : {
+    "Systems" : {
+      "constrained and unconstrained NMT" : {
+        "Constrained English-Estonian and Estonian-English NMT systems" : {
+          "trained using" : [["parallel data and back-translated data in a 1-to-1 proportion", {"from sentence" : "Constrained English-Estonian and Estonian-English NMT systems (tilde-c-nmt) that were deployed as ensembles of averaged factored data (see Section 3) Transformer models."}], [{"two sets of back-translated data" : {"in a" : "1-to-1 proportion to the clean parallel data"}}, {"from sentence" : "Constrained English-Estonian and Estonian-English NMT systems (tilde-c-nmt-2bt) averaged from multiple best NMT models. The models were trained using two sets of back-translated data in a 1-to-1 proportion to the clean parallel data – one set was back-translated using a system trained on parallel only data and the other set – using an NMT system trained on parallel data and the first set of back-translated data."}]]
+        },
+        "Unconstrained English-Estonian and Estonian-English NMT systems" : {
+          "trained using" : {
+            "back-translated data" : {
+              "were" : "not factored"
+            }
+          },
+          "from sentence" : "Unconstrained English-Estonian and Estonian-English NMT systems (tilde-nc-nmt) that were deployed as averaged Transformer models. These models were also trained using back-translated data similarly to the constrained systems, however, the data, taking into account their relatively large size, were not factored."
+        },
+        "constrained Estonian-English NMT system" : {
+          "is a" : "combination of six factored data NMT systems",
+          "from sentence" : "A constrained Estonian-English NMT system (tilde-c-nmt-comb) that is a system combination of six factored data NMT systems."
+        }
+      }
+    }
+  }
+}

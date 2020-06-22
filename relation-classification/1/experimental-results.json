@@ -1,0 +1,32 @@
+{
+  "has" : {
+    "Experimental results" : [
+      {"outperforms" : {
+        "LSTM-LSTM-Bias, outperforms all other methods" : {
+          "achieves" : {
+            "3% improvement in F1" : {
+              "over" : "best method CoType (Ren et al., 2017)"
+            }
+          }
+        }
+      },
+      "from sentence" : "It can be seen that our method, LSTM-LSTM-Bias, outperforms all other methods in F1 score and achieves a 3% improvement in F1 over the best method CoType (Ren et al., 2017)."
+      },
+      {"significantly improved" : {
+        "precisions of the end-to-end models" : {
+          "compared with" : "traditional methods"
+          }
+        },
+        "from sentence" : "When compared with the traditional methods, the precisions of the end-to-end models are significantly improved."
+      },
+      {"better" : 
+        {
+          "LSTM-LSTM model is better than LSTM-CRF model" : {
+            "based on" : "our tagging scheme"
+          }
+        },
+        "from sentence" : "We also find that the LSTM-LSTM model is better than LSTM-CRF model based on our tagging scheme."
+      }
+    ]
+  }
+}

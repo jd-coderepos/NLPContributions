@@ -1,0 +1,16 @@
+{
+  "has research problem" : [
+    ["how the recently introduced pre-trained language model BERT can be adapted for biomedical corpora", 
+      {"from sentence" : "In this article, we investigate how the recently introduced pre-trained language model BERT can be adapted for biomedical corpora."
+      }
+    ],
+    ["BERT for the biomedical domain", 
+      {"from sentence" : "As BERT achieves very strong results on various NLP tasks while using almost the same structure across the tasks, adapting BERT for the biomedical domain could potentially benefit numerous biomedical NLP researches."
+      }
+    ],
+    ["current state-of-the-art word representation models such as BERT need to be trained on biomedical corpora", 
+      {"from sentence" : "In this study, we hypothesize that current state-of-the-art word representation models such as BERT need to be trained on biomedical corpora to be effective in biomedical text mining tasks."
+      }
+    ]
+  ]
+}

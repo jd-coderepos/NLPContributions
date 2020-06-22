@@ -1,0 +1,71 @@
+{
+  "has" : {
+    "Results" : {
+      "for" : [{
+        "ACE04" : {
+          "outperforms" : {
+            "the baseline outperforms Katiyar and Cardie (2017)" : {
+              "by" : "~2%",
+              "in" : "both tasks"
+            }
+          }
+        },
+        "from sentence" : "For ACE04, the baseline outperforms Katiyar and Cardie (2017) by ~2% in both tasks."
+      },
+      {
+        "CoNLL04" : {
+          "outperforms" : {
+            "The baseline model outperforms the state-of-the-art models" : {
+              "by" : ">4% improvement",
+              "for" : "both tasks"
+            }
+          }
+        },
+        "from sentence" : "For the CoNLL04 dataset, we use two evaluation settings. The baseline model outperforms the state-of-the-art models that do not rely on manually extracted features (>4% improvement for both tasks), since we directly model the whole sentence, instead of just considering pairs of entities."
+      },
+      {
+        "DREC dataset" : {
+          "improvement" : [
+            "~3%",
+            "boundaries evaluation"
+          ]
+        },
+        "from sentence" : "For the DREC dataset, we use two evaluation methods. In the boundaries evaluation, the baseline has an improvement of ~3% on both tasks compared to Bekoulis et al. (2018a), whose quadratic scoring layer complicates NER."
+      }],
+      "improves" : {
+        "AT improves the predictive performance of the baseline model in the joint setting" : {
+          "in" : "all of the experiments"
+        },
+        "from sentence" : "In all of the experiments, AT improves the predictive performance of the baseline model in the joint setting."
+      },
+      "adversarial training on top of the baseline model" : [{
+        "ACE04" : {
+          "improvement" : ["both tasks", "overall F1 performance (0.4%)"]
+        },
+        "from sentence" : "Table 1 and Fig. 2 show the effectiveness of the adversarial training on top of the baseline model. Specifically, for ACE04, there is an improvement in both tasks as well as in the overall F1 performance (0.4%)."
+      },
+      {
+        "CoNLL04" : {
+          "improvement" : "overall F1 of 0.4% for the EC and 0.8% for the NER tasks"
+        },
+        "from sentence" : "Table 1 and Fig. 2 show the effectiveness of the adversarial training on top of the baseline model. For CoNLL04, we note an improvement in the overall F1 of 0.4% for the EC and 0.8% for the NER tasks, respectively."
+      },
+      {
+        "DREC dataset" : {
+          "improvement" : "overall improvement of ~1%"
+        },
+        "from sentence" : "Table 1 and Fig. 2 show the effectiveness of the adversarial training on top of the baseline model. For the DREC dataset, in both settings, there is an overall improvement of ~1%."
+      },
+      {
+        "ADE" : {
+          "beats" : {
+            "our AT model beats the baseline F1" : {
+              "by" : "0.7%"
+            }
+          }
+        },
+        "from sentence" : "Table 1 and Fig. 2 show the effectiveness of the adversarial training on top of the baseline model. Finally, for ADE, our AT model beats the baseline F1 by 0.7%."
+      }]
+    }  
+  }
+}

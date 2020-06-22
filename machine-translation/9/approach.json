@@ -1,0 +1,38 @@
+{
+  "has" : {
+    "Approach" : {
+      "represent" : {
+        "each word w" : {
+          "with" : "Code"
+        },
+        "from sentence" : "Following the intuition of creating partially shared embeddings, instead of assigning each word a unique ID, we represent each word w with a code Cw = (C1w, C2w, ..,CMw )."
+      },
+      "use" : {
+        "embedding vectors" : {
+          "to represent" : { 
+            "codes" : {
+              "rather than" : "unique words"
+            }
+          }
+        },
+        "from sentence" : "Once we have obtained such compact codes for all words in the vocabulary, we use embedding vectors to represent the codes rather than the unique words."
+      },
+      "create" : {
+        "codebooks" : {
+          "each containing" : {
+            "K codeword vectors" : {
+              "summing up" : "embedding of a word is computed"
+            }
+          }
+        },
+        "from sentence" : "More specifically, we create M codebooks E1, E2, ...,EM, each containing K codeword vectors. The embedding of a word is computed by summing up the codewords corresponding to all the components in the code as"
+      },
+      "utilize" : {
+        "Gumbel-softmax trick (Maddison et al., 2016; Jang et al., 2016)" : {
+          "to find" : "best discrete codes that minimize the loss"
+        },
+        "from sentence" : "We utilize the Gumbel-softmax trick (Maddison et al., 2016; Jang et al., 2016) to find the best discrete codes that minimize the loss."
+      }
+    }
+  }
+}

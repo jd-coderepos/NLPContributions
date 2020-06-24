@@ -1,0 +1,42 @@
+{
+  "has" : {
+    "Results" : {
+      "on" : {
+        "main benchmark WebQuestions" : {
+          "achieve" : {
+            "excellent results" : {
+              "F1-scores" : "41.9% and 42.2%"
+            }
+          },
+          "from sentence" : "On the main benchmark WebQuestions, our best results use all data sources, the bigger extract from Freebase and the CANDS AS NEGS setting. The two ensembles achieve excellent results, with F1-scores of 41.9% and 42.2% respectively."          
+        },
+        "new SimpleQuestions dataset" : {
+          "accuracy" : "62 - 63%",
+          "from sentence" : "On the new SimpleQuestions dataset, the best models achieve 62 − 63% accuracy, while the supporting fact is in the candidate set for about 86% of SimpleQuestions questions."
+        },
+        "three datasets" : {
+          "perform poorly" : "models trained on a single QA dataset perform poorly on the other datasets",
+          "improves performance" : "training on both datasets only",
+          "from sentence" : "The bottom half of Table 4 presents the results on the three datasets when our model is trained with different data sources. We first notice that models trained on a single QA dataset perform poorly on the other datasets (e.g. 46.6% accuracy on SimpleQuestions for the model trained on WebQuestions only), which shows that the performance on WebQuestions does not necessarily guarantee high coverage for simple QA. On the other hand, training on both datasets only improves performance; in particular, the model is able to capture all question patterns of the two datasets; there is no “negative interaction”."
+        }        
+      },
+      "test" : {
+        "ability to rerank answers on the companion QA set" : {
+          "added" : {
+            "all Reverb facts" : {
+              "to" : {
+                "memory" : {
+                  "without" : "any retraining"
+                }
+              }
+            }
+          },
+          "best results" : {
+            "accuracy" : ["67%", {"68%" : {"for" : "ensemble of 5 models"}}]
+          }
+        },
+        "from sentence" : "In this set of experiments, all Reverb facts are added to the memory, without any retraining, and we test our ability to rerank answers on the companion QA set. Our best results are 67% accuracy (and 68% for the ensemble of 5 models), which are better than the 54% of the original paper and close to the state-of-the-art 73% of (Bordes et al., 2014b)."
+      }
+    }
+  }
+}

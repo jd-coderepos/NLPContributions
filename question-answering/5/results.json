@@ -1,0 +1,46 @@
+{
+  "has" : {
+    "Results" : {
+      "on" : {
+        "CBT" : {
+          "sets" : {
+            "a new state-of-the-art" : {
+              "on" : "common noun category",
+              "by gaining" : "3.6 and 5.6 points"
+            },
+            "from sentence" : "Our model (line 7) sets a new state-of-the-art on the common noun category by gaining 3.6 and 5.6 points in validation and test over the best baseline AS Reader (line 5)."
+          },
+          "outperforms" : {
+            "AS Reader ensemble" : {
+              "setting" : "new state-of-the-art"
+            },
+            "from sentence" : "In this case, our ensemble outperforms the AS Reader ensemble both on CBT-CN and CBT-NE setting new state-of-the-art for this task."
+          }
+        },
+        "CNN" : {
+          "improves" : {
+            "state-of-the-art accuracy" : {
+              "by" : {
+                "4 percent absolute on validation and 3.4 on test" : {
+                  "with respect to" : "most recent published result (AS Reader)"
+                }
+              }
+            },
+            "from sentence" : "The results show that our model (line 8) improves state-of-the-art accuracy by 4 percent absolute on validation and 3.4 on test with respect to the most recent published result (AS Reader) (line 7)."
+          },
+          "achieve" : {
+            "state-of-the-art test performance" : {
+              "by" : {
+                "ensemble" : {
+                  "of" : "75.2 and 76.1 on validation and test respectively",
+                  "outperforming" : "previously published results"      
+                }
+              }
+            },
+            "from sentence" : "Similarly to the single model case, our ensembles achieve state-of-the-art test performance of 75.2 and 76.1 on validation and test respectively, outperforming previously published results."
+          } 
+        }
+      }
+    }
+  }
+}

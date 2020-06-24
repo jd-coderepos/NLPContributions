@@ -1,0 +1,6 @@
+{
+  "has research problem" : [
+    ["Sentence Similarity Learning", {"from sentence" : "TITLE"}],
+    ["Sentence similarity", {"from sentence" : "Sentence similarity is a fundamental metric to measure the degree of likelihood between a pair of sentences."}]
+  ]
+}

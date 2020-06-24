@@ -1,0 +1,25 @@
+{
+  "has" : {
+    "Hyperparameters" : {
+      "for the optimization" : ["stochastic gradient descent", {"from sentence" : "In other words, We use stochastic gradient descent for the optimization of models."}],
+      "perform better with" : {
+        "mini-batch (100 ~ 200 in sizes)" : {
+          "can be" : {
+            "parallelized" : {
+              "on" : "single machine with multi-cores"
+            }
+          }
+        },
+        "from sentence" : "All the proposed models perform better with mini-batch (100 ~ 200 in sizes) which can be easily parallelized on single machine with multi-cores."
+      },
+      "For regularization" : ["early stopping", {"from sentence" : "For regularization, we find that for both architectures, early stopping [16] is enough for models with medium size and large training sets (with over 500K instances)."}],
+      "use" : [
+        {"50-dimensional word embedding" : {
+          "trained with" : "Word2Vec",
+          "from sentence" : "We use 50-dimensional word embedding trained with theWord2Vec [14]: the embedding for English words (Section 5.2 & 5.4) is learnt on Wikipedia (~1B words), while that for Chinese words (Section 5.3) is learnt on Weibo data (~300M words)."          
+        }},
+        ["3-word window", {"from sentence" : "We use 3-word window throughout all experiments2, but test various numbers of feature maps (typically from 200 to 500), for optimal performance."}]
+      ]
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "has" : {
+    "Ablation Analysis" : {
+      "lacks reasoning capability" : ["number of layers is only one", {"from sentence" : "When the number of layers is only one, the model lacks reasoning capability."}],
+      "helps" : ["Adding the reset gate", {"from sentence" : "Adding the reset gate helps."}],
+      "hurts" : {
+        "Including vector gates" : {
+          "in" : "1k datasets"
+        },
+        "from sentence" : "Including vector gates hurts in 1k datasets, as the model either overfits to the training data or converges to local minima."
+      },
+      "sometimes help" : {
+        "vector gates" : {
+          "in" : "bAbI story-based QA 10k dataset"
+        },
+        "from sentence" : "On the other hand, vector gates in bAbI story-based QA 10k dataset sometimes help."
+      }
+    }
+  }
+}

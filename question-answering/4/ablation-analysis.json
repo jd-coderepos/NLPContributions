@@ -1,0 +1,44 @@
+{
+  "has" : {
+    "Ablation analysis" : {
+      "important" : {
+        "n-gram functionality" : {
+          "contributing" : "almost 5% accuracy improvement"
+        },
+        "from sentence" : "Not surprisingly, the n-gram functionality is important, contributing almost 5% accuracy improvement."
+      },
+      "contributes very little" : {
+        "top N function" : {
+          "suggesting" : "most multi questions have their evidence distributed across contiguous sentences"
+        },
+        "from sentence" : "The top N function contributes very little to the overall performance, suggesting that most multi questions have their evidence distributed across contiguous sentences."
+      },
+      "most significant difference" : {
+        "the sentential component" : {
+          "reducing performance" : "by more than 5%"
+        },
+        "from sentence" : "Ablating the sentential component made the most significant difference, reducing performance by more than 5%."
+      },
+      "obviously useful" : {
+        "Simple word-by-word matching" : {
+          "on" : "MCTest"
+        },
+        "from sentence" : "Simple word-by-word matching is obviously useful on MCTest."
+      },
+      "contribution" : {
+        "sequential sliding window" : {
+          "makes" : "3%",
+          "highlighting" : "importance of word-distance measures"
+        },
+        "from sentence" : "The sequential sliding window makes a 3% contribution, highlighting the importance of word-distance measures."
+      },
+      "only a minor contribution" : ["dependency-based sliding window", {"from sentence" : "On the other hand, the dependency-based sliding window makes only a minor contribution."}],
+      "significant" : {
+        "exogenous word weights" : {
+          "contribution of" : "almost 5%"
+        },
+        "from sentence" : "Finally, the exogenous word weights make a significant contribution of almost 5%."
+      }
+    }
+  }
+}

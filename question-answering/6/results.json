@@ -1,0 +1,36 @@
+{
+  "has" : {
+    "Results" : {
+      "on" : {
+        "Story-based QA" : {
+          "in" : {
+            "1k data" : {
+              "outperforms" : {
+                "QRN's '2r' (2 layers + reset gate + d = 50) outperforms all other models" : {
+                  "by" : "large margin (2.8+%)"
+                }
+              },
+              "from sentence" : "In 1k data, QRN's '2r' (2 layers + reset gate + d = 50) outperforms all other models by a large margin (2.8+%)."
+            },
+            "10k dataset" : {
+              "outperforms" : {
+                "average accuracy of QRN's '6r200' (6 layers + reset gate + d = 200) model outperforms all previous models" : {
+                  "by" : "large margin (2.5+%)"
+                }
+              },
+              "from sentence" : "In 10k dataset, the average accuracy of QRN's '6r200' (6 layers + reset gate + d = 200) model outperforms all previous models by a large margin (2.5+%), achieving a nearly perfect score of 99.7%."
+            }
+          }
+        },
+        "Dialog" : {
+          "outperforms" : {
+            "previous work" : {
+              "by" : "large margin (2.0+%)"
+            }
+          },
+          "from sentence" : "QRN outperforms previous work by a large margin (2.0+%) in every comparison."
+        }
+      }
+    }
+  }
+}

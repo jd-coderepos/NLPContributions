@@ -1,0 +1,7 @@
+{
+  "has research problem" : [
+    ["Extractive Question Ansering", {"from sentence" : "TITLE"}],
+    ["reading comprehension", {"from sentence" : "The reading comprehension task, that asks questions about a given evidence document, is a central problem in natural language understanding."}],
+    ["answer questions about the contents of documents", {"from sentence" : "A primary goal of natural language processing is to develop systems that can answer questions about the contents of documents."}]
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "has" : {
+    "Tasks" : {
+      "Natural Language Inference" : {
+        "Hyperparameters" : {
+          "hidden layer" : {
+            "1024 units" : {
+              "with" : ["ReLU activation", "softmax"]
+            },
+            "from sentence" : "In addition, the MLP has a hidden layer with 1024 units with ReLU activation and a softmax layer."
+          },
+          "batch size" : ["128", {"from sentence" : "We set the batch size to 128, the initial learning rate to 3e-4 and l2 regularizer strength to 3e-5, and train each model for 40 epochs"}],
+          "initial learning rate" : ["3e-4", {"from sentence" : "We set the batch size to 128, the initial learning rate to 3e-4 and l2 regularizer strength to 3e-5, and train each model for 40 epochs"}],
+          "l2 regularizer strength" : ["3e-5", {"from sentence" : "We set the batch size to 128, the initial learning rate to 3e-4 and l2 regularizer strength to 3e-5, and train each model for 40 epochs"}],
+          "train" : ["40 epochs", {"from sentence" : "We set the batch size to 128, the initial learning rate to 3e-4 and l2 regularizer strength to 3e-5, and train each model for 40 epochs"}]
+        },
+        "Results" : {
+          "obtained" : {
+            "85.4% accuracy score" : {
+              "by" : "Our MMA-NSE attention model"
+            },
+            "from sentence" : "Our MMA-NSE attention model is similar to the LSTM attention model. This model obtained 85.4% accuracy score."
+          }
+        }
+      },
+      "Answer Sentence Selection" : {
+        "Hyperparameters" : {
+          "batch size" : ["4", {"from sentence" : "We set the batch size to 4 and the initial learning rate to 1e-5, and train the model for 10 epochs."}],
+          "initial learning rate" : ["1e-5", {"from sentence" : "We set the batch size to 4 and the initial learning rate to 1e-5, and train the model for 10 epochs."}],
+          "train" : ["10 epochs", {"from sentence" : "We set the batch size to 4 and the initial learning rate to 1e-5, and train the model for 10 epochs."}],
+          "dropouts after word embeddings" : ["40%", {"from sentence" : "We used 40% dropouts after word embeddings and no l2 weight decay."}],
+          "word embeddings" : {
+            "pre-trained 300-D Glove 840B vectors" : { 
+              "transforms" : {
+                "512-D LSTM inputs" : {
+                  "by" : "a linear mapping layer"
+                }
+              }
+            },
+            "from sentence" : "The word embeddings are pre-trained 300-D Glove 840B vectors. For this task, a linear mapping layer transforms the 300-D word embeddings to the 512-D LSTM inputs."
+          }
+        },
+        "Results" : {
+          "exceeds" : {
+            "Our MMA-NSE attention model exceeds the NASM" : {
+              "by" : ["approximately 1% on MAP", "0.8% on MRR"]
+            },
+            "from sentence" : "Our MMA-NSE attention model exceeds the NASM by approximately 1% on MAP and 0.8% on MRR for this task."
+          }
+        }
+      },
+      "Sentence Classification" : {
+        "Hyperparameters" : {
+          "first layer of the MLP" : ["ReLU activation", {"from sentence": "The first layer of the MLP has ReLU activation and 1024 or 300 units for binary or fine-grained setting."}],
+          "for binary or fine-grained setting" : ["1024 or 300 units", {"from sentence": "The first layer of the MLP has ReLU activation and 1024 or 300 units for binary or fine-grained setting."}],
+          "second layer" : ["softmax layer", {"from sentence" : "The second layer is a softmax layer."}],
+          "read/write modules" : {
+            "two one-layer LSTM" : {
+              "with" : "300 hidden units"
+            },
+            "from sentence" : "The read/write modules are two one-layer LSTM with 300 hidden units and the word embeddings are the pre-trained 300-D Glove 840B vectors."
+          },
+          "word embeddings" : ["pre-trained 300-D Glove 840B vectors", {"from sentence" : "The read/write modules are two one-layer LSTM with 300 hidden units and the word embeddings are the pre-trained 300-D Glove 840B vectors."}],
+          "batch size" : ["64", {"from sentence" : "We set the batch size to 64, the initial learning rate to 3e-4 and l2 regularizer strength to 3e-5, and train each model for 25 epochs."}],
+          "initial learning rate" : ["3e-4", {"from sentence" : "We set the batch size to 64, the initial learning rate to 3e-4 and l2 regularizer strength to 3e-5, and train each model for 25 epochs."}],
+          "l2 regularizer strength" : ["3e-5", {"from sentence" : "We set the batch size to 64, the initial learning rate to 3e-4 and l2 regularizer strength to 3e-5, and train each model for 25 epochs."}],
+          "train" : ["25 epochs", {"from sentence" : "We set the batch size to 64, the initial learning rate to 3e-4 and l2 regularizer strength to 3e-5, and train each model for 25 epochs."}]
+        },
+        "Results" : {
+          "outperformed" : ["DMN", {"from sentence" : "We set the batch size to 64, the initial learning rate to 3e-4 and l2 regularizer strength to 3e-5, and train each model for 25 epochs."}],
+          "set" : ["state-of-the-art results on both subtasks", {"from sentence" : "We set the batch size to 64, the initial learning rate to 3e-4 and l2 regularizer strength to 3e-5, and train each model for 25 epochs."}]
+        }
+      },
+      "Document Sentiment Analysis" : {
+        "Hyperparameters" : {
+          "stack" : {
+            "NSE or LSTM" : {
+              "on top of" : {
+                "another NSE" : {
+                  "for" : "document modeling"
+                }
+              }
+            },
+            "from sentence" : "We stack a NSE or LSTM on the top of another NSE for document modeling."
+          },
+          "trained jointly" : {
+            "The whole network" : {
+              "by backpropagating" : "cross entropy loss"
+            },
+            "from sentence" : "The whole network is trained jointly by backpropagating the cross entropy loss."
+          },
+          "used" : [
+            {"one-layer LSTM" : {
+              "with" : {
+                "100 hidden units" : {
+                  "for" : "read/write modules"
+                }
+              }
+            }},
+            "pre-trained 100-D Glove 6B vectors",
+            {"from sentence" : "We used one-layer LSTM with 100 hidden units for the read/write modules and the pre-trained 100-D Glove 6B vectors for this task."}
+          ],
+          "batch size" : ["32", {"from sentence" : "We set the batch size to 32, the initial learning rate to 3e-4 and l2 regularizer strength to 1e-5, and trained each model for 50 epochs."}],
+          "initial learning rate" : ["3e-4", {"from sentence" : "We set the batch size to 32, the initial learning rate to 3e-4 and l2 regularizer strength to 1e-5, and trained each model for 50 epochs."}],
+          "l2 regularizer strength" : ["1e-5", {"from sentence" : "We set the batch size to 32, the initial learning rate to 3e-4 and l2 regularizer strength to 1e-5, and trained each model for 50 epochs."}],
+          "trained" : ["50 epochs", {"from sentence" : "We set the batch size to 32, the initial learning rate to 3e-4 and l2 regularizer strength to 1e-5, and trained each model for 50 epochs."}]
+          },
+          "Results" : {
+            "outperformed" : {
+              "Our NSE models outperformed the previous state-of-the-art models" : {
+                "in terms of" : {
+                  "both accuracy and MSE" : {
+                    "by" : "approximately 2-3%"
+                  }
+                }
+              },
+              "from sentence" : "Our NSE models outperformed the previous state-of-the-art models in terms of both accuracy and MSE, by approximately 2-3%."
+            }
+          }
+      },
+      "Machine Translation" : {
+        "Hyperparameters" : {
+          "LSTM encode/decoders" : {
+            "two layers" : {
+              "with" : "300 units"
+            },
+            "from sentence" : "The LSTM encoder/decoders have two layers with 300 units."
+          },
+          "trained to minimize" : ["word-level cross entropy loss", {"from sentence" : "The models were trained to minimize word-level cross entropy loss and were regularized by 20% input dropouts and the 30% output dropouts."}],
+          "regularized by" : ["20% input dropouts", "30% output dropouts", {"from sentence" : "The models were trained to minimize word-level cross entropy loss and were regularized by 20% input dropouts and the 30% output dropouts."}],
+          "batch size" : ["128", {"from sentence" : "We set the batch size to 128, the initial learning rate to 1e-3 for LSTM-LSTM and 3e-4 for the other models and l2 regularizer strength to 3e-5, and train each model for 40 epochs."}],
+          "initial learning rate" : {
+            "1e-3" : {
+              "for" : "LSTM-LSTM"
+            },
+            "3e-4" : {
+              "for" : "other models"
+            },
+            "from sentence" : "We set the batch size to 128, the initial learning rate to 1e-3 for LSTM-LSTM and 3e-4 for the other models and l2 regularizer strength to 3e-5, and train each model for 40 epochs."
+          },
+          "l2 regularizer strength" : ["3e-5", {"from sentence" : "We set the batch size to 128, the initial learning rate to 1e-3 for LSTM-LSTM and 3e-4 for the other models and l2 regularizer strength to 3e-5, and train each model for 40 epochs."}],
+          "train" : ["40 epochs", {"from sentence" : "We set the batch size to 128, the initial learning rate to 1e-3 for LSTM-LSTM and 3e-4 for the other models and l2 regularizer strength to 3e-5, and train each model for 40 epochs."}]
+        },
+        "Results" : {
+          "improve" : {
+            "baseline result" : {
+              "by" : "almost 1.0 BLEU",
+              "replace" : {
+                "LSTM decoder" : {
+                  "with" : "another NSE"
+                }
+              },
+              "introduce" : {
+                "shared memory access" : {
+                  "to" : "encoder-decoder model (NSE-NSE)"
+                }
+              }
+            },
+            "from sentence" : "However, if we replace the LSTM decoder with another NSE and introduce the shared memory access to the encoder-decoder model (NSE-NSE), we improve the baseline result by almost 1.0 BLEU."
+          }
+        }
+      }
+    }
+  }
+}

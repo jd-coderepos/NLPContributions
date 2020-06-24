@@ -1,0 +1,10 @@
+{
+  "has" : {
+    "Hyperparameters" : {
+      "embedding dimension" : "{64, 128, 256}",
+      "learning rate" : "{1, 0.1, ..., 1.0e-4}",
+      "margin" : "0.1",
+      "from sentence" : "The embedding dimension and the learning rate were chosen among {64, 128, 256} and {1, 0.1, ..., 1.0e−4} respectively, and the margin lambda was set to 0.1."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "has" : {
+    "System" : {
+      "is" : {
+        "embedding-based QA system" : {
+          "developed under" : "framework of Memory Networks (MemNNs)"
+        },
+        "from sentence" : "Second, in sections 3 and 4, we present an embedding-based QA system developed under the framework of Memory Networks (MemNNs)"
+      },
+      "setting of" : {
+        "simple QA" : {
+          "corresponds to" : {
+            "elementary operation" : {
+              "performing" : "single lookup in the memory"
+            }           
+          }
+        },
+        "from sentence" : "The setting of the simple QA corresponds to the elementary operation of performing a single lookup in the memory."
+      }
+    }
+  }
+}

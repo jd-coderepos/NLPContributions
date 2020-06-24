@@ -1,0 +1,67 @@
+{
+  "has" : {
+    "Hyperparameters" : {
+      "withold" : {
+        "10% of the training" : {
+          "for" : "development"
+        },
+        "from sentence" : "We withhold 10% of the training for development."
+      },
+      "use" : {
+        "hidden state size" : {
+          "of" : "50"
+        },
+        "from sentence" : "We use the hidden state size of 50 by deafult."
+      },
+      "used" : {
+        "Batch sizes" : {
+          "of" : {
+            "32" : {
+              "for" : "bAbI story-based QA 1k, bAbI dialog and DSTC2 dialog"
+            },
+            "128" : {
+              "for" : "bAbI QA 10k"
+            }
+          },
+          "from sentence" : "Batch sizes of 32 for bAbI story-based QA 1k, bAbI dialog and DSTC2 dialog, and 128 for bAbI QA 10k are used."
+        },
+        "L2 weight decay" : {
+          "of" : "0.001 (0:0005 for QA 10k)",
+          "from sentence" : "L2 weight decay of 0.001 (0.0005 for QA 10k) is used for all weights."
+        },
+        "loss function" : {
+          "is" : "cross entropy between ^v and the one-hot vector of the true answer",
+          "from sentence" : "The loss function is the cross entropy between ^v and the one-hot vector of the true answer."
+        }
+      },
+      "minimized" : {
+        "loss" : {
+          "by" : {
+            "stochastic gradient descent" : {
+              "for" : {
+                "maximally 500 epochs" : {
+                  "early stopped" : {
+                    "loss on development data does not decrease" : {
+                      "for" : "50 epochs"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "from sentence" : "The loss is minimized by stochastic gradient descent for maximally 500 epochs, but training is early stopped if the loss on the development data does not decrease for 50 epochs."
+      },
+      "controlled" : {
+        "learning rate" : {
+          "by" : {
+            "AdaGrad (Duchi et al., 2011)" : {
+              "initial learning rate" : "0.5 (0.1 for QA 10k)"
+            }
+          }
+        },
+        "from sentence" : "The learning rate is controlled by AdaGrad (Duchi et al., 2011) with the initial learning rate of 0.5 (0.1 for QA 10k)."
+      }
+    }
+  }
+}

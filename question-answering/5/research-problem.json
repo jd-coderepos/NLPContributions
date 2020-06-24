@@ -1,0 +1,8 @@
+{
+  "has research problem" : [
+    ["Machine Reading", {"from sentence" : "TITLE"}],
+    ["machine comprehension", {"from sentence" : "We propose a novel neural attention architecture to tackle machine comprehension tasks, such as answering Cloze-style queries with respect to a document."}],
+    ["answering Cloze-style queries", {"from sentence" : "We propose a novel neural attention architecture to tackle machine comprehension tasks, such as answering Cloze-style queries with respect to a document."}],
+    ["Cloze-style queries", {"from sentence" : "Cloze-style queries (Taylor, 1953) are created by deleting a particular word in a natural-language statement."}]
+  ] 
+}

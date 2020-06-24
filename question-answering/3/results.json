@@ -1,0 +1,27 @@
+{
+  "has" : {
+    "Results" : {
+      "on" : {
+        "QASent dataset" : {
+          "got" : {
+            "best MAP" : {
+              "among" : "all previous work"
+            },
+            "comparable MRR" : {
+              "than" : "dos Santos et al. (2016)"
+            },
+            "from sentence" : "We can see that our model (the last row of Table 2) got the best MAP among all previous work, and a comparable MRR than dos Santos et al. (2016)."
+          }
+        },
+        "WikiQA dataset" : {
+          "more effective" : "than the other models",
+          "from sentence" : "The last row of Table 3 shows that our model is more effective than the other models."
+        },
+        "MSRP dataset" : {
+          "obtained" : "comparable performance",
+          "from sentence" : "Comparing to these neural network based models, our model obtained a comparable performance (the last row of Table 4) without using any sparse features, extra annotated resources and specific training strategies."
+        }
+      }
+    }
+  }
+}

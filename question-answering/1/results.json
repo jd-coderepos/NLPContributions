@@ -1,0 +1,18 @@
+{
+  "has" : {
+    "Results" : {
+      "outperforms" : ["ARC-II outperforms others significantly when the training instances are relatively abundant", {"from sentence" : "ARC-II outperforms others significantly when the training instances are relatively abundant (as in Experiment I & II)."}],
+      "perform favorably" : ["convolutional models (ARC-I & II, SENNA+MLP) perform favorably over bag-of-words models", {"from sentence" : "As another important observation, convolutional models (ARC-I & II, SENNA+MLP) perform favorably over bag-of-words models, indicating the importance of utilizing sequential structures in understanding and matching sentences."}],
+      "gain some ability" : {
+        "ARC-I and ARC-II trained purely with random negatives" : {
+          "telling whether" : "words in a given sentence are in right sequential order"
+        },
+        "from sentence" : "Quite interestingly, as shown by our other experiments, ARC-I and ARC-II trained purely with random negatives automatically gain some ability in telling whether the words in a given sentence are in right sequential order (with around 60% accuracy for both)."
+      },
+      "yields reasonably good results" : [
+        "simple sum of embedding learned viaWord2Vec",
+        {"from sentence" : "We noticed that simple sum of embedding learned viaWord2Vec [14] yields reasonably good results on all three tasks."}
+      ]
+    }
+  }
+}

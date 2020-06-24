@@ -1,0 +1,79 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "represent each of the words" : {
+        "question and document" : {
+          "using" : {
+            "300 dimensional GloVe embeddings" : {
+              "trained on" : "corpus of 840bn words"
+            }
+          }
+        },
+        "from sentence" : "We represent each of the words in the question and document using 300 dimensional GloVe embeddings trained on a corpus of 840bn words (Pennington et al., 2014)."
+      },
+      "couple" : {
+        "input and forget gates" : {
+          "in" : "LSTMs"
+        },
+        "from sentence" : "We couple the input and forget gates in our LSTMs, as described in Greff et al. (2016), and we use a single dropout mask to apply dropout across all LSTM time-steps as proposed by Gal & Ghahramani (2016)."
+      },
+      "use" : {
+        "single dropout mask" : {
+          "apply dropout" : "across all LSTM time-steps"
+        },
+        "from sentence" : "We couple the input and forget gates in our LSTMs, as described in Greff et al. (2016), and we use a single dropout mask to apply dropout across all LSTM time-steps as proposed by Gal & Ghahramani (2016)."
+      },
+      "Hidden layers" : {
+        "feed forward neural networks" : {
+          "use" : "rectified linear units"
+        },
+        "from sentence" : "Hidden layers in the feed forward neural networks use rectified linear units (Nair & Hinton, 2010)."
+      },
+      "ran" : {
+        "grid searches" : {
+          "dimensionality" : "LSTM hidden states",
+          "width and depth" : "feed forward neural networks",
+          "dropout" : "LSTMs",
+          "number of stacked LSTM layers" : "(1,2,3)",
+          "decay multiplier" : "[0.9, 0.95, 1.0]"
+        },
+        "from sentence" : "To choose the final model configuration, we ran grid searches over: the dimensionality of the LSTM hidden states; the width and depth of the feed forward neural networks; dropout for the LSTMs; the number of stacked LSTM layers (1, 2, 3); and the decay multiplier [0.9, 0.95, 1.0] with which we multiply the learning rate every 10k step"
+      },
+      "best model" : ["50d LSTM states", 
+        {"two-layer BiLSTMs" : {
+          "for" : "span encoder and the passage-independent question representation"
+        }},
+        {"dropout" : {
+          "of" : "0.1" 
+        }},
+        {"learning rate decay" : {
+          "of" : {
+            "5%"  : {
+              "every" : "10k steps"
+        }}}},
+        {"from sentence" : "The best model uses 50d LSTM states; two-layer BiLSTMs for the span encoder and the passage-independent question representation; dropout of 0.1 throughout; and a learning rate decay of 5% every 10k steps."}
+        ],
+      "implemented using" : ["TensorFlow", {"from sentence" : "All models are implemented using TensorFlow3 and trained on the SQUAD training set using the ADAM (Kingma & Ba, 2015) optimizer with a mini-batch size of 4 and trained using 10 asynchronous training threads on a single machine."}],
+      "trained on" : {
+        "SQUAD training set" : {
+          "using" : {
+            "ADAM (Kingma & Ba, 2015) optimizer" : {
+              "with" : {
+                "mini-batch size" : {
+                  "of" : "4"
+                }
+              }
+            }
+          }
+        },
+        "from sentence" : "All models are implemented using TensorFlow3 and trained on the SQUAD training set using the ADAM (Kingma & Ba, 2015) optimizer with a mini-batch size of 4 and trained using 10 asynchronous training threads on a single machine."
+      },
+      "trained using" : {
+        "10 asynchronous training threads" : {
+          "on" : "single machine"
+        },
+        "from sentence" : "All models are implemented using TensorFlow3 and trained on the SQUAD training set using the ADAM (Kingma & Ba, 2015) optimizer with a mini-batch size of 4 and trained using 10 asynchronous training threads on a single machine."
+      }
+    }
+  }
+}

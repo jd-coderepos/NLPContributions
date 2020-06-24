@@ -1,0 +1,51 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "switched" : {
+        "semantic matching functions" : {
+          "among" : "{max, global, local-l}"
+        },
+        "from sentence" : "We switched the semantic matching functions among {max, global, local-l}, where l in {1, 2, 3, 4}, and fixed the other options as: the linear decomposition, the filter types including {unigram, bigram, trigram}, and 500 filters for each type."
+      },
+      "fixed" : ["linear decomposition", {"filter types" : {
+        "including" : "{unigram, bigram, trigram}",
+        "filters" : "500"
+      }}, {"from sentence" : "We switched the semantic matching functions among {max, global, local-l}, where l in {1, 2, 3, 4}, and fixed the other options as: the linear decomposition, the filter types including {unigram, bigram, trigram}, and 500 filters for each type."}],
+      "found" : {
+        "max function" : {
+          "worked better than" : "global function"
+        },
+        "from sentence" : "We found that the max function worked better than the global function on both MAP and MRR."
+      },
+      "use" : ["local-3 function", {"from sentence" : "Therefore, we use the local-3 function in the following experiments."}],
+      "varied" : {
+        "decomposition operation" : {
+          "among" : "{rigid, linear, orthogonal}"
+        },
+        "from sentence" : "We varied the decomposition operation among frigid, linear, orthogonalg, and kept the other options unchanged."
+      },
+      "tested" : {
+        "influence of various filter types" : {
+          "constructed" : {
+            "5 groups of filters" : {
+              "called" : [
+                {"win-l" : {
+                "contains" : "only the unigram filters"}},
+                {"win-2" : {
+                "contains" : "both unigram and bigram filters"}},
+                {"win-3" : {
+                  "contains" : "all the filters in win-2 plus trigram filters"}},
+                  {"win-4": {
+                    "extends filters in" : "win-3 with 4-gram filters"
+                  }},
+                  {"win-5" : {
+                    "adds" : "5-gram filters into win-4"
+                  }}]
+            }
+          }
+        },
+        "from sentence" : "Third, we tested the influence of various filter types. We constructed 5 groups of filters: win-1 contains only the unigram filters, win-2 contains both unigram and bigram filters, win-3 contains all the filters in win-2 plus trigram filters, win-4 extends filters in win-3 with 4-gram filters, and win-5 adds 5-gram filters into win-4."
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "has" : {
+    "Model" : {
+      "compares" : {
+        "question and answer candidates to the text" : {
+          "using" : "several different perspectives"
+        },
+        "from sentence" : "The key to our model is that it compares the question and answer candidates to the text using several distinct perspectives."
+      },
+      "has" : {
+        "semantic perspective" : {
+          "compares" : {
+            "hypothesis to sentences in the text viewed as single, self-contained thoughts" : {
+              "represented using" : "sum and transformation of word embedding vectors"
+            }
+          },
+          "from sentence" : "The semantic perspective compares the hypothesis to sentences in the text viewed as single, self-contained thoughts; these are represented using a sum and transformation of word embedding vectors, similarly to inWeston et al. (2014)."
+        },
+        "word-by-word perspective" : {
+          "focuses on" : {
+            "similarity matches" : {
+              "between" : "individual words from hypothesis and text, at various scales"
+            }
+          },
+          "from sentence" : "The word-by-word perspective focuses on similarity matches between individual words from hypothesis and text, at various scales."
+        }
+      },
+      "use" : {
+        "sliding window" : {
+          "implicitly considers" : "linear distance between matched words",
+          "is" : {
+            "word-level sliding window" : {
+              "operates on" : {
+                "two different views of text sentences" : {
+                  "called" : [{"sequential view" : {
+                    "where" : "words appear in their natural order"
+                  }}, {"dependency view" : {
+                    "where" : "words are reordered based on a linearization of the sentence's dependency graph"
+                  }}]
+                }
+              }
+            }
+          },
+          "from sentence" : "We also use a sliding window acting on a subsentential scale (inspired by the work of Hill et al. (2015)), which implicitly considers the linear distance between matched words. Finally, this word-level sliding window operates on two different views of text sentences: the sequential view, where words appear in their natural order, and the dependency view, where words are reordered based on a linearization of the sentence’s dependency graph. Words are represented throughout by embedding vectors (Mikolov et al., 2013)."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "has" : {
+    "Architecture" : {
+      "propose" : [["end-to-end neural architecture", {"from sentence" : "In this paper, we propose a new end-to-end neural architecture to address the machine comprehension problem as defined in the SQuAD dataset."}],
+      [{"two ways" : {
+        "apply the Ptr-Net model" : 
+          ["sequence model", 
+          {"boundary model" : {"extend with" : "search mechanism"}}]},
+        "from sentence" : "We propose two ways to apply the Ptr-Net model for our task: a sequence model and a boundary model. We also further extend the boundary model with a search mechanism."
+      }]],
+      "adopt" : 
+      ["match-LSTM model", 
+      {"Pointer Net (Ptr-Net) model" : 
+        {"enables" : "predictions of tokens from the input sequence",
+        "generate" : "answers that consist of multiple tokens from the original text"
+        },
+        "from sentence" : "Specifically, observing that in the SQuAD dataset many questions are paraphrases of sentences from the original text, we adopt a match-LSTM model that we developed earlier for textual entailment (Wang & Jiang, 2016). We further adopt the Pointer Net (Ptr-Net) model developed by Vinyals et al. (2015), which enables the predictions of tokens from the input sequence only rather than from a larger fixed vocabulary and thus allows us to generate answers that consist of multiple tokens from the original text."
+      }]
+    }
+  }
+}

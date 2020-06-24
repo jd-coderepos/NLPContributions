@@ -1,0 +1,68 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "used" : {
+        "stochastic gradient descent" : {
+          "with" : ["ADAM optimizer", {"initial learning rate" : {
+            "of" : "0.001"
+          }}],
+          "from sentence" : "To train our model, we used stochastic gradient descent with the ADAM optimizer (Kingma and Ba, 2014), with an initial learning rate of 0.001."
+        }
+      },
+      "set" : {
+        "batch size" : {
+          "to" : "32"
+        },
+        "from sentence" : "We set the batch size to 32 and we decay the learning rate by 0.8 if the accuracy on the validation set does not increase after a half-epoch, i.e. 2000 batches (for CBT) and 5000 batches for (CNN)"
+      },
+      "decay" : {
+        "learning rate" : {
+          "by" : "0.8"
+        },
+        "from sentence" : "We set the batch size to 32 and we decay the learning rate by 0.8 if the accuracy on the validation set does not increase after a half-epoch, i.e. 2000 batches (for CBT) and 5000 batches for (CNN)"
+      },
+      "initialize" : {
+        "weights of our model" : {
+          "by sampling from" : "normal distribution"
+        },
+        "from sentence" : "We initialize all weights of our model by sampling from the normal distribution N(0, 0.05)."
+      },
+      "initialized" : {
+        "GRU recurrent weights" : {
+          "to be" : "orthogonal"
+        },
+        "biases" : {
+          "to" : "zero"
+        },
+        "from sentence" : "Following (Saxe et al., 2013), the GRU recurrent weights are initialized to be orthogonal and biases are initialized to zero."
+      },
+      "to stabilize" : {
+        "learning" : {
+          "clip" : {
+            "gradients" : {
+              "greater" : "norm is greater than 5"
+            }
+          }
+        },
+        "from sentence" : "In order to stabilize the learning, we clip the gradients if their norm is greater than 5 (Pascanu et al., 2013)."
+      },
+      "regularize" : {
+        "model" : {
+          "by applying" : {
+            "dropout" : {
+              "rate of" : "0.2",
+              "on" : ["input embeddings", "search gates", "inputs to both the query and the document attention mechanisms"]
+            }
+          }
+        },
+        "from sentence" : "We regularize our model by applying a dropout (Srivastava et al., 2014) rate of 0.2 on the input embeddings, on the search gates and on the inputs to both the query and the document attention mechanisms."
+      },
+      "implemented in" : {
+        "Theano (Bastien et al., 2012)" : {
+          "using" : "Keras (Chollet, 2015) library"
+        },
+        "from sentence" : "Our model is implemented in Theano (Bastien et al., 2012), using the Keras (Chollet, 2015) library."
+      }
+    }
+  }
+}

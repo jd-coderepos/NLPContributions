@@ -1,0 +1,10 @@
+{
+  "has research problem" : [
+    ["Machine Comprehension on Sparse Data", {"from sentence" : "A Parallel-Hierarchical Model for Machine Comprehension on Sparse Data"}],
+    ["Understanding unstructured text", {"from sentence" : "Understanding unstructured text is a major goal within natural language processing."}],
+    ["machine comprehension on the challenging MCTest benchmark", {"from sentence" : "In this work, we investigate machine comprehension on the challenging MCTest benchmark."}],
+    ["Comprehension of unstructured text by machines, at a near-human level", {"from sentence" : "Comprehension of unstructured text by machines, at a near-human level, is a major goal for natural language processing."}],
+    ["Machine comprehension", {"from sentence" : "Machine comprehension (MC) is evaluated by posing a set of questions based on a text passage (akin to the reading tests we all took in school)."}],
+    ["MC", {"from sentence" : "Machine comprehension (MC) is evaluated by posing a set of questions based on a text passage (akin to the reading tests we all took in school)."}]
+  ]
+}

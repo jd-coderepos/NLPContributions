@@ -1,0 +1,29 @@
+{
+  "has" : {
+    "Hyperparameters" : {
+      "word embeddings" : {
+        "GloVe (Pennington et al., 2014)" : {
+          "to initialize" : "model"
+        },
+        "from sentence" : "We use word embeddings from GloVe (Pennington et al., 2014) to initialize the model."
+      },
+      "dimensionality l" : {
+        "hidden layers" : {
+          "set" : "150 or 300"
+        },
+        "from sentence" : "The dimensionality l of the hidden layers is set to be 150 or 300."
+      },
+      "use" : {
+        "ADAMAX (Kingma & Ba, 2015)" : {
+          "with" : {
+            "coefficients beta1 = 0.9 and beta2 = 0.999" : {
+              "to optimize" : "model"
+            }
+          }
+        },
+        "from sentence" : "We use ADAMAX (Kingma & Ba, 2015) with the coefficients beta1 = 0.9 and beta2 = 0.999 to optimize the model."
+      },
+      "update" : ["through a minibatch of 30 instances", {"from sentence" : "Each update is computed through a minibatch of 30 instances."}]
+    }
+  }
+}

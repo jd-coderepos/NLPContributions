@@ -1,0 +1,30 @@
+{
+  "has" : {
+    "Results" : {
+      "most important conclusion from our experiments" : {
+        "character-level ConvNets could work for text classification" : { "without" : "the need for words"
+        },
+        "from sentence" : "The most important conclusion from our experiments is that character-level ConvNets could work for text classification without the need for words."
+      },
+      "most obvious trend" : ["larger datasets tend to perform better", {"from sentence" : "The most obvious trend coming from all the plots in figure 3 is that the larger datasets tend to perform better."}],
+      "to validate the hypothesis" : {
+        "further analysis is needed" : {
+          "that ConvNets are truly good" : {
+            "at identifying" : {
+              "exotic character combination" : {
+                "such as" : "misspellings and emoticons"
+              }
+            }
+          }
+        },
+        "from sentence" : "However, further analysis is needed to validate the hypothesis that ConvNets are truly good at identifying exotic character combinations such as misspellings and emoticons, as our experiments alone do not show any explicit evidence."
+      },
+      "may not give us an advantage" : {
+        "simple use of a distributed word representation" : {
+          "to" : "text classification"
+        },
+        "from sentence" : "Comparing with traditional models, this suggests such a simple use of a distributed word representation may not give us an advantage to text classification."
+      }
+    }
+  }
+}

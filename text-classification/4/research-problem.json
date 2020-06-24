@@ -1,0 +1,6 @@
+{
+  "has research problem" : [
+    ["Text Processing", {"from sentence" : "TITLE"}],
+    ["learn context-sensitive convolutional filters for text processing", {"from sentence" : "In this paper, we consider an approach of using a small meta network to learn context-sensitive convolutional filters for text processing."}]
+  ]
+}

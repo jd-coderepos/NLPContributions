@@ -1,0 +1,33 @@
+{
+  "has" : {
+    "Results" : {
+      "from" : {
+        "Experiments (supervised)" : {
+          "on" : {
+            "all datasets" : {
+              "outperforms" : "our one-hot bidirectional LSTM with pooling (oh-2LSTMp) outperforms word-vector LSTM (wv-LSTM)",
+              "from sentence" : "Comparing the two types of LSTM in Table 3, we see that our one-hot bidirectional LSTM with pooling (oh-2LSTMp) outperforms word-vector LSTM (wv-LSTM) on all the datasets, confirming the effectiveness of our approach."              
+            },
+            "three out of the four datatset" : {
+              "outperforms" : "oh-2LSTMp outperforms SVM and the CNN",
+              "from sentence" : "In Table 3, on three out of the four datasets, oh-2LSTMp outperforms SVM and the CNN."
+            }
+          }
+        },
+        "Semi-supervised experiments" : {
+          "tested" : ["wv-2LSTMp (word-vector bidirectional LSTM with pooling)", {"from sentence" : "Therefore, we tested wv-2LSTMp (word-vector bidirectional LSTM with pooling), whose only difference from oh-2LSTMp is that the input to the LSTM layers is the pre-trained word vectors."}],
+          "comparable" : {
+            "one-hot CNN with one 200-dim CNN tv-embedding" : {
+              "with" : {
+                "our LSTM with two 100-dim LSTM tv-embeddings" : {
+                  "in terms of" : "dimensionality of tv-embeddings"
+                }
+              }
+            },
+            "from sentence" : "Now we review the performance of one-hot CNN with one 200-dim CNN tv-embedding (Table 5 row#5), which is comparable with our LSTM with two 100-dim LSTM tv-embeddings (row#4) in terms of the dimensionality of tv-embeddings."
+          }
+        }
+      }
+    }
+  }
+}

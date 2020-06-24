@@ -1,0 +1,29 @@
+{
+  "has" : {
+    "Results" : {
+      "outperforms" : ["CoVe", "the state-of-the-art on both datasets", {"from sentence" : "Our method outperforms both CoVe, a state-of-the-art transfer learning method based on hypercolumns, as well as the state-of-the-art on both datasets."}],
+      "on" : {
+        "IMDb" : {
+          "reduce" : {
+            "error" : {
+              "by" : "43.9% and 22%"
+            }
+          },
+          "from sentence" : "On IMDb, we reduce the error dramatically by 43.9% and 22% with regard to CoVe and the state-of-the-art respectively."          
+        },
+        "TREC-6" : {
+          "not statistically significant" : "due to small size of the 500-examples test set",
+          "from sentence" : "On TREC-6, our improvement—similar as the improvements of state-of-the-art approaches—is not statistically significant, due to the small size of the 500-examples test set."
+        },
+        "AG" : {
+          "dramatic error reduction" : "by 23.7%",
+          "from sentence" : "On AG, we observe a similarly dramatic error reduction by 23.7% compared to the state-of-the-art."
+        },
+        "DBpedia, Yelp-bi, and Yelp-full" : {
+          "reduce the error" : "4.8%, 18.2%, 2.0%",
+          "from sentence" : "On DBpedia, Yelp-bi, and Yelp-full, we reduce the error by 4.8%, 18.2%, 2.0% respectively."
+        }
+      }
+    }
+  }
+}

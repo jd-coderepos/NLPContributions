@@ -1,0 +1,92 @@
+{
+  "has" : {
+    "Ablation Analysis" : {
+      "for" : {
+        "Low-shot learning" : {
+          "on" : {
+            "IMDb and AG" : {
+              "with only" : "100 labeled examples",
+              "matches the performance" : {
+                "training from scratch" : {
+                  "with" : "10x and 20x more data"
+                }
+              },
+              "from sentence" : "On IMDb and AG, supervised ULMFiT with only 100 labeled examples matches the performance of training from scratch with 10x and 20x more data respectively, clearly demonstrating the benefit of general-domain LM pretraining." 
+            },
+            "TREC-6" : {
+              "significantly improves" : "training from scratch",
+              "from sentence" : "On TREC-6, ULMFiT significantly improves upon training from scratch; as examples are shorter and fewer, supervised and semi-supervised ULMFiT achieve similar results."
+            }
+          }
+        },
+        "Impact of pretraining" : {
+          "most useful" : {
+            "Pretraining" : {
+              "for" : "small and medium-sized datasets"
+            },
+            "from sentence" : "Pretraining is most useful for small and medium-sized datasets, which are most common in commercial applications."
+          }
+        },
+        "Impact of LM quality" : {
+          "on" : {
+            "larger datasets" : {
+              "reaches" : "surprisingly good performance",
+              "from sentence" : "Using our fine-tuning techniques, even a regular LM reaches surprisingly good performance on the larger datasets."
+            },
+            "smaller TREC-6" : {
+              "without" : {
+                "dropout" : {
+                  "runs the risk" : {
+                    "overfitting" : {
+                      "decreases" : "performance"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "On the smaller TREC-6, a vanilla LM without dropout runs the risk of overfitting, which decreases performance."
+            }
+          }
+        },
+        "Impact of LM fine-tuning" : {
+          "most beneficial" : "for larger datasets",
+          "from sentence" : "Fine-tuning the LM is most beneficial for larger datasets."
+        },
+        "Impact of classifier fine-tuning" : {
+          "on" : {
+            "small TREC-6" :{
+              "significantly improves" : "training from scratch"
+            }
+          },
+          "from sentence" : "Fine-tuning the classifier significantly improves over training from scratch, particularly on the small TREC-6."
+        },
+        "Impact of bidirectionality" : {
+          "brings" : {
+            "performance boost" : {
+              "of" : "0.5-0.7"
+            },
+            "from sentence" : "At the cost of training a second model, ensembling the predictions of a forward and backwards LM-classifier brings a performance boost of around 0.5–0.7."
+          },
+          "on" : {
+            "IMDb" : {
+              "lower" : {
+                "test error" : {
+                  "from" : {
+                    "5.30" : {
+                      "of" : "single model"
+                    }
+                  },
+                  "to" : {
+                    "4.58" : {
+                      "for" : "bidirectional model"
+                    }
+                  }
+                }
+              }
+            },
+            "from sentence" : "On IMDb we lower the test error from 5.30 of a single model to 4.58 for the bidirectional model."
+          }
+        }
+      }
+    }
+  }
+}

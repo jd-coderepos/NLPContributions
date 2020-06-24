@@ -1,0 +1,58 @@
+{
+  "has" : {
+    "Architecture" : {
+      "has" : ["simple linear model with rank constraint", {"from sentence" : "Figure 1 shows a simple linear model with rank constraint."}],
+      "averaged" : {
+        "word representations" : {
+          "into" : {
+            "text representation" : {
+              "fed to" : "linear classifier"
+            }
+          }
+        },
+        "from sentence" : "The word representations are then averaged into a text representation, which is in turn fed to a linear classifier."
+      },
+      "use" : {
+        "softmax function f" : {
+          "to compute" : {
+            "probability distribution" : {
+              "over" : "predefined classes"
+            }
+          },
+          "from sentence" : "We use the softmax function f to compute the probability distribution over the predefined classes."          
+        },
+        "hierarchical softmax (Goodman, 2001)" : {
+          "based on" : "Huffman coding tree (Mikolov et al., 2013)",
+          "from sentence" : "In order to improve our running time, we use a hierarchical softmax (Goodman, 2001) based on the Huffman coding tree (Mikolov et al., 2013)."
+        },
+        "bag of n-grams" : {
+          "to capture" : {
+            "some partial information about the local word order" : {
+              "in practice" : "very efficient",
+              "achieving" : {
+                "comparable results" : {
+                  "to" : "methods that explicitly use the order (Wang and Manning, 2012)"
+                }
+              }
+            }
+          },
+          "from sentence" : "Instead, we use a bag of n-grams as additional features to capture some partial information about the local word order. This is very efficient in practice while achieving comparable results to methods that explicitly use the order (Wang and Manning, 2012)."
+        },
+        "maintain" : {
+          "fast and memory efficient mapping" : {
+            "of" : {
+              "n-grams" : {
+                "using" : {
+                  "hashing trick (Weinberger et al., 2009)" : {
+                    "with" : ["same hashing function as in Mikolov et al. (2011)", {"10M bins" : {"only used" : "bigrams"}}]
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "We maintain a fast and memory efficient mapping of the n-grams by using the hashing trick (Weinberger et al., 2009) with the same hashing function as in Mikolov et al. (2011) and 10M bins if we only used bigrams, and 100M otherwise."
+        }
+      }
+    }
+  }
+}

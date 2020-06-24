@@ -1,0 +1,29 @@
+{
+  "has" : {
+    "Model" : {
+      "more general framework" : {
+        "subsuming" : "one-hot CNN",
+        "jointly trains" : {
+          "a feature generator and a linear model" : {
+            "where" : {
+              "feature generator" : {
+                "consists of" : "region embedding + pooling"
+              }
+            }
+          }
+        },
+        "from sentence" : "In this work, we consider a more general framework (subsuming one-hot CNN) which jointly trains a feature generator and a linear model, where the feature generator consists of 'region embedding + pooling'."
+      },
+      "build" : {
+        "general framework of 'region embedding + pooling'" : {
+          "explore" : {
+            "more sophisticated region embedding" : {
+              "via" : "Long Short-Term Memory (LSTM)"
+            }
+          }
+        },
+        "from sentence" : "In this work, we build on the general framework of 'region embedding + pooling' and explore a more sophisticated region embedding via Long Short-Term Memory (LSTM), seeking to overcome the shortcomings above, in the supervised and semi-supervised settings."
+      }
+    }
+  }
+}

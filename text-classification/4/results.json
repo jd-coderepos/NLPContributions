@@ -1,0 +1,39 @@
+{
+  "has" : {
+    "Results" : {
+      "for" : {
+        "Document Classification" : { 
+          "significantly outperforms" : {
+            "S-ACNN significantly outperforms S-CNN" : {
+              "on" : {
+                "both datasets" : {
+                  "demonstrating the advantage" : {
+                    "filter generation module" : {
+                      "in" : "our ACNN framework"
+                    }
+                  }
+                }
+              }
+            },
+            "from sentence" : "As illustrated in Table 2, S-ACNN significantly outperforms S-CNN on both datasets, demonstrating the advantage of the filter-generation module in our ACNN framework."
+          },
+          "outperforms" : {
+            "other CNN baseline methods with much deeper architectures" : {
+              "by" : "our ACNN model"
+            },
+            "from sentence" : "Although we only use one convolution layer for our ACNN model, it already outperforms other CNN baseline methods with much deeper architectures."
+          },
+          "achieves slightly better performance than" : {
+            "self-attentive sentence embeddings" : {
+              "by" : "our M-ACNN"
+            },
+            "from sentence" :"Moreover, our M-ACNN also achieves slightly better performance than self-attentive sentence embeddings proposed in Lin et al. (2017), which requires significant more parameters than our method."
+          }
+        },
+        "Answer Sentence Selection" : {
+          "significantly better results than" : ["attentive pooling network", "ABCNN (attention-based CNN)", {"from sentence" : "Notably, our model yields significantly better results than an attentive pooling network and ABCNN (attention-based CNN) baselines."}]
+        }
+      }
+    }
+  }
+}

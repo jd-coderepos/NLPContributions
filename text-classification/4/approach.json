@@ -1,0 +1,45 @@
+{
+  "has" : {
+    "Approach" : {
+      "learn" : {
+        "context-sensitive convolutional filters" : {
+          "for" : "natural language understanding"
+        },
+        "from sentence" : "In this paper, we propose a generic approach to learn context-sensitive convolutional filters for natural language understanding."
+      },
+      "does not have" : {
+        "fixed set of filters" : {
+          "provides the network" : "stronger modeling flexibility and capacity"
+        },
+        "from sentence" : "In contrast to traditional CNNs, the convolution operation in our framework does not have a fixed set of filters, and thus provides the network with stronger modeling flexibility and capacity."
+      },
+      "introduce" : {
+        "meta network" : {
+          "to generate" : {
+            "set of context-sensitive filters" : {
+              "conditioned on" : "specific input sentences"
+            }
+          }
+        },
+        "from sentence" : "Specifically, we introduce a meta network to generate a set of context-sensitive filters, conditioned on specific input sentences; these filters are adaptively applied to either the same (Section 3.2) or different (Section 3.3) text sequences."
+      },
+      "vary" : {
+        "learned filters" : {
+          "from" : "sentence to sentence",
+          "allow" : "fine-grained feature abstraction"
+        },
+        "from sentence" : "In this manner, the learned filters vary from sentence to sentence and allow for more fine-grained feature abstraction."
+      },
+      "propose" : {
+        "a novel bidirectional filter generation mechanism" : {
+          "to allow" : {
+            "interactions between sentence pairs" : {
+              "while constructing" : "context-sensitive representations"
+            }
+          }
+        },
+        "from sentence" : "In this regard, we propose a novel bidirectional filter generation mechanism to allow interactions between sentence pairs while constructing context-sensitive representations."
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "has" : {
+    "Model" : {
+      "called" : {
+        "Universal Language Model Fine-tuning (ULMFiT)" : {
+          "enables" : {
+            "robust inductive transfer learning" : {
+              "for" : "any NLP task"
+            }
+          },
+          "from sentence" : "We propose a new method, Universal Language Model Fine-tuning (ULMFiT) that addresses these issues and enables robust inductive transfer learning for any NLP task, akin to fine-tuning ImageNet models:"
+        }
+      },
+      "propose" : [
+        ["discriminative fine-tuning", "slanted triangular learning rates", "gradual unfreezing"],
+        {"novel techniques" : {
+          "to retain" : "previous knowledge",
+          "avoid" : {
+            "catastrophic forgetting" : {
+              "during" : "fine-tuning"
+            }
+          }
+        }},
+        {"from sentence" : "We propose discriminative fine-tuning, slanted triangular learning rates, and gradual unfreezing, novel techniques to retain previous knowledge and avoid catastrophic forgetting during fine-tuning."}
+      ]
+    }
+  }
+}

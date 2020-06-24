@@ -1,0 +1,59 @@
+{
+  "has" : {
+    "Tasks" : {
+      "Sentiment analysis" : {
+        "Hyperparameters" : {
+          "hidden units" : "10",
+          "run" : {
+            "fastText" : {
+              "for" : "5 epochs",
+              "with" : {
+                "learning rate" : {
+                  "selected" : "{0.05, 0.1, 0.25, 0.5}"
+                }
+              }
+            }
+          },
+          "from sentence" : "We use 10 hidden units and run fastText for 5 epochs with a learning rate selected on a validation set from {0.05, 0.1, 0.25, 0.5}."
+        },
+        "Results" : {
+          "adding" : {
+            "bigram information" : {
+              "improves" : {
+                "performance" : {
+                  "by" : "1-4%"
+                }
+              }              
+            },
+            "from sentence" : "On this task, adding bigram information improves the performance by 1-4%."
+          },
+          "slightly better than" : ["char-CNN and char-CRNN", {"from sentence" : "Overall our accuracy is slightly better than char-CNN and char-CRNN and, a bit worse than VDCNN."}],
+          "bit words than" : ["VDCNN", {"from sentence" : "Overall our accuracy is slightly better than char-CNN and char-CRNN and, a bit worse than VDCNN."}],
+          "increase the accuracy slightly" : {
+            "using" : "more n-grams",
+            "from sentence" : "Note that we can increase the accuracy slightly by using more n-grams, for example with trigrams, the performance on Sogou goes up to 97.1%."
+          }
+        }
+      },
+      "Tag prediction" : {
+        "Hyperparameters" : {
+          "run" : {
+            "fastText" : {
+              "for" : "5 epochs"
+            },
+            "from sentence" : "We run fastText for 5 epochs and compare it to Tagspace for two sizes of the hidden layer, i.e., 50 and 200."
+          }
+        },
+        "Results" : {
+          "significant speed-up" : {
+            "fast inference" : {
+              "when" : "number of classes is large"
+            },
+            "from sentence" : "At test time, Tagspace needs to compute the scores for all the classes which makes it relatively slow, while our fast inference gives a significant speed-up when the number of classes is large (more than 300K here)."
+          },
+          "more than an order of magnitude faster" : ["model with a better quality", {"from sentence" : "Overall, we are more than an order of magnitude faster to obtain model with a better quality."}]
+        }
+      }
+    }
+  }
+}

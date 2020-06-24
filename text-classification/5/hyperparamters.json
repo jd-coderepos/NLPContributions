@@ -1,0 +1,40 @@
+{
+  "has" : {
+    "Hyperparameters" : {
+      "use" : {
+        "AWD-LSTM language model (Merity et al., 2017a)" : {
+          "embedding size" : "400",
+          "layers" : "3",
+          "hidden activations per layer" : "1150",
+          "BPTT batch size" : "70"
+        },
+        "from sentence" : "We use the AWD-LSTM language model (Merity et al., 2017a) with an embedding size of 400, 3 layers, 1150 hidden activations per layer, and a BPTT batch size of 70."
+      },
+      "apply" : {
+        "dropout" : {
+          "0.4" : ["to layers", "to input embedding layers"],
+          "0.3" : "to RNN layers",
+          "0.05" : "to embedding layers"
+        },
+        "weight dropout" : {
+          "0.5" : "to the RNN hidden-to-hidden matrix"
+        },
+        "from sentence" : "We apply dropout of 0.4 to layers, 0.3 to RNN layers, 0.4 to input embedding layers, 0.05 to embedding layers, and weight dropout of 0.5 to the RNN hidden-to-hidden matrix."
+      },
+      "classifier" : {
+        "hidden layer" : {
+          "size" : "50"
+        },
+        "from sentence" : "The classifier has a hidden layer of size 50."
+      },
+      "Adam" : ["beta1 = 0.7", "beta2 = 0.99", {"from sentence" : "We use Adam with beta1 = 0:7 instead of the default beta1 = 0:9 and beta2 = 0:99, similar to (Dozat and Manning, 2017)."}],
+      "batch size" : ["64", {"from sentence" : "We use a batch size of 64, a base learning rate of 0.004 and 0.01 for finetuning the LM and the classifier respectively, and tune the number of epochs on the validation set of each task."}],
+      "base learning rate" : {
+        "0.004 and 0.01" : {
+          "for" : "finetuning the LM and the classifier"
+        },
+        "from sentence" : "We use a batch size of 64, a base learning rate of 0.004 and 0.01 for finetuning the LM and the classifier respectively, and tune the number of epochs on the validation set of each task."        
+      }
+    }
+  }
+}

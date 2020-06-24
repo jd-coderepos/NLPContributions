@@ -1,0 +1,17 @@
+{
+  "has" : {
+    "Approach" : {
+      "focus on the role" : {
+        "preprocessing the input text" : {
+          "split" : "individual (meaning-bearing) tokens",
+          "affects" : {
+            "performance of standard neural text classification models" : {
+              "based on" : "Convolutional Neural Networks (LeCun et al., 2010; Kim, 2014, CNN)"
+            }
+          }
+        },
+        "from sentence" : "In this paper we focus on the role of preprocessing the input text, particularly in how it is split into individual (meaning-bearing) tokens and how it affects the performance of standard neural text classification models based on Convolutional Neural Networks (LeCun et al., 2010; Kim, 2014, CNN)."
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "has" : {
+    "Results" : {
+      "from" : {
+        "Experiment 1: Preprocessing effect" : {
+          "observe" : {
+            "a certain variability of results" : {
+              "depending on" : "preprocessing techniques",
+              "average variability" : {
+                "+-2.4%" : {
+                  "for" : "CNN+LSTM model"
+                }
+              }
+            },
+            "from sentence" : "We observe a certain variability of results depending on the preprocessing techniques used (average variability of ±2.4% for the CNN+LSTM model, including a statistical significance gap in seven of the nine datasets), which proves the influence of preprocessing on the final results."
+          },
+          "does not help" : {
+            "more complex pre-processing techniques" : {
+              "such as" : "lemmatization and multiword grouping"
+            },
+            "from sentence" : "Nevertheless, the use of more complex preprocessing techniques such as lemmatization and multiword grouping does not help in general."
+          }
+        },
+        "Experiment 2: Cross-preprocessing" : {
+          "exhibiting a better performance" : {
+            "multiword enhanced vectors" : {
+              "on" : ["single CNN model (best overall performance in seven of the nine datasets)", "CNN+LSTM model (best performance in four datasets and in the same ballpark as the best results in four of the remaining five datasets)"]
+            },
+            "from sentence" : "In this experiment we observe a different trend, with multiword enhanced vectors exhibiting a better performance both on the single CNN model (best overall performance in seven of the nine datasets) and on the CNN+LSTM model (best performance in four datasets and in the same ballpark as the best results in four of the remaining five datasets)."            
+          },
+          "consistently better results" : {
+            "multiword-wise embeddings" : {
+              "on" : {
+                "vanilla setting" : {
+                  "in" : "eight of the nine datasets"
+                }
+              }
+            },
+            "from sentence" : "Interestingly, using multiword-wise embeddings on the vanilla setting leads to consistently better results than using them on the same multiword grouped preprocessed dataset in eight of the nine datasets."
+          },
+          "competitive" : ["embeddings trained on a simple tokenized corpus", {"from sentence" : "Apart from this somewhat surprising finding, the use of the embeddings trained on a simple tokenized corpus (i.e. vanilla) proved again competitive, as different preprocessing techniques such as lowercasing and lemmatizing do not seem to help"}],
+          "do not seem to help" : [{"different preprocessing techniques" : {
+            "such as" : "lowercasing and lemmatizing"}}, {"from sentence" : "Apart from this somewhat surprising finding, the use of the embeddings trained on a simple tokenized corpus (i.e. vanilla) proved again competitive, as different preprocessing techniques such as lowercasing and lemmatizing do not seem to help"}]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "has" : {
+    "Hyperparameters" : {
+      "use" : [
+        "rectified linear units", 
+        {"three filters" : {
+          "with" : {
+            "different window sizes h = 3, 4, 5" : {
+              "with" : "100 feature maps each"
+              }
+            }
+          }
+        },
+        {
+          "from sentence" : "For our CNN, we use rectified linear units and three filters with different window sizes h = 3, 4, 5 with 100 feature maps each, following [Kim, 2014]."
+        }
+      ],
+      "for" : {
+        "final sentence vector" : {
+          "concatenate" : {
+            "feature maps" : {
+              "to get" : "300-dimension vector"
+            }
+          }
+        },
+        "from sentence" : "For the final sentence vector, we concatenate the feature maps to get a 300-dimension vector."
+      },
+      "dropout rate" : ["0.5", {"from sentence" : "We use dropout [Srivastava et al., 2014] on all nonlinear connections with a dropout rate of 0.5."}],
+      "During" : {
+        "training" : {
+          "use" : {
+            "mini-batch size" : {
+              "of" : "50"
+            }
+          }
+        },
+        "from sentence" : "During training, we use mini-batch size of 50."
+      },
+      "stochastic gradient descent" : {
+        "shuffled mini-batches" : {
+          "with" : "Adadelta update rule"
+        },
+        "from sentence" : "Training is done via stochastic gradient descent over shuffled mini-batches with the Adadelta update rule."
+      },
+      "perform" : {
+        "early stopping" : {
+          "using" : {
+            "random 10%" : {
+              "of" : {
+                "training set" : {
+                  "as" : "development set"
+                }
+              }
+            }
+          }
+        },
+        "from sentence" : "We perform early stopping using a random 10% of the training set as the development set."
+      }
+    }
+  }
+}

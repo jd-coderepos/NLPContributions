@@ -1,0 +1,113 @@
+{
+  "has" : {
+    "Model" : {
+      "called" : [{"capsule network" : {"variant of" : "capsule networks proposed in Sabour et al. (2017)"}}, {"from sentence" : "Our capsule network, depicted in Figure 1, is a variant of the capsule networks proposed in Sabour et al. (2017)."}],
+      "consists of" : {
+        "four layers" : {
+          "has" : ["n-gram convolutional layer", "primary capsule layer", "convolutional capsule layer", "fully connected capsule layer"]
+        },
+        "from sentence" : "It consists of four layers: ngram convolutional layer, primary capsule layer, convolutional capsule layer, and fully connected capsule layer."
+      },
+      "explore" : {
+        "two capsule frameworks" : {
+          "to integrate" : "four components in different ways"
+        },
+        "from sentence" : "In addition, we explore two capsule frameworks to integrate these four components in different ways."
+      },
+      "has" : {
+        "N-gram Convolutional Layer" : {
+          "is a" : {
+            "standard convolutional layer" : {
+              "extracts" : {
+                "n-gram features at different positions of a sentence" : {
+                  "through" : "various convolutional filters"
+                }
+              },
+              "from sentence" : "This layer is a standard convolutional layer which extracts n-gram features at different positions of a sentence through various convolutional filters."
+            }
+          }
+        },
+        "Primary Capsule Layer" : {
+          "first capsule layer" : {
+            "capsules" : {
+              "replace" : {
+                "scalar-output feature detectors of CNNs" : {
+                  "with" : {
+                    "vector-output capsules" : {
+                      "to preserve" : {
+                        "instantiated parameters" : {
+                          "such as" : ["local order of words", "semantic representations of words"]
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "This is the first capsule layer in which the capsules replace the scalar-output feature detectors of CNNs with vector-output capsules to preserve the instantiated parameters such as the local order of words and semantic representations of words."
+        },
+        "Dynamic Routing" : {
+          "construct" : {
+            "non-linear map" : {
+              "in" : {
+                "iterative manner" : {
+                  "ensuring" : {
+                    "output of each capsule" : {
+                      "sent" : "appropriate parent in the subsequent layer"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "The basic idea of dynamic routing is to construct a non-linear map in an iterative manner ensuring that the output of each capsule gets sent to an appropriate parent in the subsequent layer"
+        },
+        "Convolutional Capsule Layer" : {
+          "connected" : {
+            "each capsule" : {
+              "to" : {
+                "local region K2 x C" : {
+                  "spatially in" : "layer below"
+                }
+              }
+            },
+            "from sentence" : "In this layer, each capsule is connected only to a local region K2 x C spatially in the layer below."
+          },
+          "multiply" : {
+            "transformation matrices" : {
+              "to learn" : {
+                "child-parent relationships" : {
+                  "followed up" : {
+                    "routing by agreement" : {
+                      "to produce" : "parent capsules in the layer above"
+                    }
+                  }
+                }
+              }
+            },
+            "from sentence" : "Those capsules in the region multiply transformation matrices to learn child-parent relationships followed by routing by agreement to produce parent capsules in the layer above."
+          }
+        },
+        "Fully Connected Capsule Layer" : {
+          "capsules in the layer below" : {
+            "flattened into" : {
+              "list of capsules" : {
+                "fed into" : "fully connected capsule layer"
+              }
+            }
+          },
+          "from sentence" : "The capsules in the layer below are flattened into a list of capsules and fed into fully connected capsule layer in which capsules are multiplied by transformation matrix"
+        },
+        "Architectures of Capsule Network" : {
+          "explore" : {
+            "two capsule architectures" : {
+              "denoted as" : ["Capsule-A", "Capsule-B"]
+            }
+          },
+          "from sentence" : "We explore two capsule architectures (denoted as Capsule-A and Capsule-B) to integrate these four components in different ways, as depicted in Figure 2."
+        }
+      }
+    }
+  }
+}

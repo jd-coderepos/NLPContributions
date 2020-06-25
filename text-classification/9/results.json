@@ -1,0 +1,45 @@
+{
+  "has" : {
+    "Results" : {
+      "on" : {
+        "three of the four data sets" : {
+          "state of the art performance" : ["CNN+MCFA", {"from sentence" : "We show that CNN+MCFA achieves state of the art performance on three of the four data sets and performs competitively on one data set."}]
+        },
+        "one data set" : {
+          "performs competitively" : ["CNN+MCFA", {"from sentence" : "We show that CNN+MCFA achieves state of the art performance on three of the four data sets and performs competitively on one data set."}]
+        },
+        "MR data set" : {
+          "outperforms" : {
+            "ensemble classifier" : {
+              "additionally" : "all competing models"
+            }
+          },
+          "from sentence" : "Finally, our ensemble classifier additionally outperforms all competing models on the MR data set."
+        }
+      },
+      "When" : {
+        "N = 1" : {
+          "increases the performance" : {
+            "MCFA" : {
+              "of" : {
+                "normal CNN" : {
+                  "from" : "85.0",
+                  "to" : "87.6"
+                }
+              }
+            }
+          },
+          "from sentence" : "When N = 1, MCFA increases the performance of a normal CNN from 85.0 to 87.6, beating the current state of the art on the CR data set."
+        },
+        "N = 10" : {
+          "on" : {
+            "TREC data set" : {
+              "beats the state of the art" : "MCFA"
+            }
+          },
+          "from sentence" : "When N = 10, MCFA additionally beats the state of the art on the TREC data set."
+        }
+      }
+    }
+  }
+}

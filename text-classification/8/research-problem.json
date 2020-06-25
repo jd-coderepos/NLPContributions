@@ -1,0 +1,6 @@
+{
+  "has research problem" : [
+    ["model the compositionality in text sequences", {"from sentence" : "Many deep learning architectures have been proposed to model the compositionality in text sequences, requiring a substantial number of parameters and expensive computations."}],
+    ["model the compositionality in variable-length text sequences", {"from sentence" : "Leveraging the word-embedding construct, many deep architectures have been proposed to model the compositionality in variable-length text sequences."}]
+  ]
+}

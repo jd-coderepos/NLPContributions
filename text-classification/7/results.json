@@ -1,0 +1,24 @@
+{
+  "has" : {
+    "Results" : {
+      "on" : {
+        "4 out of 6 benchmarks" : {
+          "achieve best results" : "capsule networks",
+          "from sentence" : "From the results, we observe that the capsule networks achieve best results on 4 out of 6 benchmarks, which verifies the effectiveness of the capsule networks."
+        }
+      },
+      "substantially and consistently outperforms" : {
+        "simple deep neural networks" : {
+          "such as" : ["LSTM", "Bi-LSTM", "CNN-rand"]
+        },
+        "from sentence" : "In particular, our model substantially and consistently outperforms the simple deep neural networks such as LSTM, Bi-LSTM and CNN-rand by a noticeable margin on all the experimental datasets."
+      },
+      "achieves competitive results against" : {
+        "more sophisticated deep learning models" : {
+          "such as" : ["LR-LSTM", "Tree-LSTM", "VC-CNN", "CL-CNN"]
+        },
+        "from sentence" : "Capsule network also achieves competitive results against the more sophisticated deep learning models such as LR-LSTM, Tree-LSTM, VC-CNN and CL-CNN."
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "has" : {
+    "Baselines" : {
+      "with" : ["LSTM/Bi-LSTM (Cho et al., 2014)", "tree-structured LSTM (Tree-LSTM) (Tai et al., 2015)", "LSTM regularized by linguistic knowledge (LR-LSTM) (Qian et al., 2016)", "CNNrand/CNN-static/CNN-non-static (Kim, 2014)", "very deep convolutional network (VD-CNN) (Conneau et al., 2017)", "character-level convolutional network (CL-CNN) (Zhang et al., 2015)", {"from sentence" : "In the experiments, we evaluate and compare our model with several strong baseline methods including: LSTM/Bi-LSTM (Cho et al., 2014), tree-structured LSTM (Tree-LSTM) (Tai et al., 2015), LSTM regularized by linguistic knowledge (LR-LSTM) (Qian et al., 2016), CNNrand/CNN-static/CNN-non-static (Kim, 2014), very deep convolutional network (VD-CNN) (Conneau et al., 2017), and character-level convolutional network (CL-CNN) (Zhang et al., 2015"}]
+    }
+  }
+}

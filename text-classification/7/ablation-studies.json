@@ -1,0 +1,16 @@
+{
+  "has" : {
+    "Ablation studies" : {
+      "contribute to the effectiveness" : {
+        "all three proposed dynamic routing strategies" : {
+          "of" : {
+            "Capsule-B" : {
+              "by alleviating" : "disturbance of some noise capsules"
+            }
+          }
+        },
+        "from sentence" : "Generally, all three proposed dynamic routing strategies contribute to the effectiveness of Capsule-B by alleviating the disturbance of some noise capsules which may contain \"background\" information such as stop words and the words that are unrelated to specific categories."
+      }
+    }
+  }
+}

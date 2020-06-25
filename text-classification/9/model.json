@@ -1,0 +1,51 @@
+{
+  "has" : {
+    "Model" : {
+      "present" : {
+        "neural attention-based multiple context fixing attachment (MCFA)" : {
+          "is" : {
+            "series of modules" : {
+              "uses" : {
+                "all the sentence vectors (e.g. Arabic, English, Korean, etc.)" : {
+                  "as" : "context",
+                  "to fix" : "a sentence vector (e.g. Korean)"
+                }
+              }
+            }
+          }
+        },
+        "from sentence" : "Based on these observations, we present a neural attention-based multiple context fixing attachment (MCFA). MCFA is a series of modules that uses all the sentence vectors (e.g. Arabic, English, Korean, etc.) as context to fix a sentence vector (e.g. Korean)."
+      },
+      "Fixing the vectors" : {
+        "is done by" : {
+          "selectively moving vectors" : {
+            "to location" : {
+              "in same vector space" : {
+                "better separates" : "the class"
+              }
+            }
+          }
+        },
+        "from sentence" : "Fixing the vectors is done by selectively moving the vectors to a location in the same vector space that better separates the class, as shown in Figure 2."
+      },
+      "computes" : {
+        "two sentence usability metrics" : {
+          "to control" : {
+            "noise" : {
+              "when" : "fixing vectors"
+            }
+          },
+          "called" : {
+            "self usability" : {
+              "has description" : "weighs the confidence of using sentence a in solving the task"
+            },
+            "relative usability" : {
+              "has description" : "weighs the confidence of using sentence a in fixing sentence b"
+            }
+          }
+        },
+        "from sentence" : "MCFA computes two sentence usability metrics to control the noise when fixing vectors: (a) self usability rhoi(a) weighs the confidence of using sentence a in solving the task. (b) relative usability rhor(a; b) weighs the confidence of using sentence a in fixing sentence b."
+      }
+    }
+  }
+}

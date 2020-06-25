@@ -1,0 +1,64 @@
+{
+  "has" : {
+    "Hyperparameters" : {
+      "GloVe word embeddings" : ["K = 300", {"from sentence" : "We use GloVe word embeddings with K = 300 (Pennington et al., 2014) as initialization for all our models."}],
+      "initialized" : {
+        "Out-Of-Vocabulary (OOV) words" : {
+          "from" : {
+            "uniform distribution" : {
+              "with" : "range [-0.01, 0.01]"
+            }
+          }
+        },
+        "from sentence" : "Out-Of-Vocabulary (OOV) words are initialized from a uniform distribution with range [-0.01, 0.01]."
+      },
+      "employed" : {
+        "GloVe embeddings" : {
+          "in" : {
+            "two ways to learn refined word embeddings" : {
+              "updating" : {
+                "each word embedding" : {
+                  "during" : "training"
+                }
+              },
+              "training" : {
+                "300-dimensional Multilayer Perceptron (MLP) layer" : {
+                  "with" : ["ReLU activation", {"GloVe embeddings" : {
+                    "as input to" : "MLP",
+                    "output" : "refined word embeddings"
+                  }}]
+                }
+              }
+            }
+          },
+          "from sentence" : "The GloVe embeddings are employed in two ways to learn refined word embeddings: (i) directly updating each word embedding during training; and (ii) training a 300-dimensional Multilayer Perceptron (MLP) layer with ReLU activation, with GloVe embeddings as input to the MLP and with output defining the refined word embeddings."          
+        },
+        "Dropout regularization (Srivastava et al., 2014)" : {
+          "on" : ["word embedding layer", "final MLP layer"],
+          "with" : {
+            "dropout rate" : {
+              "selected from" : "[0.2, 0.5, 0.7]"
+            }
+          },
+          "from sentence" : "Dropout regularization (Srivastava et al., 2014) is employed on the word embedding layer and final MLP layer, with dropout rate selected from the set [0.2, 0.5, 0.7]."          
+        }
+      },
+      "Adam (Kingma and Ba, 2014)" : {
+        "optimize all models" : {
+          "with" : {
+            "learning rate" : {
+              "selected from" : "[1 x 10-3, 3 x 10-4, 2 x 10-4, 1 x 10-5]"
+            }
+          }
+        },
+        "from sentence" : "Adam (Kingma and Ba, 2014) is used to optimize all models, with learning rate selected from the set [1 x 10-3; 3 x 10-4; 2 x 10-4; 1 x 10-5] (with cross-validation used to select the appropriate parameter for a given dataset and task)."
+      },
+      "selected" : {
+        "batch size" : {
+          "from" : "[2, 8, 32, 128, 512]"
+        },
+        "from sentence" : "The batch size is selected from [2, 8, 32, 128, 512]."
+      }
+    }
+  }
+}

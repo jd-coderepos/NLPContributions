@@ -1,0 +1,39 @@
+{
+  "has" : {
+    "Approach" : {
+      "conduct" : {
+        "extensive experimental investigation" : {
+          "to understand" : {
+            "when, and why, simple pooling strategies" : {
+              "operated over" : "word embeddings alone",
+              "carry" : {
+                "sufficient information" : {
+                  "for" : "natural language understanding"
+                }
+              }
+            }
+          },
+          "from sentence" : "In this paper, we conduct an extensive experimental investigation to understand when, and why, simple pooling strategies, operated over word embeddings alone, already carry sufficient information for natural language understanding."
+        }
+      },
+      "compare" : {
+        "SWEM-based models" : {
+          "with" : {
+            "existing recurrent and convolutional networks" : {
+              "in a" : {
+                "point-by-point manner" : {
+                  "To account for" : {
+                    "distinct nature of various NLP tasks" : {
+                      "may require" : "different semantic features"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "from sentence" : "To account for the distinct nature of various NLP tasks that may require different semantic features, we compare SWEM-based models with existing recurrent and convolutional networks in a point-by-point manner."
+      }
+    }
+  }
+}

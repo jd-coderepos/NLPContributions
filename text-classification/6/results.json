@@ -1,0 +1,34 @@
+{
+  "has" : {
+    "Results" : {
+      "performs as good or better" : {
+        "transfer learning from the transformer based sentence encoder" : {
+          "than" : "transfer learning from the DAN encoder"
+        },
+        "from sentence" : "We observe that transfer learning from the transformer based sentence encoder usually performs as good or better than transfer learning from the DAN encoder."
+      },
+      "perform better" : {
+        "Models that make use of sentence level transfer learning" : {
+          "than" : "models that only use word level transfer"
+        },
+        "from sentence" : "Models that make use of sentence level transfer learning tend to perform better than models that only use word level transfer."
+      },
+      "achieve surprisingly good task performance" : {
+        "sentence level transfer learning" : {
+          "for" : "smaller quantities of data"
+        },
+        "from sentence" : "We observe that, for smaller quantities of data, sentence level transfer learning can achieve surprisingly good task performance."
+      },
+      "approach the performance" : {
+        "models that do not make use of transfer learning" : {
+          "of" : {
+            "other models" : {
+              "as" : "training set size increases"
+            }
+          }
+        },
+        "from sentence" : "As the training set size increases, models that do not make use of transfer learning approach the performance of the other models."
+      }
+    }
+  }
+}

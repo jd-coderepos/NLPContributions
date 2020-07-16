@@ -1,0 +1,1033 @@
+4 percent absolute on validation and 3.4 on test	1
+standard CNN model	1
+training from scratch	1
+Language Modeling	6
+words and entity types	1
+accuracy	2
+models that do not make use of transfer learning	1
+5 groups of filters	5
+more complex pre-processing techniques	1
+local region K2 x C	1
+GCN model outperforms all dependency-based models	1
+all three proposed dynamic routing strategies	1
+core NLP tasks	5
+biases	1
+RaSoR	1
+dependency structure over the input sentence	1
+new state-of-the-art performance	1
+convolutions in the decoder CNN	1
+each word vector	1
+AE	3
+batch size and learning rate scheduling	1
+Fully Connected Capsule Layer	1
+is done	1
+AG	1
+each input word	1
+BERTSP with entity indicators on input layer	1
+NewsTest 2015	1
+NewsTest 2014	2
+dilation rates	1
+LSTM-LSTM (Vaswani et al., 2016)	1
+Path-centric Pruning	4
+OntoNotes	4
+single LSTM layer	1
+WSJ dataset	1
+n-gram functionality	1
+Shortest Dependency Path LSTM (SDP-LSTM) (Xu et al., 2015b)	1
+1000	1
+when, and why, simple pooling strategies	2
+Stack-LSTM model also outperforms all previous models	1
+result	2
+"next sentence prediction" task	1
+semi-supervised approach	2
+other CNN baseline methods with much deeper architectures	1
+Prediction accuracies vs. increasing K	2
+Impact of pretraining	1
+test set F1	2
+SemEval 2018 Task 7	6
+joint vector space	1
+computer science tasks	1
+best hyperparameters	2
+pre-training	2
+decreased	1
+movie review dataset	1
+RNN Encoder-Decoder	9
+all Reverb facts	1
+82%	1
++5.1 F1 improvement	1
+building a deep topology	1
+MR data set	1
+CR	1
+target word	1
+semantic matching vector	2
+DS-Joint (Li and Ji, 2014)	1
+novel recurrent neural model	1
+best results	1
+recurrent layer (specifically an LSTM (Hochreiter and Schmidhuber, 1997))	1
+non-dilated CNN architecture with the same number of convolutional layers	1
+feature generator	1
+results in	1
+single recurrent unit	1
+batch of sequences	1
+multi-GPU setup	1
+scalable and effective solution	1
+DeepMatch	1
+initialize	1
+GloVe embeddings	3
+Our NSE models outperformed the previous state-of-the-art models	1
+all three models are less effective	1
+input embeddings	1
+Batch sizes	2
+11 NLP tasks	11
+achieves	1
+dependency view	1
+improves performance	1
+L2 regularization parameter	1
+all the words	1
+entire input sequence	1
+endpoint prediction model	1
+Dialog	1
+neural attention-based multiple context fixing attachment (MCFA)	1
+whole sentence as single state	1
+new type of general purpose neural network component	1
+Bi-LSTM with local decoding and one with CRF decoding	1
+helped	1
+instantiated parameters	2
+third sub-layer	1
+at least +5.01 BLEU points	1
+directional self-attention	1
+mini-batch	2
+other models	1
+exotic character combination	1
+recurrent computation	1
+BioBERT v1.0 (+ PubMed + PMC)	1
+LSTM-LSTM model is better than LSTM-CRF model	1
+Transformer	4
+a matrix	1
+Constrained English-Estonian and Estonian-English NMT systems	2
+two ways	2
+Ablation Study	1
+AdaGrad (Duchi et al., 2011)	1
+n-gram features at different positions of a sentence	1
+S-ACNN significantly outperforms S-CNN	1
+Single models	2
+each model twice	2
+bag of n-grams	1
+Convolutional Capsule Layer	2
+Word Representation	1
+CoNLL-2003 English NER	5
+IMDb	2
+encoding memory	2
+joint modeling of entities and relations	2
+ACE datasets	1
+ADE dataset	3
+pre-trained 300-D Glove 840B vectors	1
+more general framework	2
+feed forward neural networks	1
+with	3
+Impact of LM quality	2
+surprisingly well	2
+large, unlabeled corpus	3
+NSE or LSTM	1
+extension to the encoder-decoder model	1
+meta network	1
+iterative inference process	2
+STS Benchmark	1
+Theano (Bastien et al., 2012)	1
+feature maps	1
+back-translated data	1
+RNNsearch	1
+loss on development data does not decrease	1
+similar	1
+1k data	1
+ability to rerank answers	1
+named entity recognition (NER) component	1
+jointly	2
+system	3
+authors' baseline ESIM+ELMo system	1
+BERTBASE and BERTLARGE outperform all systems on all tasks	1
+SQUAD training set	1
+50% dropout	3
+Our MMA-NSE attention model exceeds the NASM	2
+sentence embeddings	2
+2048 experts	1
+hypothesis to sentences in the text viewed as single, self-contained thoughts	1
+CRF loss layer	1
+list of capsules	1
+trainable gating network	1
+different window sizes h = 3, 4, 5	1
+further analysis is needed	1
+shuffled mini-batches	1
+ADAM (Kingma & Ba, 2015) optimizer	1
+our AT model beats the baseline F1	1
+Baselines	40
+chunks of input sentences	1
+two methods	1
+16 x 32 coding scheme	1
+Capsule-B	1
+noise	1
+learned embeddings	1
+phrase-based SMT framework	1
+semantic perspective	1
+decoder stack	1
+word embeddings from a word2vec skip-gram model	3
+fast-forward connections	1
+Sequence Labelling	2
+BERT is effective	1
+selectively moving vectors	1
+outperforms Enc-Dec model	1
+quadratic number of possible answers	1
+max function	1
+LSTM-CRF	1
+linear in length	1
+parallelized	1
+local and non-local contexts	1
+cnn library	1
+series of modules	1
+semantic matching functions	1
+CoNLL 2003 NER	1
+WMT 2014 English-to-German translation task	1
+scaling factor	1
+"Other" tag	1
+CoNLL	6
+two capsule architectures	2
+fine-tuning	2
+68%	1
+(partially) processed nested mentions	1
+MR	1
+sentiment analysis	1
+Experiment	2
+BERTBase model	6
+batch size	3
+fast inference	1
+Character Prediction	2
+in same vector space	1
+Residual connection	2
+a certain variability of results	2
+a lowercased PTB tokenized string	1
+Approach	42
+similar component	1
+existing recurrent and convolutional networks	1
+relation extraction task	1
+TREC-6	2
+LSTM decoder	1
+latent representations	1
+ensemble	2
+set of context-sensitive filters	1
+significantly worse	5
+interleaved bi-directional architecture	1
+NVIDIA V100 (32GB) GPUs	3
+fully connected feed-forward network	1
+all competing state-of-the-art approaches	3
+BioBERT v1.1 (+ PubMed)	3
+BLEU score	1
+"masked language model" (MLM) pre-training objective	3
+single incrementally-decoded NN structure	1
+discriminator	3
+Models that make use of sentence level transfer learning	1
+token character encoder	2
+word and of KB triples	1
+0.3	2
+SST	1
+0.5	1
+Primary Capsule Layer	1
+equilibrium	1
++-2.4%	1
+robust inductive transfer learning	1
+previously mentioned unidirectionality constraint	1
+LINE (Tang et al., 2015)	1
+FCM (Gormley et al., 2015)	1
+each capsule	1
+decoding layer	1
+hashing trick (Weinberger et al., 2009)	2
+SUBJ	1
+Neural Semantic Encoders (NSE)	1
+3% improvement in F1	1
+Hyperparameters	150
+fastText	3
+performance of standard neural text classification models	1
+IMDb and AG	2
+Our full model, with the structured fine-tuning of attention layers, brings further improvement	2
+QASent dataset	2
+models	1
+sampled uniformly	1
+RE task	1
+Computer Science Domain	2
+influence of various filter types	1
+SWEM	5
+six sets of five blocks	1
+only one layer is shared in our system	1
+sliding window	2
+degraded	1
+up to +13.37 BLEU points	1
+LSTM-CRF model	6
+three out of the four datatset	1
+previous work	1
+MultiR (Hoffmann et al., 2011)	1
+question and document	1
+accuracy slightly	1
+compressed model	1
+degrades	1
+context aware representations of words in a sentence	1
+Deep-ED	1
+Machine Translation	8
+each time	1
+SCIVOCAB	1
+single model Deep-Att performance	1
+networks	2
+general framework of 'region embedding + pooling'	1
+Begin, Inside, End, Single	1
+Our method outperforms the baseline method	2
+sentence matching	2
+neural network architecture	3
+K codeword vectors	1
+TACRED Dataset	9
+sequence model	1
+Experimental Setup	8
+Stanford neural dependency parser	1
+simple QA	1
+exogenous word weights	1
+initial learning rate	3
+N = 1	1
+CoNLL 2003 NER task	1
+BioBERT	7
+constrained scenarios	1
+two different views of text sentences	2
+three datasets	2
+19% lower perplexity on the dev set	1
+Impact of LM fine-tuning	1
+relations	1
+Vocabulary	1
+all weights	1
+some of the tokens from the input	1
+entity-aware self-attention mechanism	1
+Google’s publicly available embeddings	1
+baseline model	12
+Reranking	3
+features	1
+two bidirectional GRUs	3
+two ways to learn refined word embeddings	2
+sequence tagging tasks	2
+simple use of a distributed word representation	1
+MACHINE TRANSLATION (SINGLE LANGUAGE PAIR)	3
+same convolutional architecture	2
+two-layer BiLSTMs	1
+Adversarial training (AT)	1
+Attention	4
+LSTM-CRF model significantly outperforms all previous methods	1
+the feedforward layers, the LSTM component and the dependency structure	1
+ADAMAX (Kingma & Ba, 2015)	1
+5.30	1
+Adam optimizer (Kingma and Ba, 2014)	2
+SNLI dataset	1
+mean reciprocal rank score	1
+Out-Of-Vocabulary (OOV) words	1
+relational information with regard to multiple entities	1
+10% of the training	1
+some partial information about the local word order	2
+feedforward deep neural network (DNN)	1
+LSTM-CRF (Lample et al., 2016)	1
+parameters	2
+Architectures of Capsule Network	1
+memory	1
+Baseline System	1
+composed feature vector	1
+back-translation	1
+encoding layer	1
+System	5
+Quantitative Analysis	3
+original query	2
+Ablation Results	2
+10k dataset	1
+BERTSP with position embedding on the final attention layer	1
+hierarchical composition for sentences	1
+novel path-centric pruning technique	1
+transformation matrices	1
+entity-aware attention mechanism	1
+variable sized encoding memory	1
+ensemble classifier	1
+GRU recurrent weights	1
+maximally 500 epochs	1
+GloVe (Pennington et al., 2014)	2
+lp(0<p<=1)-norm based measure	1
+gradients	2
+sequential view	1
+simple-to-comprehensive fusion of matching patterns	1
+Positional Encoding	2
+two types of models	2
+multidomain tasks	1
+B(oundaries)	1
+mixed results	1
+GCN	1
+decay rate	1
+Position-wise Feed-Forward Networks	1
+pruning (i.e., using full trees as input)	1
+~1% in terms of F1 score	2
+Dynamic Routing	1
+SWEM-hier for sentiment analysis	3
+model outperforms the model of Katiyar & Cardie (2017)	1
+iterative manner	1
+task-specific loss	1
+Decoder	3
+Ablation Analysis	14
+two classification models	2
+Training	3
+error reduction	1
+Universal Language Model Fine-tuning (ULMFiT)	1
+mini-batch size	3
+all versions of BioBERT	1
+small/large word CNN (Zhang et al., 2015)	1
++1.5 F1	1
+main benchmark WebQuestions	1
+MSRP dataset	1
+pre-training strategies	4
+Entity-Aware BERTSP	1
+Classification	2
+one-dimensional convolutional neural networks (CNN)	3
+Model architecture	7
+low-dimensional vector embeddings	1
+entity representations and feedforward layers	1
+hidden dimension size	1
+some information about the relative or absolute position	1
+optimize all models	1
+single layer for the forward and backward LSTMs	1
+BIES	1
+our methods demonstrate clear advantage as a single model	1
+TREC data set	1
+contribution of neural components including pre-trained embeddings, the character-level LSTM and dropout layers	1
+minibatch stochastic gradient descent (SGD) algorithm	2
+ByteNet	4
+sentiment analysis datasets	1
+additional features	1
+system's state	1
+one data set	1
+S-LSTM	2
+optimize the top of the list	1
+Full Ranking	2
+forest where each outermost mention forms a tree consisting of its inner mentions	1
+decomposition operation	1
+hierarchical softmax (Goodman, 2001)	1
+poor translation performance	1
+each layer	1
+coreference annotation in ONTONOTES	1
+English-to-German	1
+preprocessing the input text	2
+DBpedia, Yelp-bi, and Yelp-full	1
+general purpose	1
+sufficient information	1
+taking the advantage of RNN's capability	1
+encoder and decoder	1
+50-dimensional Glove (Pennington et al., 2014) word vectors	1
+Pretraining	1
+are truly good	1
+corresponding accuracies	1
+English Constituency Parsing	2
+Bi-Ans-Ptr with bi-directional pre-processing LSTM	1
+both accuracy and MSE	1
+2+% absolute higher NER and RC scores	1
+relation classification (RC) component	3
+Self Attention	1
+multiword-wise embeddings	1
+Deep-Att	1
+Ablation studies	1
+by 3.2%	1
+than the word-by-word baseline system	2
+another BiLSTM	1
+standard convolutional layer	1
+used	1
+ontology classification problem	1
+diverse set of six benchmark NLP tasks	6
+GeForce GTX 1080 GPU	1
+transfer learning from the transformer based sentence encoder	1
+up to four K80 GPUs	1
+NER task	5
+MCTest-500	3
+Embeddings and Softmax	2
+all datasets	3
+flattened	1
+different preprocessing techniques	1
+hidden state size	1
+SciBERT outperforms BERT-Base	4
+Tagging Scheme	1
+4 out of 6 benchmarks	1
+two sentence usability metrics	3
++1.3 F1	1
+Speed with fixed N	1
+SWEM-based models	1
+baseline result	3
+NN parameters	1
+vectors	2
+hidden layer	1
+TREC	1
+alternative lexical representation	2
+standard bi-directional encoder	1
+The whole network	1
+any KB	1
+500 characters each	2
+non-linear map	1
+forward and backward recurrent neural networks (RNN)	1
+random 10%	1
+mini-batch (100 ~ 200 in sizes)	1
+text representation	1
+context-sensitive convolutional filters	1
+WikiQA dataset	1
+general domain corpora and biomedical corpora	2
+Boundaries	1
+smaller TREC-6	1
+to cover	1
+softmax layer	1
+our LSTM with two 100-dim LSTM tv-embeddings	1
+16 datatsets of Liu et al. (2017)	2
+loss function	1
+1024 units	2
+50-dimensional word embedding	1
+Including vector gates	1
+CBT	2
+AS Reader ensemble	1
+BioBERT results	2
+ngrams (Zhang et al., 2015)	1
+document and the query	1
+test error	2
+Hardware and Schedule	3
+large-scale dataset of questions and answers based on a KB	2
+CoNLL04 dataset	1
+three of the four data sets	1
+Stack-LSTM	3
+biggest improvement	1
+a new state-of-the-art	2
+85.4% accuracy score	1
+state-of-the-art test performance	1
+mini-batch stochastic gradient descent (SGD)	5
+hidden layers	1
+attention	1
+child-parent relationships	1
+a bidirectional LSTM	1
+Contribution	333
+two linear transformations	1
+the baseline outperforms Katiyar and Cardie (2017)	2
+a feature generator and a linear model	1
+3B-word UMBC WebBase corpus (Han et al., 2013)	1
+win-l	1
+entity-centric representations	1
+gradient norms	1
+dimensions of intermediate layers	1
+average accuracy of QRN's '6r200' (6 layers + reset gate + d = 200) model outperforms all previous models	1
+micro averaged F1 score	1
+machine comprehension problem	1
+output of each capsule	1
+two sets of back-translated data	1
+Nesterov's accelerated growth	1
+probability distribution	1
+summary of its inference process	2
+biased loss	1
+all the sentence vectors (e.g. Arabic, English, Korean, etc.)	2
+two GCN models and the Tree-LSTM	1
+sophisticated hidden unit	1
+SCIBERT	1
+coefficients beta1 = 0.9 and beta2 = 0.999	1
+codebooks	1
+grid searches	5
+Method	11
+92%	1
+CHEMPROT dataset	2
+same architecture as BERT	1
+expand this size	1
+TACRED dev set	4
+as	1
+inferential links	1
+All CNN models	1
+win-5	1
+IWSLT14 dataset	2
+win-3	1
+win-4	1
+allowing interactions between the endpoints using the spanlevel FFNN	1
+each language	1
+win-2	1
+context aware word representations	1
+higher micro averaged MRR score	1
+grid search	1
+Optimizer	2
+popular words from rare words	2
+Adam optimizer (Kingma & Ba, 2015)	1
+by	1
+Adam optimization algorithm	1
+translation performance of our system	1
+model learned from adversarial training also outperforms original one	2
+both datasets	2
+fine-tuned model	1
+set	2
+character embeddings	1
+character-based LSTMs	1
+LSTM-CRF model outperforms all other systems	1
+2 out of 3 biomedical datasets	2
+words	2
+Model settings	3
+Viterbi inference	1
+residual connections	2
+30 residual blocks	2
+linear combination of the vectors	1
+SWEM-max	1
+multi-layer recurrent networks	1
+sequence layer	2
+CoNLL 2000 chunking	3
+directly classifying	1
+512-D LSTM inputs	1
+Experimental results	16
+Document Classification	3
+BIO (Beginning, Inside, Outside) encoding scheme	1
+RE results	4
+300-dimensional Multilayer Perceptron (MLP) layer	2
+ADE	1
+highest average scores	1
+NER and RC components as independent networks	1
+Experiment 2: Cross-preprocessing	4
+deep neural network (Pascanu et al., 2014)	1
+10 asynchronous training threads	1
+acceleration	2
+Neural sequence model	1
+feed-forward computation	1
+Speed vs. increasing N	2
+results, both in precision and recall	1
+categorizing documents	2
+representation to fuse the left and the right context	1
+learning rate decay	1
+entities and relations	1
+one-layer architecture	1
+window size	2
+portion of nested mentions	1
+output embedding	1
+stack-LSTM model	4
+S(trict)	1
+simple deep neural networks	3
+Translation results	1
+LSTM layer	2
+one NVIDIA GeForce GTX TITAN X GPU	1
+Bi-LSTM-CNN-CRF models of (Chiu and Nichols, 2016) and (Strubell et al., 2017)	1
+capsule network	1
+Experimental Settings	20
+Ablation analysis	9
+best MAP	1
+biased objective function	1
+training set	1
+sequential sliding window	2
+ACE04 dataset	4
+precisions of the end-to-end models	1
+multi-head attention	1
+SWEM model	1
+90% of the connections	2
+vector gates	1
+training	1
+logistic regression (LR) classifier	1
+200K	1
+states	1
+two one-layer LSTM	2
+stack of N = 6 identical layers	2
+1e-3 learning rate	1
+cross-language translation	1
+both NER (~1%) and RE (~2%) tasks	1
+a new type of linear connections	1
+overfitting	1
+Encoder and Decoder Stacks	2
+the sentential component	1
+softmax function f	1
+point-by-point manner	1
+Adam (Kingma and Ba, 2014)	2
+multitask learning	1
+filter generation module	1
+character-based word representation model	2
+self-attention sub-layer	1
+MCFA	1
+performance is further improved	1
+BERT-Base	2
+boundary model	3
+single dropout mask	1
+Answer Sentence Selection	2
+improves	3
+results of a pipeline approach	1
+end-to-end model	1
+improved	1
+followed by	1
+Stack-LSTM also consistently presents statethe-art (or close to) results	1
+End-to-end Model	5
+word-by-word perspective	1
+novel end-to-end model	1
+GNMT model	2
+compositional coding	2
+model	2
+Character-Level Machine Translation	2
+transition-based system	1
+tasks	3
+OpenAI GPT	1
+elementary operation	1
+in	2
+dilated convolutions	4
+both CNN and LSTM compositional functions	1
+shared memory access	1
+Code Learning	1
+encoder	2
+stochastic gradient descent	3
+encoder generates the latent representations	1
+different languages	1
+computation from the hidden state in the decoder to the output	1
+weight-sharing constraint	2
+Adam optimizer	3
+Ablation results	1
+Application	3
+word-level sliding window	1
+CNN	3
+BLEU scores of 40.56 and 26.03	1
+greedy ID-CNN	1
+eight	1
+inserted	2
+Bert-Base	2
+LSTM-based decoding layer	1
+relations between entities	2
+PARALEX	1
+information exchange	2
+QRN's '2r' (2 layers + reset gate + d = 50) outperforms all other models	1
+NER	1
+R(elaxed)	1
+codes	1
+Deep Averaging Network (DAN)	4
+a novel bidirectional filter generation mechanism	1
+10M bins	1
+learning rate	6
+self usability	1
+word2vec	1
+learning perspective	1
+performance of all three models peaks	2
+second	2
+OntoNotes 5.0 English NER	2
+representations of questions and corresponding answers	1
+7+% higher NER and RC scores	1
+embedding vectors	1
+higher scores than	1
+as a kind of raw signal at character level	1
+learn latent features relevant for relation classification	1
+lexical semantics	1
+smaller data set	2
+similarity matches	1
+input and forget gates	1
+Adverse Drug Events, ADE (Gurulingappa et al., 2012)	1
+five blocks in each set	1
+did not bring further improvements	1
+states of input, stack and action history	1
+embedding-based QA system	1
+a computational perspective	1
+encoder-shared model	1
+Word Similarity	6
+each sentence with nested mentions	1
+Experiment 1: Preprocessing effect	2
+log-linear model	1
+Experimental setup	58
+each word embedding	1
+1.01 higher test BLEU score	1
+fixed set of filters	1
+shallow neural network	1
+speedup solver	2
+scores	1
+each word w	1
+Optimization	4
+top N function	1
+NVIDIA Titan Xp (12GB) GPU	3
+long-term dependency problem of most RNN-based models	2
+sampling from an isotropic zero-mean (white) Gaussian distribution	1
+repeat	1
+overall performance	1
+of	1
+Story-based QA	2
+BERT	4
+Accuracy comparison	1
+N-gram Convolutional Layer	1
+Short Sentence Processing	2
+CoNLL04	2
+context vectors	1
+on	6
+small TREC-6	1
+number of experts	1
+input embeddings for words and bi-grams	1
+initialized randomly	1
+PMC	1
+Semi-supervised experiments	2
+three filters	1
+18% papers	1
+Impact of classifier fine-tuning	1
+SOTA	1
+new SOTA results	4
+companion QA set	2
+comparable MRR	1
+iterated dilated CNN architecture (ID-CNN)	1
+character-level ConvNets could work for text classification	1
+filter types	2
+novel alternating attention mechanism	2
+each word	3
+rare words lie in the same region as and are mixed with popular words	1
+other two tasks	1
+word vectors	3
+CoType (Ren at al., 2017)	1
+multilayer network	1
+ACE04	4
+0.004 and 0.01	1
+comparable or even superior results	1
+structured prediction layer	1
+deep CNN (Conneau et al., 2016)	1
+training with global normalization	1
+word level transfer	1
+each position separately and identically	1
+scientific tasks	1
+100 hidden units	1
+interactions between sentence pairs	1
+Experiments (supervised)	2
+CoNLL 2000 Chunking task	1
+sentence matching tasks	4
+a random sample of 1.14M papers	3
+Entity-aware Attention	1
+two components	2
+higher F1 score	1
+similarity used in the embedding space	1
+128	1
+CoNLL test set	1
+any pretrained word or sentence embeddings	1
+all the biomedical QA datasets	3
+German, Dutch and Spanish	2
+BLSTM	1
+a novel class of memory augmented neural networks	1
+Experiments	12
+uniform distribution	1
+DREC dataset	4
+model outperforms all previous models that do not rely on complex hand-crafted features	1
+AT improves the predictive performance of the baseline model in the joint setting	1
+topic prediction tasks	1
+excellent results	1
+four layers	4
+30	1
+single maxout (Goodfellow et al., 2013) hidden layer	1
+biomedical tasks	1
+32	1
+more sophisticated region embedding	1
+bigram information	1
+size 50	1
+Baseline Systems	3
+ACE 2005	4
+dissimilar component	1
+single	1
+BERTSP	1
+all of the four layers are shared	1
+our ID-CNN	1
+performing prediction	2
+3 iterations of routing	1
+to	1
+Regularization	2
+entity recognition	1
+SemEval Dataset	5
+constrained Estonian-English NMT system	1
+word representations	1
+highest performance	1
+usual learned linear transformation and softmax function	1
+4.58	1
+two capsule frameworks	1
+classification accuracy	1
+context sentences	1
+maximum sequence length	1
+DS-logistic (Mintz et al., 2009)	1
+PubMed	1
+a sentence pair	2
+new SimpleQuestions dataset	1
+two independent encoders	1
+5%	1
+SENNA+MLP/SIM	1
+Ablation study	3
+other three SWEM variants	1
+best performance	1
+Text Classification	4
+vanilla setting	1
+fast and memory efficient mapping	1
+arranged in sets of five	1
+another NSE	1
+single DAN encoder	1
+extensive experimental investigation	1
+Architecture	15
+vector-output capsules	1
+character-level LSTM	2
+one-hot CNN with one 200-dim CNN tv-embedding	1
+dropout rate	1
+each token	1
+memory of the input sequence	1
+weights of our model	1
+AWD-LSTM language model (Merity et al., 2017a)	4
+WordEmbed	1
+two AE	1
+learning	1
+each end task	1
+in relation classification	1
+Strict	1
+another discriminator	1
+self-attentive sentence embeddings	1
+MPQA	1
+Our best performing system outperforms the top leaderboard system	2
+character level embeddings	1
+The MoE model	1
+ASPEC dataset	2
+margin of improvement is more significant	1
+decoder reconstructs the sentences	1
+Naver Smart Machine Learning (NSML) (Sung et al., 2017	1
+L2 weight decay	1
+multiword enhanced vectors	2
+better results than all previously reported models	1
+39% lower	1
+300-dimensional CBOW Word2vec embeddings (Mikolov et al., 2013a)	1
+1e-3	1
+full corpus	2
+Dropout regularization (Srivastava et al., 2014)	3
+regularization method	1
+weight parameters	1
+Model Architecture	5
+multitasking with paraphrase data	1
+fixed length sentence encoding vector	1
+larger datasets	1
+one with enough layers to incorporate an effective input width of the same size as that of the dilated network	1
+ARC-I and ARC-II trained purely with random negatives	1
+ablation tests	9
+two sub-layers	3
+strict accuracy	1
+rate of 0.5	1
+catastrophic forgetting	1
+neural language model (LM)	1
+to (un-interpretable) vectorial representations	2
+loss	1
+uRAE+MLP	1
+novel neural attention-based inference model	1
+Impact of bidirectionality	2
+logistic regression	1
+capsules	1
+Pointer Net (Ptr-Net) model	2
+method	3
+performance boost	1
+Unconstrained English-Estonian and Estonian-English NMT systems	1
+a word embedding	1
+weight dropout	1
+Low-shot learning	2
+word embeddings	5
+one-layer LSTM	1
+bi-directional Long Short Term Memory (Bi-LSTM) layer	1
+Simple word-by-word matching	1
+substantial margin	1
+~2%	1
+increasing factors of dilation	1
+C-GCN model also outperforms PA-LSTM	1
+dropout	15
+270K	1
+Relaxed	1
+Models	2
+two bidirectional layers	1
+embedding layer	3
+Query-Reduction Network (QRN)	3
+outperform the baselines for 1.06/0.71	1
+n-grams	1
+Gumbel-softmax trick (Maddison et al., 2016; Jang et al., 2016)	1
+comparable results	1
+Sentiment Analysis	3
+Implementation	17
+Corpus	1
+proposed model	2
+across	1
+~3%	1
+Ablation Studies	4
+two-channel CNN operation	1
+pre-trained language representation model	2
+routing by agreement	1
+novel techniques	2
+Experimental Results	1
+fixed-length span representations	1
+our model is able to outperform both models	1
+Dependency-based models	3
+The baseline model outperforms the state-of-the-art models	2
+linear in the length	1
+improves every model	2
+embedding hidden states	1
+Test Classification	1
+Results	161
+six out of nine datasets	2
+relative usability	1
+Model	99
+Baseline Models	2
+multilingual GNMT model	1
+distinct nature of various NLP tasks	1
+single intermediate layer	1
+36.3	1
+dimensions	1
+final sentence vector	1
+same block of dilated convolutions	3
+sliding window of context	1
+normal CNN	2
+Number of weight-sharing layers	2
+baseline sequence tagger	2
+residual connection	1
+N = 10	1
+question and answer candidates to the text	1
+C-GCN model further outperforms the strong PA-LSTM model	2
+system of Durrett and Klein (2014)	1
+Encoder	2
+the MoE model	3
+from	3
+coupled language model (LM) objective	1
+the best previously reported models (including ensembles)	2
+Tree-LSTM (Tai et al., 2015)	1
+input sequence	1
+Sskip model outperforms our feature vector approach	1
+3e-4	1
+sentence level transfer learning	1
+significantly degraded	1
+Tasks	22
+end-to-end neural architecture	1
+300 dimensional GloVe embeddings	1
+F1 measure	2
+500 maxout units	1
+WEAT	1
+constant learning rate	1
+decoder	3
+document classification experiments	5
+Systems	3
+shared encoding memory	1
+Adam	4
+a set of positions	3
+SenMLP	1
+multi-task learning	1
+BiLSTM-CRF architecture	1
+Biomedical Domain	3
+compute time	1
+a single encoding model	1
+every word	1
+learned filters	2
+size 25	1
+English-to-French	2
+Methods	3
+bidirectional LSTM	2
+GENIA dataset	1
+300-dimensional word2vec (Mikolov et al., 2013) vectors	1
+other NN models that only use standard word embeddings	1
+scalar-output feature detectors of CNNs	1
+lenient accuracy	1
+state-of-the-art accuracy	1
+LSTM-LSTM-Bias, outperforms all other methods	1
+QA results	2
+14% error reduction	1
+error	1
+two layers	3
+embedding dimensions	2
+dependency structure	1
+SimpleQuestions	1
+early stopping	2
+hyperparameters	16
+more sophisticated deep learning models	4
+of dimension 100	1
+full 100 billion words	2
+tasks other than QA	1
+objective loss	1
+corresponding matches	1
+performance	2
+hidden states of all words simultaneously	1
+entire dependency tree is present	1
+fine-tune embedding-based models	1
+Multiple Domains	2
+two recurrent neural networks (RNN)	3

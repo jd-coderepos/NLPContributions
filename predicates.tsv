@@ -1,0 +1,843 @@
+has	251
+has research problem	159
+on	119
+for	90
+with	82
+by	54
+from sentence	53
+use	47
+in	42
+of	41
+outperforms	39
+has description	38
+called	36
+using	32
+to	28
+is	24
+from	24
+used	18
+propose	17
+achieves	15
+learning rate	14
+such as	12
+batch size	12
+consists of	12
+uses	12
+train	12
+over	12
+based on	11
+improvement	11
+hyperparameters	11
+Hyperparamaters	10
+as	10
+than	10
+achieved	9
+introduce	9
+when	9
+hidden units	9
+is a	9
+trained using	8
+without	7
+contains	7
+outperformed	7
+initial learning rate	7
+obtained	7
+employ	7
+word embeddings	7
+initialized	7
+significantly outperforms	6
+Code	6
+where	6
+in terms of	6
+varied	6
+evaluate	6
+dropout rate	6
+removed	5
+fixed	5
+trained on	5
+at	5
+observe	5
+adding	5
+trained	5
+task	5
+composed of	5
+into	5
+to predict	4
+to compute	4
+fine-tune	4
+basic layers	4
+found	4
+Sentence-level prediction	4
+regularized by	4
+best model	4
+consider	4
+obtain	4
+with finetuning	4
+set	4
+Experimental results	4
+added	4
+MRE in one-pass	4
+tasks	4
+also known as	4
+pre-trained on	4
+adversarial training on top of the baseline model	4
+two enhancements	4
+to capture	4
+l2 regularizer strength	4
+among	4
+QA results	4
+compare with	3
+extracts	3
+achieve	3
+initialize	3
+remove	3
+strong LSTM and CNN baselines	3
+perform	3
+RNNsearch	3
+compared to	3
+outputs	3
+implemented	3
+SWAG	3
+Effect of Model Size	3
+pre-trained	3
+consists	3
+each	3
+input	3
+pipelined methods	3
+are	3
+three datasets	3
+dataset	3
+utilized	3
+to train	3
+enables	3
+explore	3
+to represent	3
+to model	3
+embeddings of actions	3
+test	3
+training	3
+outperform	3
+trained with	3
+improves	3
+constrained and unconstrained NMT	3
+removing	3
+comparable	3
+GLUE	3
+adopt	3
+except	3
+SQuAD v1.1	3
+jointly extracting methods	3
+achieving	3
+divided into	3
+apply	3
+Sentiment analysis	3
+during	3
+between	3
+baseline	3
+dropout	3
+get	3
+exception	2
+optimal	2
+accuracy	2
+via	2
+ran	2
+loss-free compression rate	2
+aims to detect	2
+significantly outperformed	2
+datasets	2
+after	2
+learn	2
+owing to	2
+decreases	2
+mixture of	2
+best results	2
+got	2
+to produce	2
+residual blocks	2
+prevent	2
+outperforming	2
+naturally host	2
+analyze	2
+BERTLARGE outperforms	2
+employed	2
+updating	2
+including	2
+act as	2
+around	2
+predict	2
+conduct	2
+0.4	2
+denoted as	2
+to maximize	2
+Machine Translation	2
+relative to	2
+through	2
+run	2
+incorporate	2
+applied to	2
+decrease	2
+SQuAD v2.0	2
+Document Sentiment Analysis	2
+MoE layers	2
+utilize	2
+(soft-)searches	2
+achieved by	2
+learning rates	2
+performed	2
+matches state-of-the-art performances	2
+transforms	2
+replace	2
+both	2
+to initialize	2
+to make	2
+dimension	2
+as a	2
+F1-score	2
+in a	2
+Prediction Accuracy	2
+compare	2
+compares	2
+represent	2
+performs	2
+window size	2
+has value	2
+optimizer	2
+averaged	2
+MULTILINGUAL MACHINE TRANSLATION	2
+end-to-end tagging models	2
+set to	2
+reaches	2
+Answer Sentence Selection	2
+convert	2
+construct	2
+followed by	2
+surpasses	2
+test perplexity	2
+whereby	2
+GPUs	2
+selected from	2
+modified version	2
+Speed Comparisons	2
+implemented in	2
+second	2
+find	2
+selected	2
+includes	2
+code	2
+To further explore	2
+clipped at	2
+slightly outperforms	2
+dropout ratio	2
+access	2
+Tag prediction	2
+maintains	2
+significantly better results than	2
+perform better	2
+gradient clipping	2
+described as	2
+pre-trained for	2
+lstm units	2
+input to	2
+baselines	2
+maps	2
+demonstrate	2
+update	2
+Sentence Classification	2
+filters	2
+significantly improves	2
+tested	2
+optimization	2
+apply the Ptr-Net model	2
+When	2
+Results	2
+first	2
+Natural Language Inference	2
+trained for	2
+two datasets	2
+Adam	2
+performance	2
+compared with	2
+yields reasonably good results	1
+associated with	1
+above it	1
+setting	1
+second layer	1
+most obvious trend	1
+with only	1
+even better	1
+among all	1
+to get	1
+dilation rates	1
+applies	1
+telling whether	1
+size	1
+by optimizing	1
+first layer of the MLP	1
+sometimes help	1
+lacks reasoning capability	1
+Document-level prediction	1
+greatly improves	1
+markedly improves	1
+subsuming	1
+bit words than	1
+minimize	1
+sets	1
+h	1
+consisting	1
+stronger performances	1
+leading to	1
+by alleviating	1
+isa	1
+by leveraging	1
+couple	1
+up to	1
+generates	1
+take into account	1
+most beneficial	1
+update direction	1
+average accuracy	1
+improves performance	1
+makes it	1
+layers	1
+most significant difference	1
+to achieve	1
+to infuse	1
+add	1
+LSTM layers	1
+mini-batch	1
+obtaining	1
+base learning rate	1
+improves the F1-score	1
+9 and 8 to	1
+parsed	1
+width and depth	1
+applied	1
+deploys	1
+worked better than	1
+representation	1
+During	1
+masked kernel	1
+when K = 1	1
+at identifying	1
+ensuring	1
+multiply	1
+alleviates	1
+to study	1
+which require	1
+better	1
+modify	1
+inject	1
+extend with	1
+pretraining our word embeddings	1
+state-of-the-art	1
+comparable performance	1
+30 filters of width 3 characters	1
+to prevent	1
+tried	1
+"Stanford Sentiment Treebank (SST-5; Socher et al., 2013)"	1
+fine-tuned and evaluated	1
+most useful	1
+do not incorporate	1
+contained up to	1
+matches the performance	1
+fed into	1
+fine tune	1
+other	1
+does not help	1
+layer width of the neural network	1
+for binary or fine-grained setting	1
+over growing N	1
+to pretrain	1
+compared to the PA-LSTM	1
+indicating	1
+indicates	1
+contributes very little	1
+extends filters in	1
+"Tag ""O"""	1
+jointly pretrains	1
+produce	1
+reducing performance	1
+by gaining	1
+Size of Mini-Batch	1
+prevents	1
+implicitly considers	1
+rather than	1
+exhibiting a better performance	1
+grants a bump	1
+optimize	1
+implemented using	1
+by pruning	1
+more effective	1
+Named entity extraction	1
+achieves competitive results against	1
+exponentially increasing dilation width	1
+represented using	1
+performs on par with	1
+to optimize	1
+only used	1
+were	1
+improve	1
+to uncover	1
+mapped	1
+RNNencdec	1
+achieve surprisingly good task performance	1
+represents	1
+built upon	1
+effective	1
+help deal with	1
+consistently better results	1
+design	1
+chose	1
+increases the performance	1
+performing	1
+contributing	1
+Size of Hidden Layer	1
+despite	1
+0.3	1
+0.5	1
+more than an order of magnitude faster	1
+learns to construct	1
+to address	1
+exceeds	1
+maintain	1
+decay	1
+to understand	1
+running time	1
+dramatic error reduction	1
+builds	1
+hurts the result	1
+same as those	1
+margin	1
+tuning	1
+so that	1
+substantially improved	1
+pooling	1
+dimensionality l	1
+achieves slightly better performance than	1
+pretrained on	1
+employed on	1
+contribution of	1
+bias parameter	1
+degrades the performance	1
+Number of Heads	1
+setting of	1
+regularize	1
+independent of	1
+of more than	1
+of about	1
+tanh non-linearity	1
+by computing	1
+contextualizing	1
+computed by	1
+view	1
+only a minor contribution	1
+to extract	1
+read/write modules	1
+significantly improve	1
+given	1
+general improvements	1
+involves	1
+adapt	1
+significant speed-up	1
+spatially in	1
+significant	1
+may require	1
+converted	1
+can query	1
+competitive sequence model	1
+GloVe word embeddings	1
+runs the risk	1
+improves F1	1
+improved by 4.7%	1
+supporting	1
+enhance	1
+"GloVe (Pennington et al., 2014)"	1
+size of the kernel	1
+detects	1
+momentum	1
+input of each	1
+as input to	1
+takes a input	1
+To account for	1
+dimensionality	1
+Feature-based Approach with BERT	1
+higher NER and RC scores	1
+stacking layers	1
+collected	1
+Training	1
+early stopped	1
+parameterizing	1
+variant of	1
+embed	1
+as defined in	1
+greater	1
+first one	1
+having	1
+For regularization	1
+to improve	1
+provide	1
+added to	1
+fed to	1
+to seed	1
+Hidden layers	1
+operated over	1
+takes into account	1
+Size of Attention Layer	1
+computes	1
+"Stanford Question Answering Dataset (SQuAD) (Rajpurkar et al., 2016)"	1
+activation function	1
+means	1
+minibatch size	1
+to allow	1
+decomposed	1
+to control	1
+length penalty	1
+presents state-of-the-art (or close to)	1
+BPTT batch size	1
+to supply	1
+clip	1
+performance of	1
+each individual averaged model	1
+fed back	1
+K = 300	1
+"Stanford Natural Language Inference (SNLI) corpus (Bowman et al., 2015)"	1
+to find	1
+employs	1
+most important conclusion from our experiments	1
+embedding dimension	1
+to stack	1
+important	1
+Pre-trained embeddings	1
+operates on	1
+Initial Learning Rate	1
+hurts	1
+leads to	1
+effect	1
+hidden layer	1
+to implicitly capture	1
+boundaries evaluation	1
+significant improvements	1
+crucial	1
+contribute	1
+to validate the hypothesis	1
+constructs	1
+followed up	1
+adds	1
+Dropout	1
+applying	1
+split into	1
+substituting	1
+by sampling from	1
+increase	1
+differ	1
+most important features	1
+from the performance gap	1
+build	1
+in practice	1
+designed to perform	1
+RAM	1
+stack	1
+performs better	1
+fix	1
+finds	1
+corresponds to	1
+evolves	1
+constructs and labels	1
+Adadelta and stochastic gradient descent	1
+trained to minimize	1
+higher EC and RC scores	1
+extend	1
+to jointly extract	1
+contribute to the effectiveness	1
+switched	1
+plays a vital role	1
+assigned	1
+competitive	1
+consequently	1
+perform favorably	1
+Number of Latent Entity Types	1
+F1 drops	1
+performs competitively	1
+proposed for	1
+that ConvNets	1
+hidden activations per layer	1
+confirms our hypothesis	1
+character embeddings	1
+greatly outperforms	1
+sample	1
+better results	1
+essential	1
+proposing	1
+encode	1
+RE results	1
+average F1	1
+perform poorly	1
+depending on	1
+K increases	1
+brings	1
+on top of	1
+0.05	1
+each containing	1
+learns	1
+demonstrating the advantage	1
+updated recurrently	1
+conducted using	1
+F1-scores	1
+average of 0.7%	1
+beneficial	1
+entire length	1
+use it in	1
+helps	1
+carry	1
+Cache	1
+performs the best	1
+L2 Regularization Coefficient	1
+focus on the role	1
+optimized	1
+implemented with	1
+conducted between	1
+exhibits	1
+Semantic role labeling	1
+optimizes	1
+alpha	1
+highlighting	1
+gain some ability	1
+apply dropout	1
+similar to	1
+effective input width	1
+Fixing the vectors	1
+affects	1
+can be	1
+"Adam (Kingma and Ba, 2014)"	1
+beam size	1
+dropouts after word embeddings	1
+to fix	1
+to retain	1
+approach the performance	1
+size of the masked kernel	1
+representation of the source sequence	1
+avoid	1
+training step	1
+may not give us an advantage	1
+improved	1
+output	1
+make use of	1
+classifier	1
+model	1
+while constructing	1
+classifies	1
+perform better with	1
+reduce	1
+hidden dimension	1
+lower	1
+encodes	1
+stochastic gradient descent	1
+add 25%	1
+provides opportunities	1
+Adam optimizer	1
+encoded	1
+server	1
+to jointly model	1
+skips over	1
+curve	1
+embeddings of POS tags	1
+minimized	1
+"np, nd, ne"	1
+warmup_steps	1
+treating text	1
+LSTM encode/decoders	1
+Question answering	1
+mask-entity evaluation	1
+map	1
+within	1
+has approach	1
+add to	1
+dimension of word embedding	1
+machine	1
+trained by	1
+GPU machines	1
+LSTM layers in the encoder and decoder	1
+while	1
+stacked above	1
+developed under	1
+is used to feed	1
+split	1
+Textual entailment	1
+trained jointly	1
+demonstrates the best results	1
+significantly outperform	1
+combine	1
+built using	1
+number of stacked LSTM layers	1
+follows	1
+achieve best results	1
+sequentially processes	1
+comparing C-GCN model with the GCN model	1
+predicts	1
+incorporating off-path information	1
+crop or pad	1
+present	1
+to preserve	1
+scores	1
+operate on	1
+conditioned on	1
+nw	1
+average variability	1
+designed to be	1
+randomly masks	1
+allows	1
+improves upon other dependency-based models	1
+single relation per pass	1
+calculates	1
+decomposing and composing	1
+evident	1
+to decode	1
+concatenate	1
+among the best	1
+81.10%	1
+vary	1
+primary advantage	1
+initialized by	1
+jointly updated	1
+decay multiplier	1
+slightly better than	1
+observed	1
+objective	1
+CRF layer	1
+observes	1
+contribution	1
+with-entity evaluation	1
+receives	1
+inspired by	1
+by backpropagating	1
+without using	1
+increasing further	1
+derived from	1
+greatly outperform	1
+supports	1
+to encode	1
+30	1
+to determine	1
+clearly outperformed	1
+makes	1
+read from and write to	1
+score drops	1
+Size of Word Embeddings	1
+controlled	1
+connected	1
+number of hidden units	1
+increasing	1
+by applying	1
+embeddings	1
+converting questions	1
+treat	1
+provides the network	1
+focuses on	1
+reduce the error	1
+most critical component	1
+end up	1
+to generate	1
+five	1
+to be	1
+generate	1
+activation functions	1
+Coreference resolution	1
+dropping	1
+outperform all systems on all tasks	1
+revealing	1
+81.40%	1
+suggesting	1
+learning character-level word embeddings	1
+drop	1
+allow	1
+to learn	1
+first capsule layer	1
+learning	1
+is vital to map	1
+observe the importance	1
+accomplished using	1
+cannot well differentiate	1
+embedding size	1
+every	1
+beats the state of the art	1
+to stabilize	1
+beats	1
+significantly improved	1
+to location	1
+size of the LSTM	1
+do not seem to help	1
+Model Architecture	1
+yields inferior accuracies	1
+with respect to	1
+masked	1
+play an essential role	1
+pre-training and fine-tuning	1
+summing up	1
+"CoNLL 2003 NER task (Sang and Meulder, 2003)"	1
+selects	1
+for the optimization	1
+Size of Position Embeddings	1
+"OntoNotes benchmark (Pradhan et al., 2013)"	1
+state of the art performance	1
+does not have	1
+better separates	1
+to compose	1
+this experiment	1
+beam search	1
+significantly beats	1
+following	1
+by attending to	1
+passed through	1
+achieved better performance	1
+randomly initialize	1
+Handling Nested Mentions	1
+capsules in the layer below	1
+recall	1
+small batch of embeddings	1
+slightly better	1
+yielding	1
+withold	1
+further outperforms	1
+performs as good or better	1
+head number	1
+additionally	1
+pretrained from	1
+Compared with	1
+to remove	1
+dimensions	1
+mis-classify	1
+92.22% F1	1
+addresses	1
+regularization	1
+OntoNotes coreference annotations	1
+rate of	1
+not require	1
+for recognizing	1
+create	1
+jointly trains	1
+weight decay	1
+obviously useful	1
+towards	1
+sent	1
+proposed	1
+reusing	1
+not statistically significant	1
+represent each of the words	1
+to rapidly grow	1
+before passing	1
+substantially and consistently outperforms	1
+to a	1
+efficiently and explicitly model	1
+tune	1
+by carefully optimizing	1
+considers	1
+constructed	1
+advantage	1
+reads	1
+at each recurrent step	1
+trained base models for	1
+to integrate	1
+by running	1
+attends to	1
+additional baseline	1
+jumped 3.2%	1

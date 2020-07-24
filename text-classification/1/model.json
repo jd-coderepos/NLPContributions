@@ -1,13 +1,15 @@
 {
   "has" : {
     "Model" : {
-      "more general framework" : {
-        "subsuming" : "one-hot CNN",
-        "jointly trains" : {
-          "a feature generator and a linear model" : {
-            "where" : {
-              "feature generator" : {
-                "consists of" : "region embedding + pooling"
+      "consider" : {
+        "more general framework" : {
+          "subsuming" : "one-hot CNN",
+          "jointly trains" : {
+            "a feature generator and a linear model" : {
+              "where" : {
+                "feature generator" : {
+                  "consists of" : "region embedding + pooling"
+                }
               }
             }
           }

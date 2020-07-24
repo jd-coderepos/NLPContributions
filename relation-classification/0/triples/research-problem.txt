@@ -1,0 +1,5 @@
+(Contribution||has research problem||End - to - End Relation Extraction)
+(Contribution||has research problem||end-to-end neural model to extract entities and relations)
+(Contribution||has research problem||jointly represent both entities and relations with shared parameters in a single model)
+(Contribution||has research problem||Extracting semantic relations between entities in text)
+(Contribution||has research problem||end-to-end (joint) modeling of entity and relation)

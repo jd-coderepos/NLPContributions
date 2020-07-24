@@ -29,9 +29,11 @@
           },
           "slightly better than" : ["char-CNN and char-CRNN", {"from sentence" : "Overall our accuracy is slightly better than char-CNN and char-CRNN and, a bit worse than VDCNN."}],
           "bit words than" : ["VDCNN", {"from sentence" : "Overall our accuracy is slightly better than char-CNN and char-CRNN and, a bit worse than VDCNN."}],
-          "increase the accuracy slightly" : {
-            "using" : "more n-grams",
-            "from sentence" : "Note that we can increase the accuracy slightly by using more n-grams, for example with trigrams, the performance on Sogou goes up to 97.1%."
+          "increase" : { 
+            "accuracy slightly" : {
+              "using" : "more n-grams",
+              "from sentence" : "Note that we can increase the accuracy slightly by using more n-grams, for example with trigrams, the performance on Sogou goes up to 97.1%."
+            }
           }
         }
       },

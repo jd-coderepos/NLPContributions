@@ -1,0 +1,8 @@
+(Contribution||has||Architecture)
+(Architecture||called||RaSoR)
+(RaSoR||builds||fixed-length span representations)
+(fixed-length span representations||reusing||recurrent computations for shared substructures)
+(Architecture||demonstrate||directly classifying)
+(directly classifying||each||competing spans)
+(Architecture||demonstrate||training with global normalization)
+(training with global normalization||over||all possible spans)

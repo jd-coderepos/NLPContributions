@@ -1,0 +1,6 @@
+(Contribution||has research problem||constructing word embeddings with drastically fewer parameters)
+(Contribution||has research problem||compressing word embeddings)
+(Contribution||has research problem||a massive number of parameters for word embeddings, resulting in a large storage or memory footprint)
+(Contribution||has research problem||Deploying neural NLP models to mobile devices requires compressing the word embeddings without any significant sacrifices in performance)
+(Contribution||has research problem||the number of parameters in the embedding matrix can be huge)
+(Contribution||has research problem||reduce the number of parameters used in word embeddings without hurting the model performance)

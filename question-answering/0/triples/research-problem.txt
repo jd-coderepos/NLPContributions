@@ -1,0 +1,3 @@
+(Contribution||has research problem||Open Question Answering)
+(Contribution||has research problem||Building computers able to answer questions on any subject)
+(Contribution||has research problem||open-domain question answering)

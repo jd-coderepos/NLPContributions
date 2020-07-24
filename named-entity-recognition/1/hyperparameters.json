@@ -33,8 +33,12 @@
             "from sentence" : "The stack-LSTM model uses two layers each of dimension 100 for each stack."
           },
           "embeddings of actions" : {
-            "used in" : "composition functions",
-            "dimensions each" : "16",
+            "used" : {
+              "in" : "composition functions"
+            },
+            "dimensions" : {
+              "each" : "16"
+            },
             "output embedding" : {
               "dimension" : "20"
             },

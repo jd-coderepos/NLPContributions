@@ -5,8 +5,9 @@
       "for" : {
         "constrained scenarios" : {
           "achieved" : {
-            "higher scores than each individual averaged model" :
-              "both ensembles of averaged models"
+            "higher scores than" : {
+              "each individual averaged model" : "both ensembles of averaged models"              
+            }
           }
         },
         "from sentence" : "For the constrained scenarios, both ensembles of averaged models achieved higher scores than each individual averaged model."

@@ -1,0 +1,6 @@
+(Contribution||has||Ablation Analysis)
+(Ablation Analysis||general improvements||using labels that closely align with the task)
+(Ablation Analysis||crucial||passage-aligned question representation)
+(Ablation Analysis||observe the importance||allowing interactions between the endpoints using the spanlevel FFNN)
+(allowing interactions between the endpoints using the spanlevel FFNN||outperforms||endpoint prediction model)
+(endpoint prediction model||by||1.1 in exact match)

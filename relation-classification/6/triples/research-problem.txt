@@ -1,0 +1,3 @@
+(Contribution||has research problem||Classifying semantic relations between entity pairs in sentences)
+(Contribution||has research problem||state-of-the-art neural models based on attention mechanisms do not fully utilize information of entity that may be the most crucial features for relation classification)
+(Contribution||has research problem||a novel end-to-end recurrent neural model which incorporates an entity-aware attention mechanism with a latent entity typing (LET))

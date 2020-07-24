@@ -1,0 +1,4 @@
+(Contribution||has||Implementation)
+(Implementation||using||DYNET v2.0)
+(Implementation||optimize||objective loss)
+(objective loss||using||Adam)

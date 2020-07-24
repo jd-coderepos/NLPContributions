@@ -16,7 +16,9 @@
               "exponentially increasing dilation width" : {
                 "expand this size" : {
                   "effective input width" : {
-                    "to cover" : "entire length of most sequences"
+                    "to cover" : {
+                      "entire length" : "of most sequences"
+                    }
                   }
                 }
               }

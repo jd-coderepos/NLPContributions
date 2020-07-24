@@ -91,9 +91,11 @@
         },
         "Fully Connected Capsule Layer" : {
           "capsules in the layer below" : {
-            "flattened into" : {
-              "list of capsules" : {
-                "fed into" : "fully connected capsule layer"
+            "flattened" : {
+              "into" : {
+                "list of capsules" : {
+                  "fed into" : "fully connected capsule layer"
+                }
               }
             }
           },

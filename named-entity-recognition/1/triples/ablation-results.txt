@@ -1,0 +1,8 @@
+(Contribution||has||Ablation results)
+(Ablation results||on||LSTM-CRF model)
+(LSTM-CRF model||CRF layer||increase of +1.79)
+(LSTM-CRF model||learning character-level word embeddings||increase of about +0.74)
+(LSTM-CRF model||pretraining our word embeddings||biggest improvement)
+(biggest improvement||in||overall performance)
+(overall performance||of||+7.31 in F1)
+(LSTM-CRF model||dropout||different of +1.17)

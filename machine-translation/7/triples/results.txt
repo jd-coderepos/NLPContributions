@@ -1,0 +1,8 @@
+(Contribution||has||Results)
+(Results||training||full 100 billion words)
+(full 100 billion words||test perplexity||improves)
+(improves||up to||65536 experts (68 billion parameters))
+(improves||dropping||39% lower)
+(39% lower||than||computationally matched baseline)
+(full 100 billion words||test perplexity||degrades)
+(degrades||at||131072 experts)

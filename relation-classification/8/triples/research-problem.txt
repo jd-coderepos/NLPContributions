@@ -1,0 +1,6 @@
+(Contribution||has research problem||extracting multiple entity-relations from an input paragraph)
+(Contribution||has research problem||multiple entity-relations extraction task)
+(Contribution||has research problem||Relation extraction)
+(Contribution||has research problem||RE)
+(Contribution||has research problem||multiple relations extraction)
+(Contribution||has research problem||MRE)

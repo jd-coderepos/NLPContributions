@@ -1,0 +1,8 @@
+(Contribution||has||Hyperparameters)
+(Hyperparameters||word embeddings||d = 300)
+(Hyperparameters||dropout ratio||0.5)
+(Hyperparameters||lstm units||encoding layer)
+(encoding layer||is||300)
+(Hyperparameters||lstm units||decoding layer)
+(decoding layer||is||600)
+(Hyperparameters||bias parameter||10)

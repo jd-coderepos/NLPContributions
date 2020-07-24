@@ -10,7 +10,7 @@
             }
           }
         },
-        "from sentece" : "For word level transfer, we use word embeddings from a word2vec skip-gram model trained on a corpus of news data (Mikolov et al., 2013). The pretrained word embeddings are included as input to two model types: a convolutional neural network models (CNN) (Kim, 2014); a DAN."
+        "from sentence" : "For word level transfer, we use word embeddings from a word2vec skip-gram model trained on a corpus of news data (Mikolov et al., 2013). The pretrained word embeddings are included as input to two model types: a convolutional neural network models (CNN) (Kim, 2014); a DAN."
       },
       "without using" : {
         "any pretrained word or sentence embeddings" : {

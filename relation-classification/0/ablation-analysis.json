@@ -3,20 +3,18 @@
     "ablation tests" : [
       {"on" : "ACE05",
       "from sentence" : "To analyze the contributions and effects of the various components of our end-to-end relation extraction model, we perform ablation tests on the ACE05 development set (Table 2)."},
-      {"performance" : [{
+      {"performance" : {
           "significantly degraded" : {
-            "removed" : "entity pretraining"
+            "removed" : "entity pretraining",
+            "from sentence" : "The performance slightly degraded without scheduled sampling, and the performance significantly degraded when we removed entity pretraining or removed both (p<0.05)."
           },
-        "from sentence" : "The performance slightly degraded without scheduled sampling, and the performance significantly degraded when we removed entity pretraining or removed both (p<0.05)."
+          "significantly worse" : {
+            "removed" : ["scheduled sampling", "entity pretraining", "label embedding", "shared parameters"],
+            "than" : "SP-Tree (p<0.01)",
+            "from sentence" : "When we removed all the enhancements, i.e., scheduled sampling, entity pretraining, label embedding, and shared parameters, the performance is significantly worse than SP-Tree (p<0.01), showing that these enhancements provide complementary benefits to end-to-end relation extraction."            
+          }
+        }
       },
-      {
-        "significantly worse" : {
-          "removed" : ["scheduled sampling", "entity pretraining", "label embedding", "shared parameters"],
-          "than" : "SP-Tree (p<0.01)"
-        },
-        "from sentence" : "When we removed all the enhancements, i.e., scheduled sampling, entity pretraining, label embedding, and shared parameters, the performance is significantly worse than SP-Tree (p<0.01), showing that these enhancements provide complementary benefits to end-to-end relation extraction."
-      }
-      ]},
       {"recall" : {
         "degraded" : {
           "removing" : "label embeddings"

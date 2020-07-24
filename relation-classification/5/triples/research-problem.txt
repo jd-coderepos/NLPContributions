@@ -1,0 +1,6 @@
+(Contribution||has research problem||joint extraction of named entities and relations between them, without any hand-crafted features)
+(Contribution||has research problem||relation and entity recognition)
+(Contribution||has research problem||Extracting entities and their semantic relations from raw text)
+(Contribution||has research problem||named entity recognition and relation classification)
+(Contribution||has research problem||jointly learn to extract entities and relations)
+(Contribution||has research problem||joint entity and relation extraction)

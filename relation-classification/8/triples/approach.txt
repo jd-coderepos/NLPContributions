@@ -1,0 +1,8 @@
+(Contribution||has||Approach)
+(Approach||built upon||BERT)
+(BERT||with||structured prediction layer)
+(structured prediction layer||to predict||multiple relations with one-pass encoding)
+(BERT||with||entity-aware self-attention mechanism)
+(entity-aware self-attention mechanism||to infuse||relational information with regard to multiple entities)
+(relational information with regard to multiple entities||at||each layer of hidden states)
+(Approach||proposed||one-pass encoding MRE solution)

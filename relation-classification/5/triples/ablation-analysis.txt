@@ -1,0 +1,6 @@
+(Contribution||has||Ablation analysis)
+(Ablation analysis||provide||results of a pipeline approach)
+(results of a pipeline approach||treat||NER and RC components as independent networks)
+(NER and RC components as independent networks||train||separately)
+(Ablation analysis||find||in relation classification)
+(in relation classification||slightly better||joint approach does slightly better than the pipeline approach)

@@ -6,7 +6,9 @@
           "Stanford Question Answering Dataset (SQuAD) (Rajpurkar et al., 2016)" : {
             "test set F1" : {
               "improved by 4.7%" : {
-                "from" : "81.1% to 85.8%"
+                "from" : {
+					"81.1%" : "to 85.8%"				
+				}
               }
             }
           },
@@ -20,7 +22,9 @@
               "accuracy" : {
                 "by" : {
                   "average of 0.7%" : {
-                    "across" : "five random seeds"
+                    "across" : {
+						"five" : "random seeds"
+					}
                   }
                 }
               }
@@ -34,7 +38,9 @@
           "OntoNotes benchmark (Pradhan et al., 2013)" : {
             "test set F1" : {
               "jumped 3.2%" : {
-                "from" : "81.4% to 84.6%"
+                "from" : {
+					"81.4%" : "to 84.6%"
+				}
               }
             }
           }
@@ -44,10 +50,11 @@
       "Coreference resolution" : {
         "on" : {
           "OntoNotes coreference annotations" : {
-            "from" : "CoNLL 2012 shared task",
             "improved" : {
-              "average F1 by 3.2%" : {
-                "from" : "67.2 to 70.4"
+              "average F1" : {
+				"by 3.2%" : {
+					"from" : "67.2 to 70.4"
+				}
               }
             }
           }
@@ -57,7 +64,9 @@
       "Named entity extraction" : {
         "on" : {
           "CoNLL 2003 NER task (Sang and Meulder, 2003)" : {
-            "achieves" : "92.22% F1 averaged over five runs"
+            "achieves" : {
+				"92.22% F1" : "averaged over five runs"
+			}
           }
         },
         "from sentence" : "Named entity extraction The CoNLL 2003 NER task (Sang and Meulder, 2003) consists of newswire from the Reuters RCV1 corpus tagged with four different entity types (PER, LOC, ORG, MISC). As shown in Table 1, our ELMo enhanced biLSTM-CRF achieves 92.22% F1 averaged over five runs."
@@ -65,7 +74,9 @@
       "Sentiment analysis" : {
         "on" : {
           "Stanford Sentiment Treebank (SST-5; Socher et al., 2013)" : {
-            "results in" : "1.0% absolute accuracy improvement"
+            "results in" : {
+				"improvement" : "1.0% absolute accuracy"
+			}
           }
         }
       }

@@ -1,0 +1,4 @@
+(Contribution||has research problem||maximize the conditional probability of a target sequence given a source sequence)
+(Contribution||has research problem||statistical machine translation)
+(Contribution||has research problem||SMT)
+(Contribution||has research problem||phrase-based SMT)

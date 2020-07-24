@@ -19,25 +19,12 @@
       ],
       "employ" : ["early stopping",
         {"from sentence" : "We employ early stopping in all of the experiments."}],
-      "use" : ["Adam optimizer", 
-        {"from sentence" : "We use the Adam optimizer (Kingma and Ba, 2015) and we fix the hyperparameters (i.e., alpha, dropout values, best epoch, learning rate) on the validation sets."}]
-      },
-      "use" : [
-        {"S(trict)" : {
-          "has description" : "we score an entity as correct if both the entity boundaries and the entity type are correct"
-        },
-          "from sentence" : "We use three types of evaluation, namely: (i) S(trict): we score an entity as correct if both the entity boundaries and the entity type are correct (ACE04, ADE, CoNLL04, DREC),"
-        },
-        {"B(oundaries)" : {
-          "has description" : "we score an entity as correct if only the entity boundaries are correct while the entity type is not taken into account"
-        },
-          "from sentence" : "We use three types of evaluation, namely: (ii) B(oundaries): we score an entity as correct if only the entity boundaries are correct while the entity type is not taken into account (DREC) and"
-        },
-        {"R(elaxed)" : {
-          "has description" : "a multi-token entity is considered correct if at least one correct type is assigned to the tokens comprising the entity, assuming that the boundaries are known"
-        },
-          "from sentence" : "(iii) R(elaxed): a multi-token entity is considered correct if at least one correct type is assigned to the tokens comprising the entity, assuming that the boundaries are known (CoNLL04), to compare to previous works."
-        }
-    ]
+      "use" : [["Adam optimizer", 
+        {"from sentence" : "We use the Adam optimizer (Kingma and Ba, 2015) and we fix the hyperparameters (i.e., alpha, dropout values, best epoch, learning rate) on the validation sets."}], [{"S(trict)" : {"has description" : "we score an entity as correct if both the entity boundaries and the entity type are correct"}, "from sentence" : "We use three types of evaluation, namely: (i) S(trict): we score an entity as correct if both the entity boundaries and the entity type are correct (ACE04, ADE, CoNLL04, DREC),"},
+        {"B(oundaries)" : {"has description" : "we score an entity as correct if only the entity boundaries are correct while the entity type is not taken into account"}, "from sentence" : "We use three types of evaluation, namely: (ii) B(oundaries): we score an entity as correct if only the entity boundaries are correct while the entity type is not taken into account (DREC) and"},
+        {"R(elaxed)" : {"has description" : "a multi-token entity is considered correct if at least one correct type is assigned to the tokens comprising the entity, assuming that the boundaries are known"}, "from sentence" : "(iii) R(elaxed): a multi-token entity is considered correct if at least one correct type is assigned to the tokens comprising the entity, assuming that the boundaries are known (CoNLL04), to compare to previous works."}
+        ]
+      ]
+    }
   }
 }

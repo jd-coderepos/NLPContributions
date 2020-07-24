@@ -1,0 +1,2 @@
+(Contribution||has||Baselines)
+(Baselines||consisting||one or more stacked Long Short-Term Memory (LSTM) layers)

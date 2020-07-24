@@ -37,22 +37,22 @@
             }
           },
           "from sentence" : "Instead, we use a bag of n-grams as additional features to capture some partial information about the local word order. This is very efficient in practice while achieving comparable results to methods that explicitly use the order (Wang and Manning, 2012)."
-        },
-        "maintain" : {
-          "fast and memory efficient mapping" : {
-            "of" : {
-              "n-grams" : {
-                "using" : {
-                  "hashing trick (Weinberger et al., 2009)" : {
-                    "with" : ["same hashing function as in Mikolov et al. (2011)", {"10M bins" : {"only used" : "bigrams"}}]
-                  }
+        }
+      },
+      "maintain" : {
+        "fast and memory efficient mapping" : {
+          "of" : {
+            "n-grams" : {
+              "using" : {
+                "hashing trick (Weinberger et al., 2009)" : {
+                  "with" : ["same hashing function as in Mikolov et al. (2011)", {"10M bins" : {"only used" : "bigrams"}}]
                 }
               }
             }
-          },
-          "from sentence" : "We maintain a fast and memory efficient mapping of the n-grams by using the hashing trick (Weinberger et al., 2009) with the same hashing function as in Mikolov et al. (2011) and 10M bins if we only used bigrams, and 100M otherwise."
-        }
-      }
+          }
+        },
+        "from sentence" : "We maintain a fast and memory efficient mapping of the n-grams by using the hashing trick (Weinberger et al., 2009) with the same hashing function as in Mikolov et al. (2011) and 10M bins if we only used bigrams, and 100M otherwise."
+      }      
     }
   }
 }

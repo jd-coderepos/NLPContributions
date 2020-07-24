@@ -1,11 +1,15 @@
 {
   "has" : {
-    "Experimental Setup" : [
-      {"core NLP tasks" : ["Named Entity Recognition (NER)", "PICO Extraction (PICO)", "Text Classification (CLS)", "Relation Classification (REL)", "Dependency Parsing (DEP)"],
-      "from sentence" : "We experiment on the following core NLP tasks: 1. Named Entity Recognition (NER) 2. PICO Extraction (PICO) 3. Text Classification (CLS) 4. Relation Classification (REL) 5. Dependency Parsing (DEP)"},
-      ["Pretrained BERT Variants", {"from sentence" : "3.3 Pretrained BERT Variants"}],
-      ["Finetuning BERT", {"from sentence" : "3.4 Finetuning BERT"}],
-      ["Frozen BERT Embeddings", {"from sentence" : "3.5 Frozen BERT Embeddings"}]
-    ]
+    "Experimental Setup" : {
+      "has" : [
+        {"core NLP tasks" : {
+          "called" : ["Named Entity Recognition (NER)", "PICO Extraction (PICO)", "Text Classification (CLS)", "Relation Classification (REL)", "Dependency Parsing (DEP)"]
+        },
+        "from sentence" : "We experiment on the following core NLP tasks: 1. Named Entity Recognition (NER) 2. PICO Extraction (PICO) 3. Text Classification (CLS) 4. Relation Classification (REL) 5. Dependency Parsing (DEP)"},
+        ["Pretrained BERT Variants", {"from sentence" : "3.3 Pretrained BERT Variants"}],
+        ["Finetuning BERT", {"from sentence" : "3.4 Finetuning BERT"}],
+        ["Frozen BERT Embeddings", {"from sentence" : "3.5 Frozen BERT Embeddings"}]
+      ]
+    }
   }
 }

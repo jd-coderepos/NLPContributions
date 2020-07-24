@@ -1,0 +1,6 @@
+(Contribution||has||Results)
+(Results||yields reasonably good results||simple sum of embedding learned viaWord2Vec)
+(Results||perform favorably||convolutional models (ARC-I & II, SENNA+MLP) perform favorably over bag-of-words models)
+(Results||gain some ability||ARC-I and ARC-II trained purely with random negatives)
+(ARC-I and ARC-II trained purely with random negatives||telling whether||words in a given sentence are in right sequential order)
+(Results||outperforms||ARC-II outperforms others significantly when the training instances are relatively abundant)

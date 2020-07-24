@@ -15,7 +15,7 @@
             "Speed vs. increasing N" : {
               "curve" : "surprisingly lower and highly stable",
               "over growing N" : "almost no rise of selection time",
-              "from selection" : "Compared with TED and RRSSNie, the curve of ARSS is surprisingly lower and highly stable against increasing N; there is almost no rise of selection time over growing N. This is owing to the speedup techniques of ALM and equivalent derivations."
+              "from sentence" : "Compared with TED and RRSSNie, the curve of ARSS is surprisingly lower and highly stable against increasing N; there is almost no rise of selection time over growing N. This is owing to the speedup techniques of ALM and equivalent derivations."
             },
             "Speed with fixed N" : {
               "is" : "fastest algorithm",

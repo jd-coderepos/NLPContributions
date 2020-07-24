@@ -1,0 +1,4 @@
+(Contribution||has||Baseline Systems)
+(Baseline Systems||has||Word-by-word translation (WBW))
+(Baseline Systems||has||Lample et al. (2017))
+(Baseline Systems||has||Supervised training)

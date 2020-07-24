@@ -1,0 +1,3 @@
+(Contribution||has||Model)
+(Model||treating text||as a kind of raw signal at character level)
+(as a kind of raw signal at character level||applying||temporal (one-dimensional) ConvNets)

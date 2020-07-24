@@ -1,0 +1,7 @@
+(Contribution||has||Model)
+(Model||apply||novel path-centric pruning technique)
+(novel path-centric pruning technique||to remove||irrelevant information from the tree while maximally keeping relevant content)
+(Model||extracts||entity-centric representations)
+(entity-centric representations||to make||relation predictions)
+(Model||encodes||dependency structure over the input sentence)
+(dependency structure over the input sentence||with||efficient graph convolution operations)

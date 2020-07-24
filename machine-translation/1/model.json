@@ -16,19 +16,23 @@
                   "to prevent" : "network from seeing future tokens in the target sequence"
                 }
               }
+            },
+            "from sentence" : "The ByteNet is the instance within this family of models that uses one-dimensional convolutional neural networks (CNN) of fixed depth for both the encoder and the decoder (Fig. 1). The two CNNs use increasing factors of dilation to rapidly grow the receptive fields; a similar technique is also used in (van den Oord et al., 2016a). The convolutions in the decoder CNN are masked to prevent the network from seeing future tokens in the target sequence (van den Oord et al., 2016b)."            
+          },
+          "has" : ["beneficial computational and learning properties", {"from sentence" : "The network has beneficial computational and learning properties."}],
+          "from" : {
+            "a computational perspective" : {
+              "running time" : {
+                "linear in the length" : {
+                    "of" : "source and target sequences"
+                }
+              },
+              "from sentence" : "From a computational perspective, the network has a running time that is linear in the length of the source and target sequences (up to a constant c = log d where d is the size of the desired dependency field)."
+            },
+            "learning perspective" : {
+              "representation of the source sequence" : "resolution preserving",
+              "from sentence" : "From a learning perspective, the representation of the source sequence in the ByteNet is resolution preserving; the representation sidesteps the need for memorization and allows for maximal bandwidth between encoder and decoder."
             }
-          },
-          "from sentence" : "The ByteNet is the instance within this family of models that uses one-dimensional convolutional neural networks (CNN) of fixed depth for both the encoder and the decoder (Fig. 1). The two CNNs use increasing factors of dilation to rapidly grow the receptive fields; a similar technique is also used in (van den Oord et al., 2016a). The convolutions in the decoder CNN are masked to prevent the network from seeing future tokens in the target sequence (van den Oord et al., 2016b)."
-        },
-        "has" : ["beneficial computational and learning properties", {"from sentence" : "The network has beneficial computational and learning properties."}],
-        "from" : {
-          "a computational perspective" : {
-            "running time" : "linear in the length of the source and target sequences",
-            "from sentence" : "From a computational perspective, the network has a running time that is linear in the length of the source and target sequences (up to a constant c = log d where d is the size of the desired dependency field)."
-          },
-          "learning perspective" : {
-            "representation of the source sequence" : "resolution preserving",
-            "from sentence" : "From a learning perspective, the representation of the source sequence in the ByteNet is resolution preserving; the representation sidesteps the need for memorization and allows for maximal bandwidth between encoder and decoder."
           }
         }
       }

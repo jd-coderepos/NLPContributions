@@ -1,0 +1,3 @@
+(Contribution||has research problem||Joint extraction of entities and relations)
+(Contribution||has research problem||detect entity mentions and recognize their semantic relations simultaneously from unstructured text)
+(Contribution||has research problem||extract entities together with relations using a single model)

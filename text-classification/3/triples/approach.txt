@@ -1,0 +1,5 @@
+(Contribution||has||Approach)
+(Approach||focus on the role||preprocessing the input text)
+(preprocessing the input text||split||individual (meaning-bearing) tokens)
+(preprocessing the input text||affects||performance of standard neural text classification models)
+(performance of standard neural text classification models||based on||Convolutional Neural Networks (LeCun et al., 2010; Kim, 2014, CNN))

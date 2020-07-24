@@ -28,11 +28,12 @@
       },
       "from sentence" : "We use dropout (Srivastava et al., 2014) to regularize our network."
       },
-      {"character-based LSTMs" : {
+      {"has" : {
+        "character-based LSTMs" : {
         "hidden dimension" : "25"  
       },
       "from sentence" : "The hidden dimension for the character-based LSTMs is 25 (for each direction)."
-      },
+      }},
       {"employ" : "early stopping",
         "from sentence" : "We employ the technique of early stopping based on the validation set."
       },

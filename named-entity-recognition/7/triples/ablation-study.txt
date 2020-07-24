@@ -1,0 +1,3 @@
+(Contribution||has||Ablation Study)
+(Ablation Study||evaluate||contribution of neural components including pre-trained embeddings, the character-level LSTM and dropout layers)
+(contribution of neural components including pre-trained embeddings, the character-level LSTM and dropout layers||from the performance gap||conclude that these components contribute significantly to the effectiveness of our model)

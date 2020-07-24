@@ -1,0 +1,3 @@
+(Contribution||has research problem||extension of graph convolutional networks that is tailored for relation extraction, which pools information over arbitrary dependency structures efficiently in parallel)
+(Contribution||has research problem||Relation extraction)
+(Contribution||has research problem||extension of the graph convolutional network (Kipf and Welling, 2017; Marcheggiani and Titov, 2017) that is tailored for relation extraction)

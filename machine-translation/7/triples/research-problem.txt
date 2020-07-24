@@ -1,0 +1,5 @@
+(Contribution||has research problem||capacity of a neural network to absorb information is limited by its number of parameters)
+(Contribution||has research problem||increasing model capacity without a proportional increase in computation)
+(Contribution||has research problem||Conditional computation, where parts of the network are active on a per-example basis)
+(Contribution||has research problem||Exploiting scale in both training data and model size)
+(Contribution||has research problem||conditional computation)

@@ -1,0 +1,7 @@
+(Contribution||has||Baselines)
+(Baselines||strong LSTM and CNN baselines||one with enough layers to incorporate an effective input width of the same size as that of the dilated network)
+(one with enough layers to incorporate an effective input width of the same size as that of the dilated network||also known as||5-layer CNN)
+(Baselines||strong LSTM and CNN baselines||non-dilated CNN architecture with the same number of convolutional layers)
+(non-dilated CNN architecture with the same number of convolutional layers||also known as||4-layer CNN)
+(Baselines||strong LSTM and CNN baselines||Bi-LSTM with local decoding and one with CRF decoding)
+(Bi-LSTM with local decoding and one with CRF decoding||also known as||Bi-LSTM-CRF)

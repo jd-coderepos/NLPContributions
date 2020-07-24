@@ -1,0 +1,3 @@
+(Contribution||has research problem||Deep contextualized word representations)
+(Contribution||has research problem||new type of deep contextualized word representation)
+(Contribution||has research problem||ELMo (Embeddings from Language Models) representations)

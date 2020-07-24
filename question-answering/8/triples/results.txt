@@ -1,0 +1,8 @@
+(Contribution||has||Results)
+(Results||outperformed||sequence model)
+(sequence model||by||boundary model)
+(boundary model||achieving||exact match score of 61.1%)
+(boundary model||achieving||an F1 score of 71.2%)
+(Results||clearly outperformed||logistic regression model by Rajpurkar et al. (2016))
+(Results||adding||Bi-Ans-Ptr with bi-directional pre-processing LSTM)
+(Bi-Ans-Ptr with bi-directional pre-processing LSTM||get||1.2% improvement in F1)

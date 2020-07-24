@@ -1,0 +1,6 @@
+(Contribution||has research problem||Obtaining large-scale annotated data)
+(Contribution||has research problem||address the lack of high-quality, large-scale labeled scientific data)
+(Contribution||has research problem||annotated data is difficult and expensive to collect due to the expertise required for quality annotation)
+(Contribution||has research problem||unsupervised pretraining of language models on large corpora)
+(Contribution||has research problem||pretrained language model based on BERT but trained on a large corpus of scientific text)
+(Contribution||has research problem||pretrained language model based on BERT (Devlin et al., 2019))

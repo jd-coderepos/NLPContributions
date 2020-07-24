@@ -1,0 +1,6 @@
+(Contribution||has||System)
+(System||setting of||simple QA)
+(simple QA||corresponds to||elementary operation)
+(elementary operation||performing||single lookup in the memory)
+(System||is||embedding-based QA system)
+(embedding-based QA system||developed under||framework of Memory Networks (MemNNs))

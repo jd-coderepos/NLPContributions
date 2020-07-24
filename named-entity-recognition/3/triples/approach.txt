@@ -1,0 +1,7 @@
+(Contribution||has approach||semi-supervised approach)
+(semi-supervised approach||use||neural language model (LM))
+(neural language model (LM)||pre-trained||large, unlabeled corpus)
+(large, unlabeled corpus||to compute||encoding of the context at each position in the sequence)
+(large, unlabeled corpus||also known as||LM embedding)
+(large, unlabeled corpus||use it in||supervised sequence tagging model)
+(semi-supervised approach||not require||additional labeled data)

@@ -1,0 +1,7 @@
+(Contribution||has||Hyperparameters)
+(Hyperparameters||Pre-trained embeddings||of dimension 100)
+(of dimension 100||GloVe (Pennington et al., 2014)||used to initialize word vectors for all three datasets)
+(Hyperparameters||embeddings of POS tags||initialized randomly)
+(initialized randomly||with||dimension 32)
+(Hyperparameters||trained using||Adam (Kingma and Ba, 2014))
+(Hyperparameters||trained using||gradient clipping of 3.0)

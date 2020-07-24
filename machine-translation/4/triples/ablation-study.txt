@@ -1,0 +1,7 @@
+(Contribution||has||Ablation study)
+(Ablation study||most critical component||weight-sharing constraint)
+(weight-sharing constraint||is vital to map||sentences of different languages to the shared-latent space)
+(Ablation study||significantly improve||translation performance of our system)
+(translation performance of our system||by||The GANs)
+(Ablation study||remove||directional self-attention)
+(directional self-attention||get||-0.3 BLEU points decline)

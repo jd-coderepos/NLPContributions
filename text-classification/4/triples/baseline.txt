@@ -1,0 +1,7 @@
+(Contribution||has||Baselines)
+(Baselines||consider||ngrams (Zhang et al., 2015))
+(ngrams (Zhang et al., 2015)||has description||a bag-of-means method based on TFIDF representations built by choosing the 500,000 most frequent n-grams (up to 5-grams) from the training set and use their corresponding counts as features)
+(Baselines||consider||small/large word CNN (Zhang et al., 2015))
+(small/large word CNN (Zhang et al., 2015)||has description||6 layer word-based convolutional networks, with 256/1024 features at each layer, denoted as small/large, respectively)
+(Baselines||consider||deep CNN (Conneau et al., 2016))
+(deep CNN (Conneau et al., 2016)||has description||deep convolutional neural networks with 9/17/29 layers)

@@ -1,0 +1,7 @@
+(Contribution||has||Quantitative Analysis)
+(Quantitative Analysis||adding||features)
+(features||computed by||neural networks)
+(Quantitative Analysis||adding||improves performance)
+(improves performance||over||baseline performance)
+(Quantitative Analysis||achieved||best performance)
+(best performance||used||CSLM and the phrase scores from the RNN Encoder–Decoder)

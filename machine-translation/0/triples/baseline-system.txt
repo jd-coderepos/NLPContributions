@@ -1,0 +1,2 @@
+(Contribution||has||Baseline System)
+(Baseline System||built using||Moses with default settings)

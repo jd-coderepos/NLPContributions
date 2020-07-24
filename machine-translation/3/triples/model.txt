@@ -1,0 +1,8 @@
+(Contribution||has||Model)
+(Model||introduce||interleaved bi-directional architecture)
+(interleaved bi-directional architecture||to stack||LSTM layers in the encoder)
+(Model||for||multi-layer recurrent networks)
+(multi-layer recurrent networks||introduce||a new type of linear connections)
+(a new type of linear connections||called||fast-forward connections)
+(fast-forward connections||play an essential role||building a deep topology)
+(building a deep topology||with||depth of 16)

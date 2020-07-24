@@ -19,7 +19,9 @@
             "regularization" : {
               "dropout" : {
                 "add 25%" : {
-                  "to" : "input of each GRU"
+                  "to" : {
+					"input of each" : "GRU"
+				  }
                 }
               },
               "from sentence" : "For regularization, we add 25% dropout to the input of each GRU, but not to the recurrent connections."
@@ -31,10 +33,14 @@
           "hyperparameters" : {
             "baseline sequence tagger" : {
               "uses" : {
-                "character embeddings" : "30 dimensional",
+                "character embeddings" : {
+					"30" : "dimensional"
+ 				},
                 "CNN" : {
                   "30 filters of width 3 characters" : {
-                    "followed by" : "tanh non-linearity for the token character encoder"
+                    "followed by" : {
+						"tanh non-linearity" : "for the token character encoder"
+					}
                   }
                 }
               },

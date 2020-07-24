@@ -8,10 +8,12 @@
         "from sentence" : "All experiments are conducted using a GeForce GTX 1080 GPU with 8GB memory."
       },
       "hyperparameters" : {
-        "word embeddings" : {
-          "GloVe (Pennington et al., 2014)" : {
-            "embeddings" : "300 dimensional"
-          },
+		"initialize" : {
+			"word embeddings" : {
+				"GloVe (Pennington et al., 2014)" : {
+					"embeddings" : "300 dimensional"
+				}
+			}
           "from sentence" : "We initialise word embeddings using GloVe (Pennington et al., 2014) 300 dimensional embeddings."
         },
         "dropout" : {
@@ -37,8 +39,14 @@
           "clipped at" : "3",
           "from sentence" : "Gradients are clipped at 3 and a batch size of 10 is adopted"
         },
-        "batch size" : ["10", {"from sentence" : "Gradients are clipped at 3 and a batch size of 10 is adopted."}],
-        "L2 regularization parameter" : ["0.001", {"from sentence" : "The L2 regularization parameter is set to 0.001."}]
+        "batch size" : {
+			"of" : "10",
+			"from sentence" : "Gradients are clipped at 3 and a batch size of 10 is adopted."
+		},
+        "L2 regularization parameter" : {
+          "set to" : "0.001",
+          "from sentence" : "The L2 regularization parameter is set to 0.001."
+        }
       }
     }
   }

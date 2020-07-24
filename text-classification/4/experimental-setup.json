@@ -40,8 +40,10 @@
           "filters" : {
             "set" : {
               "window size" : {
-                "as" : "h = 5",
-                "with" : "K = 300 feature maps"
+                "as" : {"h" : "5"},
+                "with" : {
+                  "K = 300" : "feature maps"
+                }
               }
             },
             "from sentence" : "As for the filters, we set the window size as h = 5, with K = 300 feature maps."
@@ -63,14 +65,14 @@
             },
             "from sentence" : "Dropout (Srivastava et al., 2014), with a rate of 0.5, is employed on the word embedding layer."
           }
-        },
-        "implemented with" : ["TensorFlow (Abadi et al., 2016)", {"from sentence" : "All models are implemented with TensorFlow (Abadi et al., 2016) and are trained using one NVIDIA GeForce GTX TITAN X GPU with 12GB memory."}],
-        "trained using" : {
-          "one NVIDIA GeForce GTX TITAN X GPU" : {
-            "with" : "12GB memory"
-          },
-          "from sentence" : "All models are implemented with TensorFlow (Abadi et al., 2016) and are trained using one NVIDIA GeForce GTX TITAN X GPU with 12GB memory."
         }
+      },
+      "implemented with" : ["TensorFlow (Abadi et al., 2016)", {"from sentence" : "All models are implemented with TensorFlow (Abadi et al., 2016) and are trained using one NVIDIA GeForce GTX TITAN X GPU with 12GB memory."}],
+      "trained using" : {
+        "one NVIDIA GeForce GTX TITAN X GPU" : {
+          "with" : "12GB memory"
+        },
+        "from sentence" : "All models are implemented with TensorFlow (Abadi et al., 2016) and are trained using one NVIDIA GeForce GTX TITAN X GPU with 12GB memory."
       }
     }
   }

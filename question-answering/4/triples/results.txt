@@ -1,0 +1,5 @@
+(Contribution||has||Results)
+(Results||on||MCTest-500)
+(MCTest-500||slightly outperforms||multi questions (~ 0.3%))
+(MCTest-500||slightly outperforms||overall (~ 1%))
+(MCTest-500||significantly outperforms||single questions (> 2%))

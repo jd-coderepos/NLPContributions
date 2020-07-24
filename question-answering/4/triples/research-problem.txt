@@ -1,0 +1,6 @@
+(Contribution||has research problem||Machine Comprehension on Sparse Data)
+(Contribution||has research problem||Understanding unstructured text)
+(Contribution||has research problem||machine comprehension on the challenging MCTest benchmark)
+(Contribution||has research problem||Comprehension of unstructured text by machines, at a near-human level)
+(Contribution||has research problem||Machine comprehension)
+(Contribution||has research problem||MC)

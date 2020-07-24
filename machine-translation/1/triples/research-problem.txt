@@ -1,0 +1,4 @@
+(Contribution||has research problem||neural network for processing sequences)
+(Contribution||has research problem||character-to-character machine translation)
+(Contribution||has research problem||neural language modelling)
+(Contribution||has research problem||neural machine translation)

@@ -1,0 +1,2 @@
+(Contribution||has||Results)
+(Results||outperforms||proposed RNNsearch outperforms the conventional RNNencdec)

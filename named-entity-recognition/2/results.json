@@ -7,12 +7,19 @@
           "highest average scores" : {
             "obtain" : "Viterbi-decoding Bi-LSTM-CRF and ID-CNN-CRF and greedy ID-CNN",
             "from sentence" : "The Viterbi-decoding Bi-LSTM-CRF and ID-CNN-CRF and greedy ID-CNN obtain the highest average scores, with the ID-CNN-CRF outperforming the Bi-LSTM-CRF by 0.11 points of F1 on average, and the Bi-LSTM-CRF out-performing the greedy ID-CNN by 0.11 as well."          
-            },
-            "outperforms" : ["greedy ID-CNN outperforms the Bi-LSTM and the 4-layer CNN",
-            {"from sentence" : "Our greedy ID-CNN outperforms the Bi-LSTM and the 4-layer CNN, which uses the same number of parameters as the ID-CNN, and performs similarly to the 5-layer CNN which uses more parameters but covers the same effective input width."}],
-            "outperform" : ["All CNN models out-perform the Bi-LSTM when paired with greedy decoding", {"from sentence" : "All CNN models out-perform the Bi-LSTM when paired with greedy decoding, suggesting that CNNs are better token encoders than Bi-LSTMs for independent logistic regression."}],
-            "on par" : ["When paired with Viterbi decoding, our ID-CNN performs on par with the Bi-LSTM", {"from sentence" : "When paired with Viterbi decoding, our ID-CNN performs on par with the Bi-LSTM, showing that the ID-CNN is also an effective token encoder for structured inference."}
-              ]
+          },
+          "greedy ID-CNN" : {
+            "outperforms" : "Bi-LSTM and the 4-layer CNN",
+            "from sentence" : "Our greedy ID-CNN outperforms the Bi-LSTM and the 4-layer CNN, which uses the same number of parameters as the ID-CNN, and performs similarly to the 5-layer CNN which uses more parameters but covers the same effective input width."            
+          },
+          "All CNN models" : {
+            "outperform" : "Bi-LSTM when paired with greedy decoding",
+            "from sentence" : "All CNN models out-perform the Bi-LSTM when paired with greedy decoding, suggesting that CNNs are better token encoders than Bi-LSTMs for independent logistic regression."
+          },
+          "our ID-CNN" : {
+            "performs on par with" : "Bi-LSTM",
+            "from sentence" : "When paired with Viterbi decoding, our ID-CNN performs on par with the Bi-LSTM, showing that the ID-CNN is also an effective token encoder for structured inference."
+          }
         },
         "Document-level prediction" : {
           "improves every model" : {

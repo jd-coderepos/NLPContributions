@@ -1,0 +1,4 @@
+(Contribution||has||Ablation Results)
+(Ablation Results||significantly outperform||models that use both feature sets significantly outperform other configurations)
+(Ablation Results||outperforms||Sskip model outperforms our feature vector approach)
+(Sskip model outperforms our feature vector approach||by||0.65 F1 points on average)

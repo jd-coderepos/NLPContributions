@@ -1,0 +1,2 @@
+(Contribution||has research problem||State-of-the-art named entity recognition systems rely heavily on hand-crafted features and domain-specific knowledge)
+(Contribution||has research problem||neural architectures for NER)

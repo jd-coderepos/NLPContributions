@@ -1,0 +1,5 @@
+(Contribution||has research problem||word embeddings learned in several tasks are biased towards word frequency)
+(Contribution||has research problem||learned embeddings of rare words and popular words behave differently)
+(Contribution||has research problem||embeddings of rare words and popular words actually lie in different subregions of the space)
+(Contribution||has research problem||different behaviors of the embeddings of popular words and rare words are problematic)
+(Contribution||has research problem||adversarial training method to learn frequency agnostic word embedding)

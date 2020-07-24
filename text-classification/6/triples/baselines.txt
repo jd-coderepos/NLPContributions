@@ -1,0 +1,8 @@
+(Contribution||has||Baselines)
+(Baselines||for||word level transfer)
+(word level transfer||use||word embeddings from a word2vec skip-gram model)
+(word embeddings from a word2vec skip-gram model||trained on||a corpus of news data (Mikolov et al., 2013))
+(word embeddings from a word2vec skip-gram model||input to||convolutional neural network models (CNN) (Kim, 2014))
+(word embeddings from a word2vec skip-gram model||input to||DAN)
+(Baselines||without using||any pretrained word or sentence embeddings)
+(any pretrained word or sentence embeddings||additional baseline||CNN and DAN models are trained)

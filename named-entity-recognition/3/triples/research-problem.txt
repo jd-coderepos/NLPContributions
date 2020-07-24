@@ -1,0 +1,3 @@
+(Contribution||has research problem||Semi-supervised sequence tagging with bidirectional language models)
+(Contribution||has research problem||semi-supervised approach for adding pretrained context embeddings from bidirectional language models to NLP systems)
+(Contribution||has research problem||neural language model (LM), pre-trained on a large, unlabeled corpus to compute an encoding of the context at each position in the sequence (hereafter an LM embedding) and use it in the supervised sequence tagging model)

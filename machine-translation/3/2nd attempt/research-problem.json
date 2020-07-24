@@ -1,7 +1,0 @@
-{
-  "has research problem" : [
-    ["Neural machine translation", {"from sentence" : "Neural machine translation (NMT) aims at solving machine translation (MT) problems using neural networks and has exhibited promising results in recent years."}],
-    ["NMT", {"from sentence" : "Neural machine translation (NMT) aims at solving machine translation (MT) problems using neural networks and has exhibited promising results in recent years."}],
-    ["existing NMT models are shallow and there is still a performance gap between a single NMT model and the best conventional MT system", {"from sentence" : "However, most of the existing NMT models are shallow and there is still a performance gap between a single NMT model and the best conventional MT system."}]
-    ]
-}

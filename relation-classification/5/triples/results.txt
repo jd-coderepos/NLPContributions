@@ -1,0 +1,6 @@
+(Contribution||has||Results)
+(Results||higher EC and RC scores||7+% higher NER and RC scores)
+(7+% higher NER and RC scores||than||Adel and Schutze (2017))
+(Results||higher NER and RC scores||2+% absolute higher NER and RC scores)
+(2+% absolute higher NER and RC scores||than||BiLSTM-CRF-based multihead selection model)
+(Results||on||CoNLL04)

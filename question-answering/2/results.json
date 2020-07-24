@@ -21,18 +21,24 @@
         }        
       },
       "test" : {
-        "ability to rerank answers on the companion QA set" : {
-          "added" : {
-            "all Reverb facts" : {
-              "to" : {
-                "memory" : {
-                  "without" : "any retraining"
+        "ability to rerank answers" : {
+          "on" : {
+            "companion QA set" : {
+              "added" : {
+                "all Reverb facts" : {
+                  "to" : {
+                    "memory" : {
+                      "without" : "any retraining"    
+                    }
+                  }
+                }
+              },
+              "best results" : {
+                "accuracy" : {
+                  "are" : ["67%", {"68%" : {"for" : "ensemble of 5 models"}}]
                 }
               }
             }
-          },
-          "best results" : {
-            "accuracy" : ["67%", {"68%" : {"for" : "ensemble of 5 models"}}]
           }
         },
         "from sentence" : "In this set of experiments, all Reverb facts are added to the memory, without any retraining, and we test our ability to rerank answers on the companion QA set. Our best results are 67% accuracy (and 68% for the ensemble of 5 models), which are better than the 54% of the original paper and close to the state-of-the-art 73% of (Bordes et al., 2014b)."

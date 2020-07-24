@@ -1,0 +1,3 @@
+(Contribution||has research problem||democratize large-scale NLP and information extraction while minimizing our environmental footprint)
+(Contribution||has research problem||parallelized runtime independent of the length of the sequence)
+(Contribution||has research problem||Fast and Accurate Entity Recognition)

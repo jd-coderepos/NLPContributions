@@ -11,20 +11,18 @@
           "from sentence" : "a bidirectional LSTM with a sequential conditional random layer above it (LSTM-CRF"                    
         },
         "S-LSTM" : {
-          "a new model" : {
-            "constructs and labels" : {
-              "chunks of input sentences" : {
-                "using" : "algorithm inspired by transition-based parsing with states represented by stack LSTMs"
-              },
-              "from sentence" : "a new model that constructs and labels chunks of input sentences using an algorithm inspired by transition-based parsing with states represented by stack LSTMs (S-LSTM"   
+          "constructs and labels" : {
+            "chunks of input sentences" : {
+              "using" : "algorithm inspired by transition-based parsing with states represented by stack LSTMs"
             },
-            "use" : {
-              "character-based word representation model" : {
-                "to capture" : "orthographic sensitivity",
-                "combine" : "distributional representations"
-              },
-              "from sentence" : "To capture orthographic sensitivity, we use character-based word representation model (Ling et al., 2015b) to capture distributional sensitivity, we combine these representations with distributional representations (Mikolov et al., 2013b)."
-            }
+            "from sentence" : "a new model that constructs and labels chunks of input sentences using an algorithm inspired by transition-based parsing with states represented by stack LSTMs (S-LSTM"   
+          },
+          "use" : {
+            "character-based word representation model" : {
+              "to capture" : "orthographic sensitivity",
+              "combine" : "distributional representations"
+            },
+            "from sentence" : "To capture orthographic sensitivity, we use character-based word representation model (Ling et al., 2015b) to capture distributional sensitivity, we combine these representations with distributional representations (Mikolov et al., 2013b)."
           }
         }
       }

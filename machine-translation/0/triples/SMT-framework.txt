@@ -1,0 +1,7 @@
+(Contribution||has||phrase-based SMT framework)
+(phrase-based SMT framework||train||RNN Encoder-Decoder)
+(RNN Encoder-Decoder||use||scores)
+(scores||as||additional features)
+(additional features||in||log-linear model)
+(log-linear model||tuning||SMT decoder)
+(RNN Encoder-Decoder||on||table of phrase pairs)

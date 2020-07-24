@@ -1,0 +1,3 @@
+(Contribution||has research problem||Adversarial training (AT))
+(Contribution||has research problem||use AT for the tasks of entity recognition and relation extraction)
+(Contribution||has research problem||investigating regularization effects of AT in a joint setting for two related tasks)

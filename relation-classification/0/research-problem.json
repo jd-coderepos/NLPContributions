@@ -1,5 +1,6 @@
 {
   "has research problem" : [
+	["End - to - End Relation Extraction", {}],
     ["end-to-end neural model to extract entities and relations", {"from sentence" : "We present a novel end-to-end neural model to extract entities and relations between them."}],
     ["jointly represent both entities and relations with shared parameters in a single model", {"from sentence" : "This allows our model to jointly represent both entities and relations with shared parameters in a single model."}],
     ["Extracting semantic relations between entities in text",

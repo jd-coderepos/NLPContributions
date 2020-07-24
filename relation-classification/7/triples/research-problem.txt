@@ -1,0 +1,3 @@
+(Contribution||has research problem||how the recently introduced pre-trained language model BERT can be adapted for biomedical corpora)
+(Contribution||has research problem||BERT for the biomedical domain)
+(Contribution||has research problem||current state-of-the-art word representation models such as BERT need to be trained on biomedical corpora)

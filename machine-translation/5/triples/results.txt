@@ -1,0 +1,7 @@
+(Contribution||has||Results)
+(Results||for||constrained scenarios)
+(constrained scenarios||achieved||higher scores than)
+(higher scores than||each individual averaged model||both ensembles of averaged models)
+(Results||evident||best results)
+(best results||achieved||unconstrained models)
+(Results||achieved||Transformer models achieved better results than the MLSTM-based models)

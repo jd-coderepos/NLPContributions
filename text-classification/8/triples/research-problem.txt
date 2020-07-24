@@ -1,0 +1,2 @@
+(Contribution||has research problem||model the compositionality in text sequences)
+(Contribution||has research problem||model the compositionality in variable-length text sequences)

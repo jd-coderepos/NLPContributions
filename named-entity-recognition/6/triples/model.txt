@@ -1,0 +1,7 @@
+(Contribution||has||Model)
+(Model||embed||words and entity types)
+(words and entity types||into||joint vector space)
+(joint vector space||by leveraging||WiFiNE (Ghaddar and Langlais, 2018))
+(Model||propose||alternative lexical representation)
+(alternative lexical representation||trained||offline)
+(alternative lexical representation||added to||any neural NER system)

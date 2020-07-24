@@ -1,0 +1,3 @@
+(Contribution||has research problem||simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely)
+(Contribution||has research problem||boundaries of recurrent language models and encoder-decoder architectures)
+(Contribution||has research problem||model architecture eschewing recurrence and instead relying entirely on an attention mechanism to draw global dependencies between input and output)

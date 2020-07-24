@@ -7,9 +7,16 @@
             "Hyperparameters" : {
               "residual blocks" : {
                 "30" : {
-                  "split into": "six sets of five blocks"
+                  "split into": {
+                    "six sets of five blocks" : {
+                      "for" : {
+                        "five blocks in each set" : {
+                          "dilation rates" : "1; 2; 4; 8 and 16"
+                        }
+                      }
+                    }
+                  }
                 },
-                "dilation rates" : "1, 2, 4, 8, and 16",
                 "from sentence" : "The ByteNet Decoder that we use for the result has 30 residual blocks split into six sets of five blocks each; for the five blocks in each set the dilation rates are, respectively, 1; 2; 4; 8 and 16."
               },
               "masked kernel" : ["size 3", {"from sentence" : "The masked kernel has size 3."}],
@@ -33,18 +40,20 @@
                 },
                 "from sentence" : "We do not reduce the learning rate during training. At each step we sample a batch of sequences of 500 characters each, use the first 100 characters as the minimum context and predict the latter 400 characters."
               }
+            },
+            "Results" : {
+              "achieves" : "1.31 bits/character on the test set",
+              "from sentence" : "The ByteNet decoder achieves 1.31 bits/character on the test set."
             }
-          },
-          "Results" : {
-            "achieves" : "1.31 bits/character on the test set",
-            "from sentence" : "The ByteNet decoder achieves 1.31 bits/character on the test set."
           }
         },
         "Character-Level Machine Translation" : {
           "has" : {
             "Hyperparameters" : {
               "has" : {
-                "30 residual blocks" : ["in the encoder", "in the decoder"],
+                "30 residual blocks" : {
+                  "in" : ["encoder", "decoder"]
+                },
                 "from sentence" : "The ByteNet used in the experiments has 30 residual blocks in the encoder and 30 residual blocks in the decoder."
               },
               "residual blocks" : {

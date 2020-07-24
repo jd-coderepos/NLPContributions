@@ -1,0 +1,4 @@
+(Contribution||has||SimpleQuestions)
+(SimpleQuestions||collected||large-scale dataset of questions and answers based on a KB)
+(large-scale dataset of questions and answers based on a KB||to study||coverage of existing systems)
+(large-scale dataset of questions and answers based on a KB||to train||jointly on different data sources via multitasking)
